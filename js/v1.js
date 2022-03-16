@@ -194,8 +194,17 @@ var isRoomSet = false;
 
 var messagePrefix = "!";
 var discordLink = "https://discord.gg/";
+var version = "1";
 
-var room = HBInit({roomName:"Yellow Bot Room",noPlayer:true,public:true,maxPlayers:12,password:"1234567890"});
+var _room = {
+    roomName: `Yellow Bot Room v${version}`,
+    noPlayer: true,
+    public: true,
+    maxPlayers: 12,
+    password: "1234567890",
+};
+
+var room = HBInit({roomName:_room.roomName,noPlayer:_room.noPlayer,public:_room.public,maxPlayers:_room.maxPlayers,password:_room.password});
 
 room.setCustomStadium(Parkours[0]);
 room.setRequireRecaptcha(scoresObject.requireRecaptcha);
