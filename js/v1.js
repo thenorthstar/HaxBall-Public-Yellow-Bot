@@ -122,8 +122,8 @@ var commands = {
 };
 
 var commandList = {
-    admin: "!admin 🟡 !commands 🟡 !discord 🟡 !lang [dil kodu] 🟡 !mapinfo 🟡 !mapload [ID] 🟡 !maps 🟡 !speed",
-    player: "!admin 🟡 !commands 🟡 !discord 🟡 !lang [language code] 🟡 !mapinfo 🟡 !maps 🟡 !speed"
+    admin: "!admin 🟡 !commands 🟡 !discord 🟡 !lang [Language Code] 🟡 !mapinfo 🟡 !mapload [ID] 🟡 !maps 🟡 !speed",
+    player: "!admin 🟡 !commands 🟡 !discord 🟡 !lang [Language Code] 🟡 !mapinfo 🟡 !maps 🟡 !speed"
 };
 
 var locales = {
