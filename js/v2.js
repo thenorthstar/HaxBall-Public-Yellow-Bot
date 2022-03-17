@@ -676,7 +676,7 @@ room.onPlayerChat = function (player, message) {
         room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, null, colors.Player[Number(player.admin)], fonts.Player[Number(player.admin)], sounds.Player[Number(player.admin)]);
         return false;
     }
-    if (_roomObject.muteAll == true && player.admin == false) {
+    if (roomObject.muteAll == true && player.admin == false) {
         room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MuteAll} (${message})`, player.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
         administrators.forEach(a => {
             room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
