@@ -398,18 +398,18 @@ room.onPlayerKicked = function(kickedPlayer,reason,ban,byPlayer){
 
 room.onPlayerJoin = function(player){
     console.log(`${player.name} has joined`);
+    var randomInt = 1 + Math.floor(Math.random() * 2);
+
     var players = room.getPlayerList();
 
-    if(playerList[player.name] == undefined)
-	playerList[player.name] = {ID: player.id, Language: locale, Name: player.name, SpeedEnabled: false};
+    if(playerList[player.name] == undefined) playerList[player.name] = {AFKStatus: false, Auth: player.auth, BadWordUsage: 0, Conn: player.conn, ID: player.id, IsMuted: false, Language: locale, LastActivity: Date.now(), Name: player.name, SlowMode: false, SpeedEnabled: false};
 
     room.sendAnnouncement(`${locales[playerList[player.name].Language].Welcome}`,player.id,colors.Welcome,fonts.Welcome,sounds.Welcome);
 
-    if(room.getScores() == null && players.length == 1){
-	var randomInt = 1 + Math.floor(Math.random() * 2);
-	room.setPlayerTeam(player.id,randomInt);
+    if(room.getScores() == null){
 	room.startGame();
     }
+    room.setPlayerTeam(player.id,randomInt);
 }
 
 room.onPlayerLeave = function(player){
