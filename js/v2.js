@@ -77,7 +77,7 @@ var colors = {
         Password: [0xFF8000, 0xFF8000],
         Recaptcha: [0xFF8000, 0xFF8000]
     },
-    Password: 0x00FF00,
+    Password: [0x00FF00, 0x00FF00],
     Player: [0xFFFFFF, 0xFFDB72],
     Recaptcha: 0x00FF00,
     SomethingWentWrong: {
@@ -116,7 +116,7 @@ var fonts = {
         Password: ["bold", "bold"],
         Recaptcha: ["bold", "bold"]
     },
-    Password: "normal",
+    Password: ["normal", "normal"],
     Player: ["normal", "bold"],
     Recaptcha: "normal",
     SomethingWentWrong: {
@@ -155,7 +155,7 @@ var sounds = {
         Password: [2, 2],
         Recaptcha: [2, 2]
     },
-    Password: 1,
+    Password: [1, 1],
     Player: [1, 1],
     Recaptcha: 0,
     SomethingWentWrong: {
@@ -223,7 +223,7 @@ var locales = {
             MapLoad: "Bu odada komutla harita açmak için yetkiniz bulunmamaktadır!",
             Mute: "Bu odada oyuncu susturmak için yetkiniz bulunmamaktadır!",
             MuteAll: ["Bu odada sohbeti kapatmak için yetkiniz bulunmamaktadır!", "Bu odada sohbeti açmak için yetkiniz bulunmamaktadır!"],
-            Password: ["Bu odada parolayı sıfırlamak için yetkiniz bulunmamaktadır!", "Bu odada parola oluşturmak için yetkiniz bulunmamaktadır!"],
+            Password: ["Bu odada parola oluşturmak için yetkiniz bulunmamaktadır!", "Bu odada parolayı sıfırlamak için yetkiniz bulunmamaktadır!"],
             Recaptcha: ["Bu odada re-captcha'yı açmak için yetkiniz bulunmamaktadır!", "Bu odada re-captcha'yı kapatmak için yetkiniz bulunmamaktadır!"]
         },
         Password: ["Parola başarıyla sıfırlandı! Sıfırlayan kişi:", "Parola başarıyla oluşturuldu! Oluşturan kişi:"],
@@ -274,8 +274,8 @@ var locales = {
             MapLoad: "You don't have authorization to load maps by command in this room!",
             Mute: "You don't have authorization to mute players by command in this room!",
             MuteAll: ["You don't have authorization to mute chat in this room!", "You don't have authorization to unmute chat in this room!"],
-            Password: ["You don't have authorization to remove the password in this room!", "You don't have authorization to set a password in this room!"],
-            Recaptcha: ["You don't have authorization to turn off re-captcha in this room!", "You don't have authorization to turn on re-captcha in this room!"]
+            Password: ["You don't have authorization to set a password in this room!", "You don't have authorization to remove the password in this room!"],
+            Recaptcha: ["You don't have authorization to turn on re-captcha in this room!", "You don't have authorization to turn off re-captcha in this room!"]
         },
         Password: ["Password removed by", "Password set by"],
         Recaptcha: ["Re-captcha turned off by", "Re-captcha turned on by"],
@@ -507,21 +507,6 @@ room.onPlayerChat = function (player, message) {
     var players = room.getPlayerList();
     var administrators = players.filter(p => p.admin == true);
 
-    if (isBadword(playerList[player.name].Language, message) == true) {
-        playerList[player.name].BadWordUsage++;
-        playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`, player.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords) : room.kickPlayer(player.id, `${locales[playerList[player.name].Language].Ban.BadWords}`, kickTypes.BadWords);
-
-        administrators.forEach(a => {
-            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords);
-        });
-
-        return false;
-    }
-    if (playerList[player.name].SlowMode == false) playerList[player.name].SlowMode = true;
-    setTimeout(function () {
-        if (playerList[player.name].SlowMode == true) playerList[player.name].SlowMode = false;
-    }, timeoutObject.SlowMode);
-
     if (message.startsWith(messagePrefix) == true) {
         if (isCommand(message) == true || isCommand(message.toLowerCase().split(" ")[0]) == true) {
             if (message.toLowerCase() == commands.admin) {
@@ -595,7 +580,7 @@ room.onPlayerChat = function (player, message) {
                         if (p) {
                             var Time = message.toLowerCase().split(" ")[2];
                             if (!isNaN(Time)) {
-                                if (toleranceObject.LowerBound <= Time && Time <= toleranceObject.UpperBound) {
+                                if (toleranceObject.Mute.LowerBound <= Time && Time <= toleranceObject.Mute.UpperBound) {
                                     var name = p.name;
                                     var pname = player.name;
                                     playerList[name].IsMuted = true;
@@ -603,7 +588,11 @@ room.onPlayerChat = function (player, message) {
                                     setTimeout(function () {
                                         playerList[name].IsMuted = false;
                                         room.sendAnnouncement(`${name} ${locales[locale].Info.Unmute} ${pname}`, null, colors.Info.Unmute, fonts.Info.Unmute, sounds.Info.Unmute);
-                                    }, Time * 1000);
+                                    }, Time * 60000);
+                                    return false;
+                                }
+                                else {
+                                    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
                                     return false;
                                 }
                             }
@@ -630,7 +619,7 @@ room.onPlayerChat = function (player, message) {
             else if (message.toLowerCase() == commands.muteall) {
                 if (player.admin == true) {
                     roomObject.muteAll = !roomObject.muteAll;
-                    room.sendAnnouncement(`${locales[locale].MuteAll[Number(roomObject.muteAll)]} ${player.name}`, null, colors.MuteAll[Number(roomObject.muteAll)], fonts.MuteAll[Number(roomObject.muteAll)], sounds.MuteAll[Number(roomObject.muteAll)]);
+                    room.sendAnnouncement(`${locales[locale].MuteAll[Number(!roomObject.muteAll)]} ${player.name}`, null, colors.MuteAll[Number(!roomObject.muteAll)], fonts.MuteAll[Number(!roomObject.muteAll)], sounds.MuteAll[Number(!roomObject.muteAll)]);
                     return false;
                 }
                 else {
@@ -673,28 +662,39 @@ room.onPlayerChat = function (player, message) {
         }
     }
     else {
+        if (isBadword(playerList[player.name].Language, message) == true && player.admin == false) {
+            playerList[player.name].BadWordUsage++;
+            playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`, player.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords) : room.kickPlayer(player.id, `${locales[playerList[player.name].Language].Ban.BadWords}`, kickTypes.BadWords);
+
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords);
+            });
+
+            return false;
+        }
+        if (roomObject.muteAll == true && player.admin == false) {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MuteAll} (${message})`, player.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
+            });
+            return false;
+        }
+        if (playerList[player.name].IsMuted == true && player.admin == false) {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Muted} (${message})`, player.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
+            });
+            return false;
+        }
+        if (playerList[player.name].SlowMode == true && player.admin == false) {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.SlowMode} (${message})`, player.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
+            });
+            return false;
+        }
+
         room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, null, colors.Player[Number(player.admin)], fonts.Player[Number(player.admin)], sounds.Player[Number(player.admin)]);
-        return false;
-    }
-    if (roomObject.muteAll == true && player.admin == false) {
-        room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MuteAll} (${message})`, player.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
-        administrators.forEach(a => {
-            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
-        });
-        return false;
-    }
-    if (playerList[player.name].IsMuted == true) {
-        room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Muted} (${message})`, player.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
-        administrators.forEach(a => {
-            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
-        });
-        return false;
-    }
-    if (playerList[player.name].SlowMode == true) {
-        room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.SlowMode} (${message})`, player.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
-        administrators.forEach(a => {
-            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
-        });
         return false;
     }
 }
