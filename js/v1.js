@@ -393,7 +393,7 @@ room.onPlayerChat = function(player,message){
 }
 
 room.onPlayerKicked = function(kickedPlayer,reason,ban,byPlayer){
-    byPlayer == null ? console.log(`${kickedPlayer.name} ${playerKicked[Number(ban)]} (${reason})`) : console.log(`${kickedPlayer.name} ${playerKicked[Number(ban)]} by ${byPlayer.name} (${reason})`);
+    byPlayer == null ? console.log(`${kickedPlayer.name}${playerKicked[Number(ban)]} (${reason})`) : console.log(`${kickedPlayer.name}${playerKicked[Number(ban)]} by ${byPlayer.name} (${reason})`);
 }
 
 room.onPlayerJoin = function(player){
