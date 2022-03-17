@@ -21,6 +21,24 @@ Before talking about this section, let us indicate that this bot will be separat
 * Speed counter **(2.2)**
 * Simple logging system
 
+### Version 2
+* AFK System (AFK player is moved to spectators after a timeout)
+* Bad words detection in player's own language (three times warning is resulted in ban)
+* Check for duplicated accounts and names
+* Mute system and slow mode for players (adjustable through console panel)
+* Password and re-captcha settings via command
+
+### Version 3 (Coming Soon)
+* Game functions
+* Vote system
+
+### Version 4 (Coming Soon)
+* Map and player statistics
+* Map related uniform
+
+### Version 5 (Coming Soon)
+* Optimization
+
 Image 2.1 (A player is trying to change their language)
 
 ![2 1](https://user-images.githubusercontent.com/68077608/158397903-26f74825-c2f5-4e31-922d-6b3dd372e833.PNG)
