@@ -8,22 +8,22 @@ var Parkour4 = `{"name":"Yellow Normal by [KOR]Kuszczak","width":4000,"height":2
 
 var Parkour5 = `{"name":"Yellow Hard by [KOR]Kuszczak","width":4000,"height":200,"canBeStored":false,"spawnDistance":3900,"cameraFollow":"player","redSpawnPoints":[[-3900,0]],"blueSpawnPoints":[[-3900,0]],"kickOffReset":"full","bg":{"type":"hockey","height":200,"width":4000,"cornerRadius":0},"vertexes":[{"x":-3309,"y":-140,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":-200,"cMask":["wall"],"cGroup":["all"]},{"x":-3189,"y":-140,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":-80,"cMask":["wall"],"cGroup":["all"]},{"x":-3309,"y":140,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":80,"cMask":["wall"],"cGroup":["all"]},{"x":-3189,"y":140,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":200,"cMask":["wall"],"cGroup":["all"]},{"x":-2755,"y":-140,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":-200,"cMask":["wall"],"cGroup":["all"]},{"x":-2635,"y":-140,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":-80,"cMask":["wall"],"cGroup":["all"]},{"x":-2755,"y":140,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":80,"cMask":["wall"],"cGroup":["all"]},{"x":-2635,"y":140,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":200,"cMask":["wall"],"cGroup":["all"]},{"x":-3290,"y":-96,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3292,"y":-181,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3207,"y":-183,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3207,"y":97,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3204,"y":180,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3292,"y":182,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2742,"y":-179,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2651,"y":-181,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2654,"y":-96,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2737,"y":183,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2740,"y":99,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2652,"y":181,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3207,"y":-97,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3291,"y":96,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3015,"y":-97,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3015,"y":-34,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2932,"y":-34,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2931,"y":-102,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2746,"y":-102,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2652,"y":96,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3184,"y":-177,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3184,"y":-102,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2768,"y":-175,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2768,"y":-110,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2456,"y":-200,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2456,"y":-71,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2456,"y":56,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2456,"y":201,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2447,"y":-199,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2447,"y":201,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-1687,"y":-200,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-1687,"y":200,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-1675,"y":-72,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1675,"y":-200,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1673,"y":56,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1673,"y":199,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1787,"y":-71,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1790,"y":76,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2309,"y":-86,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2308,"y":78,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1601,"y":-145,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1600,"y":154,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1432,"y":-70,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-743,"y":-70,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1432,"y":70,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-742,"y":70,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1430,"y":-501,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-320,"y":-501,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-1495,"y":540,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-320,"y":540,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-1310,"y":-69,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1310,"y":-2,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1173,"y":13,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1173,"y":68,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1030,"y":-69,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1030,"y":-11,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-887,"y":10,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-887,"y":71,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-744,"y":-1,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3914,"y":-445,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3196,"y":-445,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3965,"y":430,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3247,"y":430,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-742,"y":-198,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1432,"y":199,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-743,"y":200,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-575,"y":143,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-575,"y":-200,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-465,"y":-118,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-465,"y":186,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-354,"y":-200,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-570,"y":199,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-361,"y":198,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-354,"y":139,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-664,"y":-198,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-664,"y":202,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-260,"y":-201,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-260,"y":199,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-44,"y":-36,"bCoef":1,"cMask":["red","blue","ball"],"cGroup":["all"]},{"x":-44,"y":68,"bCoef":1,"cMask":["red","blue","ball"],"cGroup":["all"]},{"x":-3785,"y":-94,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3460,"y":-99,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3786,"y":-38,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3461,"y":-49,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3776,"y":61,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3461,"y":45,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3774,"y":113,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3461,"y":96,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3774,"y":123,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3464,"y":102,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3776,"y":53,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3460,"y":37,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3784,"y":-26,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3460,"y":-41,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3785,"y":-103,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3459,"y":-107,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3461,"y":-193,"cMask":["wall"],"cGroup":["all"]},{"x":-3453,"y":-113,"cMask":["wall"],"cGroup":["all"]},{"x":-3453,"y":-47,"cMask":["wall"],"cGroup":["all"]},{"x":-3452,"y":36,"cMask":["wall"],"cGroup":["all"]},{"x":-3454,"y":101,"cMask":["wall"],"cGroup":["all"]},{"x":-3455,"y":197,"cMask":["wall"],"cGroup":["all"]},{"x":-179,"y":-198,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":1,"y":119,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3249,"y":150,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":130,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":150,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-3249,"y":130,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-3249,"y":-150,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":-130,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3249,"y":-150,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-3249,"y":-130,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-2695,"y":-150,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":-130,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":-150,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-2695,"y":-130,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-2695,"y":150,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":130,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-2695,"y":150,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-2695,"y":130,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":300,"y":-200,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"x":300,"y":200,"bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]}],"segments":[{"v0":0,"v1":1,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":1,"v1":2,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":2,"v1":3,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":3,"v1":0,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":4,"v1":5,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":5,"v1":6,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":6,"v1":7,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":7,"v1":4,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":8,"v1":9,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":9,"v1":10,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":10,"v1":11,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":11,"v1":8,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":12,"v1":13,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":13,"v1":14,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":14,"v1":15,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":15,"v1":12,"curve":90,"vis":false,"cMask":["wall"],"cGroup":["all"]},{"v0":16,"v1":17,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":17,"v1":18,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":19,"v1":20,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":20,"v1":21,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":22,"v1":23,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":23,"v1":24,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":25,"v1":26,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":27,"v1":25,"curve":90,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":28,"v1":19,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":16,"v1":29,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":18,"v1":22,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":28,"v1":30,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":30,"v1":31,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":31,"v1":32,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":32,"v1":33,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":33,"v1":34,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":34,"v1":26,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":24,"v1":35,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":36,"v1":37,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":38,"v1":39,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":40,"v1":41,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":42,"v1":43,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":44,"v1":45,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":46,"v1":47,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":41,"v1":48,"curve":61.25467106579411,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":48,"v1":49,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":42,"v1":50,"curve":-79.23176726141129,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":50,"v1":51,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":52,"v1":53,"curve":-82,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":54,"v1":55,"curve":83,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":56,"v1":57,"curve":13,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":58,"v1":59,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":60,"v1":61,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":62,"v1":63,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":64,"v1":65,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":66,"v1":67,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":68,"v1":69,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":70,"v1":71,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":72,"v1":73,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":59,"v1":74,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":75,"v1":76,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"],"y":-445},{"v0":77,"v1":78,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"],"y":430},{"v0":59,"v1":79,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":61,"v1":80,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":61,"v1":81,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":82,"v1":83,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":84,"v1":85,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":87,"v1":88,"curve":23,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":86,"v1":89,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":90,"v1":91,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":92,"v1":93,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":94,"v1":95,"curve":308.39402877176934,"vis":true,"bCoef":1,"cMask":["red","blue","ball"],"cGroup":["all"]},{"v0":96,"v1":97,"curve":38,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":98,"v1":99,"curve":38,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":100,"v1":101,"curve":38,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":102,"v1":103,"curve":38,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":104,"v1":105,"curve":38.087471694882815,"vis":false,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":106,"v1":107,"curve":38.087471694882815,"vis":false,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":108,"v1":109,"curve":38.087471694882815,"vis":false,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":110,"v1":111,"curve":38.087471694882815,"vis":false,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":112,"v1":113,"cMask":["red","blue"],"cGroup":["all"]},{"v0":114,"v1":115,"cMask":["red","blue"],"cGroup":["all"]},{"v0":116,"v1":117,"cMask":["red","blue"],"cGroup":["all"]},{"v0":94,"v1":95,"vis":false,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"v0":118,"v1":119,"curve":-77,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":120,"v1":121,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":121,"v1":120,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":122,"v1":123,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":123,"v1":122,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":124,"v1":125,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":125,"v1":124,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":126,"v1":127,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":127,"v1":126,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":128,"v1":129,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":129,"v1":128,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":130,"v1":131,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":131,"v1":130,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":132,"v1":133,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":133,"v1":132,"curve":180,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":134,"v1":135,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":135,"v1":134,"curve":180,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":136,"v1":137,"color":"FFFF00","bCoef":2000,"cMask":["red","blue"],"cGroup":["all"]}],"goals":[{"p0":[-25,25],"p1":[-25,-25],"team":"blue"},{"p0":[-25,-25],"p1":[25,-25],"team":"blue"},{"p0":[25,-25],"p1":[25,25],"team":"blue"},{"p0":[25,25],"p1":[-25,25],"team":"blue"}],"discs":[{"pos":[0,0],"cMask":["all"],"cGroup":["ball","kick","score"]},{"radius":24.99,"invMass":5e-324,"pos":[-3213,-141],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3]},{"radius":24.99,"invMass":5e-324,"pos":[-3214,141],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-3]},{"radius":24.99,"invMass":5e-324,"pos":[-2658,139],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-3]},{"radius":24.99,"invMass":5e-324,"pos":[-2658,-147],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3]},{"radius":36.069377593742864,"invMass":5e-324,"pos":[-2973,-141],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"damping":1,"speed":[-3,0]},{"radius":30,"invMass":5e-324,"pos":[-2339,-167],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2338,-104],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2338,-39],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2338,26],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2338,91],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2217,-168],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2216,-105],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2216,-40],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2216,90],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2215,157],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2095,-170],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2094,-42],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2094,23],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2094,88],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-2093,155],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1981,-168],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1980,-105],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1980,-40],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1980,90],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1979,157],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1861,-168],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1860,-105],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1860,-40],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1860,25],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1860,90],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1740,-164],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1739,-36],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1739,29],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1739,94],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":30,"invMass":5e-324,"pos":[-1738,161],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.65,0]},{"radius":70,"invMass":5e-324,"pos":[-1380,-140],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-1240,-280],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-1100,-420],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-960,-140],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-820,-280],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-1380,280],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-1240,140],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-1100,0],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-960,280],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":70,"invMass":5e-324,"pos":[-820,140],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4.5]},{"radius":140,"invMass":5e-324,"pos":[-3644,-285],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-5.5]},{"radius":25,"invMass":5e-324,"pos":[-548,-227],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-548,-277],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-548,-327],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-548,-377],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-548,-427],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-493,223],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-493,173],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-493,123],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-493,73],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-493,23],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-438,28],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-438,-22],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-438,-72],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-438,-122],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-438,-172],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-384,463],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-384,413],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-384,363],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-384,313],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-384,263],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-290,0],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":25,"invMass":5e-324,"pos":[-290,100],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":25,"invMass":5e-324,"pos":[-290,-100],"color":"FFFF00","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]}],"planes":[{"normal":[0,1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,1],"dist":-200,"canvas_rect":[-4000,-501,4000,540],"a":[-4000,-200],"b":[4000,-200]}}},{"normal":[0,-1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,-1],"dist":-200,"canvas_rect":[-4000,-501,4000,540],"a":[-4000,200],"b":[4000,200]}}},{"normal":[-1,0],"dist":-300,"bCoef":5000,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[-1,0],"dist":-300,"canvas_rect":[-4000,-501,4000,540],"a":[300,-501],"b":[300,540]}}},{"normal":[1,0],"dist":-4000,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[1,0],"dist":-4000,"canvas_rect":[-4000,-501,4000,540],"a":[-4000,-501],"b":[-4000,540]}}}],"traits":{"ballArea":{"vis":false,"bCoef":1,"cMask":["ball"]},"goalPost":{"radius":8,"invMass":0,"bCoef":0.5},"goalNet":{"vis":true,"bCoef":0.1,"cMask":["ball"]},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.96,"acceleration":0.15,"kickingAcceleration":0.08,"kickingDamping":0.96,"kickStrength":5},"ballPhysics":"disc0"}`;
 
-var Parkour6 = `{"name":"Yellow Very Hard by [KOR]Kuszczak","width":4000,"height":200,"canBeStored":false,"spawnDistance":3900,"cameraFollow":"player","redSpawnPoints":[[-3900,0]],"blueSpawnPoints":[[-3900,0]],"kickOffReset":"full","bg":{"type":"hockey","height":200,"width":4000,"cornerRadius":0},"vertexes":[{"x":-2498,"y":-150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1653,"y":-150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2498,"y":150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1642,"y":150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2490,"y":430,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1670,"y":430,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2492,"y":-570,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1672,"y":-570,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":-126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":-26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":-217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":-317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":-317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":-217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":-26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":-126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1441,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1424,"y":-59,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1422,"y":-54,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1422,"y":42,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1423,"y":49,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1443,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1198,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1198,"y":-93,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":-29,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":59,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":116,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":-37,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":40,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1050,"y":34,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-859,"y":-138,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-859,"y":136,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-722,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-722,"y":-56,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-723,"y":45,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-723,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-719,"y":-65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-302,"y":-65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-721,"y":65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-302,"y":65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-723,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-299,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-723,"y":74,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-300,"y":-83,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-722,"y":-188,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1443,"y":-385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-849,"y":-385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1452,"y":385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-858,"y":385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":200,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-200,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-150,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":150,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":150,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-150,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-100,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":100,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":100,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-100,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-50,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":50,"y":0,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":0,"y":50,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":-50,"y":0,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":136,"y":-146,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":144,"y":139,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-137,"y":145,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-141,"y":-140,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":108,"y":103,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-102,"y":111,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-110,"y":-103,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":104,"y":-109,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-62,"y":-80,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":80,"y":-61,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":62,"y":77,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-73,"y":65,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":36,"y":34,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-33,"y":38,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-34,"y":-36,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":35,"y":-37,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1664,"y":-151,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1664,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1659,"y":150,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1659,"y":199,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-539,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-538,"y":-124,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-480,"y":-124,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-479,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-300,"y":74,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1672,"y":-159,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2437,"y":-191,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1667,"y":159,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2452,"y":196,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1054,"y":-127,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1054,"y":-64,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1053,"y":108,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1053,"y":163,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-727,"y":-139,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-727,"y":-97,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-729,"y":137,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-729,"y":173,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1615,"y":-42,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1615,"y":46,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2515,"y":-45,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2515,"y":53,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3788,"y":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3790,"y":88,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3715,"y":-118,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3716,"y":198,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3642,"y":-198,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3642,"y":91,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3559,"y":-130,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3559,"y":-48,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3559,"y":40,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3560,"y":138,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":-199,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":-42,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":43,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":198,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3554,"y":-196,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2756,"y":-196,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2756,"y":193,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3554,"y":193,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3560,"y":-188,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2753,"y":-188,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3560,"y":187,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2760,"y":188,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-300,"y":-200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-300,"y":200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]}],"segments":[{"v0":0,"v1":1,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":2,"v1":3,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":4,"v1":5,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":6,"v1":7,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":8,"v1":9,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":10,"v1":11,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":12,"v1":13,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":14,"v1":15,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":16,"v1":17,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":18,"v1":19,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":20,"v1":21,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":22,"v1":23,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":24,"v1":25,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":26,"v1":27,"curve":141.276099599,"color":"00FF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":28,"v1":29,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":30,"v1":31,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":32,"v1":33,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":34,"v1":35,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":36,"v1":37,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":38,"v1":39,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":37,"v1":40,"curve":141.276099599,"color":"00FF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":41,"v1":42,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":43,"v1":44,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":45,"v1":46,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":47,"v1":48,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":49,"v1":50,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":54,"v1":55,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":56,"v1":57,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":58,"v1":59,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":60,"v1":61,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":61,"v1":62,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":62,"v1":63,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":63,"v1":60,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":64,"v1":65,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":65,"v1":66,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":66,"v1":67,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":67,"v1":64,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":68,"v1":69,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":69,"v1":70,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":70,"v1":71,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":71,"v1":68,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":72,"v1":73,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":73,"v1":74,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":74,"v1":75,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":75,"v1":72,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":76,"v1":77,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":77,"v1":78,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":79,"v1":76,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":80,"v1":81,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":81,"v1":82,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":82,"v1":83,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":84,"v1":85,"curve":90,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":85,"v1":86,"curve":90,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":86,"v1":87,"curve":90,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":88,"v1":89,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":89,"v1":90,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":90,"v1":91,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":92,"v1":93,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":94,"v1":95,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":51,"v1":96,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":96,"v1":97,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":97,"v1":98,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":98,"v1":99,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":99,"v1":52,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":53,"v1":100,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":101,"v1":102,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":103,"v1":104,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":105,"v1":106,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":107,"v1":108,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":109,"v1":110,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":111,"v1":112,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":113,"v1":114,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":115,"v1":116,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":117,"v1":118,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":119,"v1":120,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":121,"v1":122,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":123,"v1":124,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":125,"v1":126,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":127,"v1":128,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":129,"v1":130,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":131,"v1":132,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":132,"v1":133,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":133,"v1":134,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":134,"v1":131,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":135,"v1":136,"color":"FFFF00","bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":137,"v1":138,"color":"FFFF00","bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":54,"v1":139,"vis":false,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":100,"v1":140,"vis":false,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]}],"goals":[{"p0":[-25,-25],"p1":[25,-25],"team":"blue"},{"p0":[25,-25],"p1":[25,25],"team":"blue"},{"p0":[25,25],"p1":[-25,25],"team":"blue"},{"p0":[-25,25],"p1":[-25,-25],"team":"blue"}],"discs":[{"pos":[0,0],"cMask":["all"],"cGroup":["ball","kick","score"]},{"radius":50,"invMass":5e-324,"pos":[-2440,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2440,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2440,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2440,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":15,"invMass":5e-324,"pos":[-700,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-670,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-640,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-610,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-580,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-550,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-512,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-482,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-452,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-422,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-392,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-362,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-332,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":25,"invMass":5e-324,"pos":[-1298,-353],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-959,-355],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-1310,355],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":24.99,"invMass":5e-324,"pos":[0,-175],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[2.5,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,-75],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.07142857,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,-125],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.7857143,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,175],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-2.5,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,125],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.7857143,0]},{"radius":24.99,"invMass":5e-324,"pos":[125,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1.7857143]},{"radius":24.99,"invMass":5e-324,"pos":[-125,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1.7857143]},{"radius":24.99,"invMass":5e-324,"pos":[0,75],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.07142857,0]},{"radius":24.99,"invMass":5e-324,"pos":[175,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,2.5]},{"radius":24.99,"invMass":5e-324,"pos":[-175,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-2.5]},{"radius":70.71667812,"invMass":5e-324,"pos":[-2061.5,-126],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.9355555555,0]},{"radius":70.71667812,"invMass":5e-324,"pos":[-2061.5,217],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[3.9355555555,0]},{"radius":25,"invMass":5e-324,"pos":[-1304,-2],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":15,"invMass":5e-324,"pos":[-512,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":25,"invMass":5e-324,"pos":[-959,8],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-958,353],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-1302,-56],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-959,-51],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":50,"invMass":5e-324,"pos":[-2457.5,-2],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.499999999,0]},{"radius":10,"invMass":5e-324,"pos":[-2809,-96],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-2899,60],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3125,-103],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3226,96],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3236,-24],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3456,144],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-2941,170],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3017,-5],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3417,-148],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-3340,-84],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-2996,105],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-2803,164],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-3188,-169],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-2808,16],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-3206,168],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3411,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-2914,-57],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3318,149],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3026,-163],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3106,153],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-0.5,-0.5]},{"radius":10,"invMass":5e-324,"pos":[-3447,-69],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-0.5,-0.5]}],"planes":[{"normal":[1,0],"dist":-4000,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[1,0],"dist":-4000,"canvas_rect":[-4000,-570,4000,430],"a":[-4000,-570],"b":[-4000,430]}}},{"normal":[-1,0],"dist":-250,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[-1,0],"dist":-250,"canvas_rect":[-4000,-570,4000,430],"a":[250,-570],"b":[250,430]}}},{"normal":[0,1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,1],"dist":-200,"canvas_rect":[-4000,-570,4000,430],"a":[-4000,-200],"b":[4000,-200]}}},{"normal":[0,-1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,-1],"dist":-200,"canvas_rect":[-4000,-570,4000,430],"a":[-4000,200],"b":[4000,200]}}}],"traits":{"ballArea":{"vis":false,"bCoef":1,"cMask":["ball"]},"goalPost":{"radius":8,"invMass":0,"bCoef":0.5},"goalNet":{"vis":true,"bCoef":0.1,"cMask":["ball"]},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.96,"acceleration":0.15,"kickingAcceleration":0.08,"kickingDamping":0.96,"kickStrength":5},"ballPhysics":"disc0"}`;
+var Parkour6 = `{"name":"Yellow Very Hard by [KOR]Kuszczak","width":4000,"height":200,"canBeStored":false,"spawnDistance":3900,"cameraFollow":"player","redSpawnPoints":[[-3900,0]],"blueSpawnPoints":[[-3900,0]],"kickOffReset":"full","bg":{"type":"hockey","height":200,"width":4000,"cornerRadius":0},"vertexes":[{"x":-2498,"y":-150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1653,"y":-150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2498,"y":150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1642,"y":150,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2490,"y":430,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1670,"y":430,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2492,"y":-570,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1672,"y":-570,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":-126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":-26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":-217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":-317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":-317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":-217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":-26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":-126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2622,"y":217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2522,"y":317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":26,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":126,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1601,"y":317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1501,"y":217,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1441,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1424,"y":-59,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1422,"y":-54,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1422,"y":42,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1423,"y":49,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1443,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1198,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1198,"y":-93,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":-29,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":59,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":116,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1199,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":-37,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":40,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1049,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1050,"y":34,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-859,"y":-138,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-859,"y":136,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-722,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-722,"y":-56,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-723,"y":45,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-723,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-719,"y":-65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-302,"y":-65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-721,"y":65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-302,"y":65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-723,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-299,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-723,"y":74,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-300,"y":-83,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-722,"y":-188,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1443,"y":-385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-849,"y":-385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1452,"y":385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-858,"y":385,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":200,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-200,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-150,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":150,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":150,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-150,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-100,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":100,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":100,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-100,"y":0,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":0,"y":-50,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":50,"y":0,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":0,"y":50,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":-50,"y":0,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"x":136,"y":-146,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":144,"y":139,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-137,"y":145,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-141,"y":-140,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":108,"y":103,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-102,"y":111,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-110,"y":-103,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":104,"y":-109,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-62,"y":-80,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":80,"y":-61,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":62,"y":77,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-73,"y":65,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":36,"y":34,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-33,"y":38,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-34,"y":-36,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":35,"y":-37,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1664,"y":-151,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1664,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1659,"y":150,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1659,"y":199,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-539,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-538,"y":-124,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-480,"y":-124,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-479,"y":-74,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-300,"y":74,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1672,"y":-159,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2437,"y":-191,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1667,"y":159,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2452,"y":196,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1054,"y":-127,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1054,"y":-64,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1053,"y":108,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1053,"y":163,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-727,"y":-139,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-727,"y":-97,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-729,"y":137,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-729,"y":173,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1615,"y":-42,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1615,"y":46,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2515,"y":-45,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2515,"y":53,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3788,"y":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3790,"y":88,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3715,"y":-118,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3716,"y":198,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3642,"y":-198,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3642,"y":91,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3559,"y":-130,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3559,"y":-48,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3559,"y":40,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3560,"y":138,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":-199,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":-42,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":43,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2752,"y":198,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3554,"y":-196,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2756,"y":-196,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2756,"y":193,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3554,"y":193,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3560,"y":-188,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2753,"y":-188,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3560,"y":187,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2760,"y":188,"bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-300,"y":-200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":-300,"y":200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"x":250,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":250,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]}],"segments":[{"v0":0,"v1":1,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":2,"v1":3,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":4,"v1":5,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":6,"v1":7,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":8,"v1":9,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":10,"v1":11,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":12,"v1":13,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":14,"v1":15,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":16,"v1":17,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":18,"v1":19,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":20,"v1":21,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":22,"v1":23,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":24,"v1":25,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":26,"v1":27,"curve":141.276099599,"color":"00FF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":28,"v1":29,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":30,"v1":31,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":32,"v1":33,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":34,"v1":35,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":36,"v1":37,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":38,"v1":39,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":37,"v1":40,"curve":141.276099599,"color":"00FF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":41,"v1":42,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":43,"v1":44,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":45,"v1":46,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":47,"v1":48,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":49,"v1":50,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":54,"v1":55,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":56,"v1":57,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":58,"v1":59,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":60,"v1":61,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":61,"v1":62,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":62,"v1":63,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":63,"v1":60,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":64,"v1":65,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":65,"v1":66,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":66,"v1":67,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":67,"v1":64,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":68,"v1":69,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":69,"v1":70,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":70,"v1":71,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":71,"v1":68,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":72,"v1":73,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":73,"v1":74,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":74,"v1":75,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":75,"v1":72,"curve":90,"vis":false,"bCoef":0.001,"cMask":["wall","ball"],"cGroup":["all"]},{"v0":76,"v1":77,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":77,"v1":78,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":79,"v1":76,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":80,"v1":81,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":81,"v1":82,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":82,"v1":83,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":84,"v1":85,"curve":90,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":85,"v1":86,"curve":90,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":86,"v1":87,"curve":90,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":88,"v1":89,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":89,"v1":90,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":90,"v1":91,"curve":90,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":92,"v1":93,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":94,"v1":95,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":51,"v1":96,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":96,"v1":97,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":97,"v1":98,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":98,"v1":99,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":99,"v1":52,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":53,"v1":100,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":101,"v1":102,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":103,"v1":104,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":105,"v1":106,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":107,"v1":108,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":109,"v1":110,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":111,"v1":112,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":113,"v1":114,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":115,"v1":116,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":117,"v1":118,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":119,"v1":120,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":121,"v1":122,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":123,"v1":124,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":125,"v1":126,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":127,"v1":128,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":129,"v1":130,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":131,"v1":132,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":132,"v1":133,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":133,"v1":134,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":134,"v1":131,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":135,"v1":136,"color":"FFFF00","bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":137,"v1":138,"color":"FFFF00","bCoef":10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":54,"v1":139,"vis":false,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":100,"v1":140,"vis":false,"bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"]},{"v0":141,"v1":142,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]}],"goals":[{"p0":[-25,-25],"p1":[25,-25],"team":"blue"},{"p0":[25,-25],"p1":[25,25],"team":"blue"},{"p0":[25,25],"p1":[-25,25],"team":"blue"},{"p0":[-25,25],"p1":[-25,-25],"team":"blue"}],"discs":[{"pos":[0,0],"cMask":["all"],"cGroup":["ball","kick","score"]},{"radius":50,"invMass":5e-324,"pos":[-2440,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2440,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2440,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2340,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2440,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2240,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2140,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-2040,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1940,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-520],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-320],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-220],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1840,-420],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,80],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,180],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":50,"invMass":5e-324,"pos":[-1740,280],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.5]},{"radius":15,"invMass":5e-324,"pos":[-700,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-670,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-640,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-610,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-580,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-550,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-512,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-482,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-452,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-422,-20],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-392,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-362,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-332,-50],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":25,"invMass":5e-324,"pos":[-1298,-353],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-959,-355],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-1310,355],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":24.99,"invMass":5e-324,"pos":[0,-175],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[2.5,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,-75],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.07142857,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,-125],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.7857143,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,175],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-2.5,0]},{"radius":24.99,"invMass":5e-324,"pos":[0,125],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.7857143,0]},{"radius":24.99,"invMass":5e-324,"pos":[125,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1.7857143]},{"radius":24.99,"invMass":5e-324,"pos":[-125,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1.7857143]},{"radius":24.99,"invMass":5e-324,"pos":[0,75],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.07142857,0]},{"radius":24.99,"invMass":5e-324,"pos":[175,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,2.5]},{"radius":24.99,"invMass":5e-324,"pos":[-175,0],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-2.5]},{"radius":70.71667812,"invMass":5e-324,"pos":[-2061.5,-126],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.9355555555,0]},{"radius":70.71667812,"invMass":5e-324,"pos":[-2061.5,217],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[3.9355555555,0]},{"radius":25,"invMass":5e-324,"pos":[-1304,-2],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":15,"invMass":5e-324,"pos":[-512,40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":25,"invMass":5e-324,"pos":[-959,8],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-958,353],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,4]},{"radius":25,"invMass":5e-324,"pos":[-1302,-56],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":25,"invMass":5e-324,"pos":[-959,-51],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-4]},{"radius":50,"invMass":5e-324,"pos":[-2457.5,-2],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.499999999,0]},{"radius":10,"invMass":5e-324,"pos":[-2809,-96],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-2899,60],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3125,-103],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3226,96],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3236,-24],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3456,144],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-2941,170],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3017,-5],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1.5,1.5]},{"radius":10,"invMass":5e-324,"pos":[-3417,-148],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-3340,-84],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-2996,105],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-2803,164],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-3188,-169],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-2808,16],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.5,-1.5]},{"radius":10,"invMass":5e-324,"pos":[-3206,168],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3411,10],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-2914,-57],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3318,149],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3026,-163],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[1,1]},{"radius":10,"invMass":5e-324,"pos":[-3106,153],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-0.5,-0.5]},{"radius":10,"invMass":5e-324,"pos":[-3447,-69],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-0.5,-0.5]}],"planes":[{"normal":[1,0],"dist":-4000,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[1,0],"dist":-4000,"canvas_rect":[-4000,-570,4000,430],"a":[-4000,-570],"b":[-4000,430]}}},{"normal":[-1,0],"dist":-250,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[-1,0],"dist":-250,"canvas_rect":[-4000,-570,4000,430],"a":[250,-570],"b":[250,430]}}},{"normal":[0,1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,1],"dist":-200,"canvas_rect":[-4000,-570,4000,430],"a":[-4000,-200],"b":[4000,-200]}}},{"normal":[0,-1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,-1],"dist":-200,"canvas_rect":[-4000,-570,4000,430],"a":[-4000,200],"b":[4000,200]}}}],"traits":{"ballArea":{"vis":false,"bCoef":1,"cMask":["ball"]},"goalPost":{"radius":8,"invMass":0,"bCoef":0.5},"goalNet":{"vis":true,"bCoef":0.1,"cMask":["ball"]},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.96,"acceleration":0.15,"kickingAcceleration":0.08,"kickingDamping":0.96,"kickStrength":5},"ballPhysics":"disc0"}}`;
 
 var Parkour7 = `{"name":"Yellow Hell by [KOR]Kuszczak","width":4000,"height":200,"canBeStored":false,"spawnDistance":3900,"cameraFollow":"player","redSpawnPoints":[[-3900,0]],"blueSpawnPoints":[[-3900,0]],"kickOffReset":"full","bg":{"type":"hockey","height":200,"width":4000,"cornerRadius":0},"vertexes":[{"x":-2365,"y":-200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2365,"y":-69,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2237,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2237,"y":57,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2109,"y":57,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1981,"y":200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1981,"y":-71,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2108,"y":-201,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1854,"y":-201,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1853,"y":56,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1726,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1726,"y":196,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1598,"y":-200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1598,"y":59,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1468,"y":59,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1468,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1341,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1341,"y":-201,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2230,"y":-11,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2150,"y":69,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2327,"y":-137,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2247,"y":-57,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1447,"y":-317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1367,"y":-237,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2327,"y":-237,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2247,"y":-317,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1447,"y":-57,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1367,"y":-137,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1550,"y":69,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1470,"y":-11,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2230,"y":-311,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2150,"y":-391,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1550,"y":-391,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1470,"y":-311,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2230,"y":127,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2150,"y":47,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1550,"y":507,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1470,"y":427,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1550,"y":47,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1470,"y":127,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2230,"y":427,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2150,"y":507,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3687,"y":-200,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3691,"y":-64,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3546,"y":-64,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3691,"y":-21,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3543,"y":-21,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3693,"y":24,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3545,"y":23,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3693,"y":63,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3544,"y":63,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3689,"y":200,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3538,"y":-60,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3025,"y":-60,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3537,"y":60,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3024,"y":60,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-3538,"y":-20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3323,"y":-20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3538,"y":20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3323,"y":20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3539,"y":-67,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3025,"y":-67,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3537,"y":67,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3024,"y":67,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3210,"y":-20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3026,"y":-20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3210,"y":20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3025,"y":20,"bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2937,"y":-201,"bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2937,"y":129,"bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2790,"y":128,"bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2491,"y":128,"bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2492,"y":202,"bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2856,"y":129,"bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2932,"y":-196,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2932,"y":125,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2375,"y":-198,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2375,"y":123,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-2754,"y":-5,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2754,"y":127,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2622,"y":-199,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2622,"y":-91,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2691,"y":-128,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2691,"y":61,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2623,"y":-9,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2623,"y":129,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2551,"y":-139,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-2553,"y":125,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3815,"y":-103,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3800,"y":-88,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3815,"y":-73,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3830,"y":-88,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3815,"y":-153,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3750,"y":-88,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3815,"y":-23,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3880,"y":-88,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3868,"y":-133,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3762,"y":-126,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3762,"y":-50,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3867,"y":-45,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3826,"y":-99,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3803,"y":-98,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3803,"y":-79,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3825,"y":-76,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1461,"y":57,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-851,"y":56,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1354,"y":130,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1274,"y":50,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1354,"y":301,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1274,"y":381,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-792,"y":381,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-712,"y":301,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-792,"y":50,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-712,"y":130,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-694,"y":199,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-694,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1174,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-1330,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1330,"y":-70,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-810,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-810,"y":-70,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1200,"y":-70,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1200,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1070,"y":-70,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-1070,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-940,"y":-70,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-940,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-145,"y":-201,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-145,"y":142,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-663,"y":-199,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-663,"y":-156,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-517,"y":-155,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-515,"y":-201,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-443,"y":-200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-443,"y":-154,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-686,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-393,"y":-67,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-393,"y":-12,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-320,"y":-13,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-320,"y":-68,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-213,"y":-70,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-663,"y":-113,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-623,"y":-73,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-204,"y":-73,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-164,"y":-113,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-663,"y":-180,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-623,"y":-220,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-204,"y":-220,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-164,"y":-180,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-550,"y":-66,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-550,"y":-15,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-299.03145752,"y":-66,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-299.03145752,"y":-15,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-730,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-673,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-729,"y":-75,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-672,"y":-75,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-609,"y":142,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3025,"y":72,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3025,"y":200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3025,"y":-76,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3024,"y":-200,"bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"x":-145,"y":-157,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-206,"y":-65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-149,"y":-65,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-205,"y":135,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-148,"y":135,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-213,"y":-10,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-212,"y":77,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-213,"y":140,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-613,"y":-11,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-213,"y":95,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-610,"y":96,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-220,"y":-5,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-220,"y":85,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-680,"y":-5,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-680,"y":85,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-460,"y":-5,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-460,"y":88,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-440,"y":-5,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-440,"y":87,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-673,"y":-55,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-616,"y":-55,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-676,"y":195,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-619,"y":195,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":173,"y":140,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":173,"y":-141,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-86,"y":-141,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-86,"y":88,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":113,"y":87,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":113,"y":-81,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-30,"y":-81,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-30,"y":33,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":53,"y":33,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":53,"y":-29,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-147,"y":117,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-117,"y":147,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-147,"y":-170,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-117,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":202,"y":-200,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":232,"y":-170,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":143,"y":147,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":173,"y":117,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":143,"y":-141,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":173,"y":-111,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-88,"y":-111,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-58,"y":-141,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-88,"y":60,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-58,"y":90,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":83,"y":90,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":113,"y":60,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":83,"y":-83,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":113,"y":-53,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-22,"y":-79,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":-22,"y":-41,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":176,"y":238,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":226,"y":238,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"x":280,"y":-200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":280,"y":200,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3272,"y":52,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3272,"y":67,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3273,"y":-66,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3273,"y":-51,"bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3816,"y":51,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3801,"y":66,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3816,"y":81,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3831,"y":66,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3816,"y":1,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3751,"y":66,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3816,"y":131,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3881,"y":66,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"x":-3869,"y":21,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3763,"y":28,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3763,"y":104,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3868,"y":109,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3827,"y":55,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3804,"y":56,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3804,"y":75,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3826,"y":78,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3815,"y":-4,"bCoef":1,"cGroup":["all"]},{"x":-3814,"y":-161,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3814,"y":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3816,"y":-17,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3816,"y":-9,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3816,"y":138,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-3817,"y":200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"x":-50,"y":-50,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"x":50,"y":-50,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"x":50,"y":50,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"x":-50,"y":50,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"x":-613,"y":-69,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]}],"segments":[{"v0":0,"v1":1,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":1,"v1":2,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":2,"v1":3,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":3,"v1":4,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":5,"v1":6,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":4,"v1":7,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":8,"v1":9,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":10,"v1":11,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":12,"v1":13,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":13,"v1":14,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":14,"v1":15,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":15,"v1":16,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":16,"v1":17,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":18,"v1":19,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":20,"v1":21,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":22,"v1":23,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":24,"v1":25,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":26,"v1":27,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":28,"v1":29,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":30,"v1":31,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":32,"v1":33,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":34,"v1":35,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":36,"v1":37,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":38,"v1":39,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":40,"v1":41,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":42,"v1":43,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":43,"v1":44,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":45,"v1":46,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":45,"v1":47,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":47,"v1":48,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":49,"v1":50,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":49,"v1":51,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"]},{"v0":52,"v1":53,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":54,"v1":55,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":56,"v1":57,"color":"FFFF00","bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"v0":58,"v1":59,"color":"FFFF00","bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"v0":60,"v1":61,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":62,"v1":63,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":64,"v1":65,"color":"FFFF00","bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"v0":66,"v1":67,"color":"FFFF00","bCoef":100,"cMask":["red","blue"],"cGroup":["all"]},{"v0":68,"v1":69,"color":"FFFF00","bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":70,"v1":71,"color":"FFFF00","bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":71,"v1":72,"color":"FFFF00","bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":69,"v1":73,"color":"FFFF00","bCoef":-10,"cMask":["red","blue"],"cGroup":["all"]},{"v0":74,"v1":75,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":76,"v1":77,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":78,"v1":79,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":80,"v1":81,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":82,"v1":83,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":84,"v1":85,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":86,"v1":87,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":88,"v1":89,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":89,"v1":90,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":90,"v1":91,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":91,"v1":88,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":92,"v1":93,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":93,"v1":94,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":94,"v1":95,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":95,"v1":92,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":96,"v1":97,"curve":108.6273043740755,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":98,"v1":99,"curve":108.6273043740755,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":100,"v1":101,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":101,"v1":102,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":102,"v1":103,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":103,"v1":100,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":104,"v1":105,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":106,"v1":107,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":108,"v1":109,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":110,"v1":111,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":112,"v1":113,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":114,"v1":115,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":115,"v1":116,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":117,"v1":118,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":117,"v1":119,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":119,"v1":120,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":120,"v1":118,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":121,"v1":122,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":123,"v1":124,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":125,"v1":126,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":127,"v1":128,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":129,"v1":130,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":130,"v1":131,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":131,"v1":132,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":133,"v1":134,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":135,"v1":136,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":136,"v1":137,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":137,"v1":138,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":138,"v1":139,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":139,"v1":140,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":141,"v1":142,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":143,"v1":144,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":145,"v1":146,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":147,"v1":148,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":149,"v1":150,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":151,"v1":152,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":153,"v1":154,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":155,"v1":156,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":128,"v1":157,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":158,"v1":159,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":160,"v1":161,"color":"FFFF00","bCoef":500,"cMask":["red","blue"],"cGroup":["all"]},{"v0":134,"v1":162,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":163,"v1":164,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":165,"v1":166,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":140,"v1":167,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":168,"v1":169,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":167,"v1":138,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":137,"v1":170,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":171,"v1":172,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":173,"v1":174,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":175,"v1":176,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":177,"v1":178,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":179,"v1":180,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":181,"v1":182,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":183,"v1":184,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":128,"v1":185,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":185,"v1":186,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":186,"v1":187,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":187,"v1":188,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":188,"v1":189,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":189,"v1":190,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":190,"v1":191,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":191,"v1":192,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":192,"v1":193,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":193,"v1":194,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":195,"v1":196,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":197,"v1":198,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":199,"v1":200,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":201,"v1":202,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":203,"v1":204,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":205,"v1":206,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":207,"v1":208,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":209,"v1":210,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":211,"v1":212,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":213,"v1":214,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":215,"v1":216,"vis":false,"bCoef":0.001,"cMask":["wall"],"cGroup":["all"]},{"v0":217,"v1":218,"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":219,"v1":220,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":221,"v1":222,"color":"FFFF00","bCoef":-2.45,"cMask":["red","blue"],"cGroup":["all"]},{"v0":223,"v1":224,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":224,"v1":225,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":225,"v1":226,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":226,"v1":223,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":227,"v1":228,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":228,"v1":229,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":229,"v1":230,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":230,"v1":227,"curve":90,"vis":false,"bCoef":1,"cMask":["wall"],"cGroup":["all"]},{"v0":231,"v1":232,"curve":108.6273043740755,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":233,"v1":234,"curve":108.6273043740755,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":235,"v1":236,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":236,"v1":237,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":237,"v1":238,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":238,"v1":235,"curve":90,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":240,"v1":241,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":242,"v1":243,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":244,"v1":245,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"]},{"v0":246,"v1":247,"vis":false,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"v0":247,"v1":248,"vis":false,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"v0":248,"v1":249,"vis":false,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"v0":249,"v1":246,"vis":false,"bCoef":1,"cMask":["ball"],"cGroup":["all"]},{"v0":172,"v1":157,"vis":false,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]},{"v0":250,"v1":170,"vis":false,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"]}],"goals":[{"p0":[-25,-25],"p1":[25,-25],"team":"blue"},{"p0":[25,-25],"p1":[25,25],"team":"blue"},{"p0":[25,25],"p1":[-25,25],"team":"blue"},{"p0":[-25,25],"p1":[-25,-25],"team":"blue"}],"discs":[{"pos":[0,0],"cMask":["all"],"cGroup":["ball","kick","score"]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1547,-137],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1660,-11],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1773,127],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1999,127],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1886,-11],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1773,-137],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-2150,196],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.3]},{"radius":56.568542495,"invMass":5e-324,"pos":[-2112,-11],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1999,-137],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-2150,-199],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-3.3]},{"radius":56.568542495,"invMass":5e-324,"pos":[-2225,-137],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-2150,422],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.3]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1547,131],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-3.3]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1550,357],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-3.3]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1699,-237],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1473,-237],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1590,-313],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[3.3,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-1550,-127],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,3.3]},{"radius":15,"invMass":5e-324,"pos":[-3520,15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-3490,-15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-3460,-15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3430,45],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-3400,15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-3370,-15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3340,15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-3295,-15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3250,15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-3220,15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3190,-15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3160,15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1]},{"radius":15,"invMass":5e-324,"pos":[-3130,45],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3100,15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3070,-15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":15,"invMass":5e-324,"pos":[-3040,-45],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,1]},{"radius":20,"invMass":5e-324,"pos":[-2909,-177],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2909,-137],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2909,-97],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2909,-57],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2909,-17],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2909,23],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2909,63],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2909,103],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,-177],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,-137],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,-97],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,-57],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,-17],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,27],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,67],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":20,"invMass":5e-324,"pos":[-2793,107],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1,0]},{"radius":24.99,"invMass":5e-324,"pos":[-3815,-48],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0.4,0]},{"radius":24.99,"invMass":5e-324,"pos":[-3775,-88],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-0.4]},{"radius":24.99,"invMass":5e-324,"pos":[-3855,-88],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,0.4]},{"radius":24.99,"invMass":5e-324,"pos":[-3815,-128],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-0.4,0]},{"radius":56.568542495,"invMass":5e-324,"pos":[-927,129],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-5.35,0]},{"radius":15,"invMass":5e-324,"pos":[-1265,-85],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-2,-2]},{"radius":15,"invMass":5e-324,"pos":[-1135,-85],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-2,-2]},{"radius":15,"invMass":5e-324,"pos":[-1005,-85],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-2,-2]},{"radius":15,"invMass":5e-324,"pos":[-875,-85],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-2,-2]},{"radius":28.284271247462,"invMass":5e-324,"pos":[-462,-113],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-5,0]},{"radius":28.284271247462,"invMass":5e-324,"pos":[-348,-113],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-5,0]},{"radius":28.284271247462,"invMass":5e-324,"pos":[-446,-40],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.999999999846461,0]},{"radius":28.284271247462,"invMass":5e-324,"pos":[-238,-113],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-5,0]},{"radius":25,"invMass":5e-324,"pos":[-699,-152],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,0.7716049382716049]},{"radius":25,"invMass":5e-324,"pos":[-179,-15],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-1.54320987654321]},{"radius":20,"invMass":5e-324,"pos":[-488,7],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.851851851851852,0]},{"radius":20,"invMass":5e-324,"pos":[-648,76],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.851851851851852,0]},{"radius":20,"invMass":5e-324,"pos":[-251,7],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.851851851851852,0]},{"radius":20,"invMass":5e-324,"pos":[-406,75],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-1.851851851851852,0]},{"radius":25,"invMass":5e-324,"pos":[-648,135],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,2.05761316872428]},{"radius":21.213203435596427,"invMass":5e-324,"pos":[202,208],"color":"FFFF00","bCoef":1000,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-3.33]},{"radius":24.99,"invMass":5e-324,"pos":[-3816,106],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[-0.4,0]},{"radius":24.99,"invMass":5e-324,"pos":[-3776,66],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,0.4]},{"radius":24.99,"invMass":5e-324,"pos":[-3856,66],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0,-0.4]},{"radius":24.99,"invMass":5e-324,"pos":[-3816,26],"color":"000000","bCoef":1,"cMask":["red","blue"],"cGroup":["wall"],"damping":1,"speed":[0.4,0]}],"planes":[{"normal":[1,0],"dist":-4000,"bCoef":0,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[1,0],"dist":-4000,"canvas_rect":[-4000,-391,4000,507],"a":[-4000,-391],"b":[-4000,507]}}},{"normal":[-1,0],"dist":-280,"bCoef":1000,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[-1,0],"dist":-280,"canvas_rect":[-4000,-391,4000,507],"a":[280,-391],"b":[280,507]}}},{"normal":[0,1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,1],"dist":-200,"canvas_rect":[-4000,-391,4000,507],"a":[-4000,-200],"b":[4000,-200]}}},{"normal":[0,-1],"dist":-200,"bCoef":1,"cMask":["red","blue"],"cGroup":["all"],"_data":{"extremes":{"normal":[0,-1],"dist":-200,"canvas_rect":[-4000,-391,4000,507],"a":[-4000,200],"b":[4000,200]}}}],"traits":{"ballArea":{"vis":false,"bCoef":1,"cMask":["ball"]},"goalPost":{"radius":8,"invMass":0,"bCoef":0.5},"goalNet":{"vis":true,"bCoef":0.1,"cMask":["ball"]},"kickOffBarrier":{"vis":false,"bCoef":0.1,"cGroup":["redKO","blueKO"],"cMask":["red","blue"]}},"playerPhysics":{"bCoef":0.5,"invMass":0.5,"damping":0.96,"acceleration":0.15,"kickingAcceleration":0.08,"kickingDamping":0.96,"kickStrength":5},"ballPhysics":"disc0"}`;
 
-var Parkours = [Parkour1,Parkour2,Parkour3,Parkour4,Parkour5,Parkour6,Parkour7];
+var Parkours = [Parkour1, Parkour2, Parkour3, Parkour4, Parkour5, Parkour6, Parkour7];
 
-var _Parkour1 = {ID: 1, Name: JSON.parse(Parkour1).name, Timer: 0};
-var _Parkour2 = {ID: 2, Name: JSON.parse(Parkour2).name, Timer: 0};
-var _Parkour3 = {ID: 3, Name: JSON.parse(Parkour3).name, Timer: 0};
-var _Parkour4 = {ID: 4, Name: JSON.parse(Parkour4).name, Timer: 0};
-var _Parkour5 = {ID: 5, Name: JSON.parse(Parkour5).name, Timer: 0};
-var _Parkour6 = {ID: 6, Name: JSON.parse(Parkour6).name, Timer: 0};
-var _Parkour7 = {ID: 7, Name: JSON.parse(Parkour7).name, Timer: 0};
+var _Parkour1 = { ID: 1, Name: JSON.parse(Parkour1).name, Timer: 0 };
+var _Parkour2 = { ID: 2, Name: JSON.parse(Parkour2).name, Timer: 0 };
+var _Parkour3 = { ID: 3, Name: JSON.parse(Parkour3).name, Timer: 0 };
+var _Parkour4 = { ID: 4, Name: JSON.parse(Parkour4).name, Timer: 0 };
+var _Parkour5 = { ID: 5, Name: JSON.parse(Parkour5).name, Timer: 0 };
+var _Parkour6 = { ID: 6, Name: JSON.parse(Parkour6).name, Timer: 0 };
+var _Parkour7 = { ID: 7, Name: JSON.parse(Parkour7).name, Timer: 0 };
 
-var _Parkour = {ID: 0, Name: undefined, Timer: 0};
-var _Parkours = [_Parkour1,_Parkour2,_Parkour3,_Parkour4,_Parkour5,_Parkour6,_Parkour7];
+var _Parkour = { ID: 0, Name: undefined, Timer: 0 };
+var _Parkours = [_Parkour1, _Parkour2, _Parkour3, _Parkour4, _Parkour5, _Parkour6, _Parkour7];
 
 var timeoutObject = {
     AFK: 30,
@@ -32,12 +32,12 @@ var timeoutObject = {
 };
 
 var toleranceObject = {
-    AFK: 1/60,
+    AFK: 1 / 60,
     BadWords: 3,
-    MapChange: 1/60,
-    Mute:{
-	LowerBound: 1,
-	UpperBound: 10
+    MapChange: 1 / 60,
+    Mute: {
+        LowerBound: 1,
+        UpperBound: 10
     }
 };
 
@@ -52,117 +52,117 @@ var roomObject = {
 
 var colors = {
     Commands: 0xFFFFFF,
-    Info:{
-	AFK: [0x00FF00,0xFFFF00],
-	BadWords: 0xFF0000,
-	Commands: 0x00FFFF,
-	Discord: 0x7289DA,
-	GameStarted: 0xFFFFFF,
-	Map: 0xFFFFFF,
-	MapList: 0xFFFFFF,
-	Mute: 0xFFFF00,
-	MuteAll: 0xFFFF00,
-	Muted: 0xFFFF00,
-	SlowMode: 0x00FF00,
-	Unmute: 0xFFFF00
+    Info: {
+        AFK: [0x00FF00, 0xFFFF00],
+        BadWords: 0xFF0000,
+        Commands: 0x00FFFF,
+        Discord: 0x7289DA,
+        GameStarted: 0xFFFFFF,
+        Map: 0xFFFFFF,
+        MapList: 0xFFFFFF,
+        Mute: 0xFFFF00,
+        MuteAll: 0xFFFF00,
+        Muted: 0xFFFF00,
+        SlowMode: 0x00FF00,
+        Unmute: 0xFFFF00
     },
     LanguageChanged: 0x80FF00,
     MapLoad: 0x80FF00,
-    MuteAll: [0x00FF00,0xFFFF00],
-    NoAuthorization:{
-	MapChange: 0xFF0000,
-	MapLoad: 0xFFFF00,
-	Mute: 0xFF0000,
-	MuteAll: [0xFFFF00,0xFFFF00],
-	Password: [0xFF8000,0xFF8000],
-	Recaptcha: [0xFF8000,0xFF8000]
+    MuteAll: [0x00FF00, 0xFFFF00],
+    NoAuthorization: {
+        MapChange: 0xFF0000,
+        MapLoad: 0xFFFF00,
+        Mute: 0xFF0000,
+        MuteAll: [0xFFFF00, 0xFFFF00],
+        Password: [0xFF8000, 0xFF8000],
+        Recaptcha: [0xFF8000, 0xFF8000]
     },
     Password: 0x00FF00,
-    Player: [0xFFFFFF,0xFFDB72],
+    Player: [0xFFFFFF, 0xFFDB72],
     Recaptcha: 0x00FF00,
-    SomethingWentWrong:{
-	InvalidID: 0xFFFF00,
-	Main: 0xFFFFFF,
-	MapLoad: 0xFFFF00,
-	NotACommand: 0xFF0000
+    SomethingWentWrong: {
+        InvalidID: 0xFFFF00,
+        Main: 0xFFFFFF,
+        MapLoad: 0xFFFF00,
+        NotACommand: 0xFF0000
     },
     Speed: 0x2DF73B,
 };
 
 var fonts = {
     Commands: "normal",
-    Info:{
-	AFK: ["normal","bold"],
-	BadWords: "bold",
-	Commands: "normal",
-	Discord: "normal",
-	GameStarted: "normal",
-	Map: "normal",
-	MapList: "normal",
-	Mute: "normal",
-	MuteAll: "bold",
-	Muted: "bold",
-	SlowMode: "bold",
-	Unmute: "normal"
+    Info: {
+        AFK: ["normal", "bold"],
+        BadWords: "bold",
+        Commands: "normal",
+        Discord: "normal",
+        GameStarted: "normal",
+        Map: "normal",
+        MapList: "normal",
+        Mute: "normal",
+        MuteAll: "bold",
+        Muted: "bold",
+        SlowMode: "bold",
+        Unmute: "normal"
     },
     LanguageChanged: "normal",
     MapLoad: "normal",
-    MuteAll: ["bold","normal"],
-    NoAuthorization:{
-	MapChange: "bold",
-	MapLoad: "bold",
-	Mute: "bold",
-	MuteAll: ["bold","bold"],
-	Password: ["bold","bold"],
-	Recaptcha: ["bold","bold"]
+    MuteAll: ["bold", "normal"],
+    NoAuthorization: {
+        MapChange: "bold",
+        MapLoad: "bold",
+        Mute: "bold",
+        MuteAll: ["bold", "bold"],
+        Password: ["bold", "bold"],
+        Recaptcha: ["bold", "bold"]
     },
     Password: "normal",
-    Player: ["normal","bold"],
+    Player: ["normal", "bold"],
     Recaptcha: "normal",
-    SomethingWentWrong:{
-	InvalidID: "bold",
-	Main: "normal",
-	MapLoad: "bold",
-	NotACommand: "bold"
+    SomethingWentWrong: {
+        InvalidID: "bold",
+        Main: "normal",
+        MapLoad: "bold",
+        NotACommand: "bold"
     },
     Speed: "small",
 };
 
 var sounds = {
     Commands: 1,
-    Info:{
-	AFK: [0,0],
-	BadWords: 2,
-	Commands: 1,
-	Discord: 1,
-	GameStarted: 1,
-	Map: 1,
-	MapList: 0,
-	Mute: 1,
-	MuteAll: 2,
-	Muted: 2,
-	SlowMode: 2,
-	Unmute: 1,
+    Info: {
+        AFK: [0, 0],
+        BadWords: 2,
+        Commands: 1,
+        Discord: 1,
+        GameStarted: 1,
+        Map: 1,
+        MapList: 0,
+        Mute: 1,
+        MuteAll: 2,
+        Muted: 2,
+        SlowMode: 2,
+        Unmute: 1,
     },
     LanguageChanged: 0,
     MapLoad: 0,
-    MuteAll: [2,1],
-    NoAuthorization:{
-	MapChange: 2,
-	MapLoad: 2,
-	Mute: 2,
-	MuteAll: [1,1],
-	Password: [2,2],
-	Recaptcha: [2,2]
+    MuteAll: [2, 1],
+    NoAuthorization: {
+        MapChange: 2,
+        MapLoad: 2,
+        Mute: 2,
+        MuteAll: [1, 1],
+        Password: [2, 2],
+        Recaptcha: [2, 2]
     },
     Password: 1,
-    Player: [1,1],
+    Player: [1, 1],
     Recaptcha: 0,
-    SomethingWentWrong:{
-	InvalidID: 2,
-	Main: 1,
-	MapLoad: 2,
-	NotACommand: 2
+    SomethingWentWrong: {
+        InvalidID: 2,
+        Main: 1,
+        MapLoad: 2,
+        NotACommand: 2
     },
     Speed: 1,
 };
@@ -189,133 +189,134 @@ var commandList = {
 };
 
 var locales = {
-    tr:{
-	Ban:{
-	    BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır."
-	},
-	Bye: "Güle güle!",
-	Commands: [commandList.player,commandList.admin],
-	Info: {
-	    AFK: ["şimdi oyunda!","şimdi AFK!"],
-	    BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır. Tekrar etmeniz hâlinde banlanacaksınız!",
-	    Commands: "Kullanılabilir komutlar:\n",
-	    Discord: "Discord adresimiz:",
-	    GameStarted: `Oyun başladı! Süreniz ${Math.floor(timeoutObject.MapChange/60)} dakika ${Math.floor(timeoutObject.MapChange%60)} saniyedir.`,
-	    Map: "Harita bilgileri aşağıdaki gibidir:\n",
-	    MapList: "Harita listesi aşağıdaki gibidir:\n",
-	    Mute: "susturuldu. Cezası bitene kadar konuşamaz. Susturan kişi:",
-	    MuteAll: "Sohbet kapatılmış durumda. Yazdıklarınızı sadece adminler görebilir.",
-	    Muted: "Cezalı olduğunuz için yazdıklarınızı sadece adminler görebilir.",
-	    SlowMode: "Yavaş mod aktif. Yazdıklarınızı sadece adminler görebilir."
-	},
-	Kick:{
-	    Duplicated:{
-		Account: "Odaya birden fazla hesapla giriş yasaktır! Odadaki hesabınız:",
-		Name: "Aynı isimde oyuncu zaten var!"
-	    },
-	},
-	LanguageChanged: "Dil başarıyla değiştirildi:",
-	MapLoad: "haritası açıldı, haritayı açan:",
-	MuteAll: ["tarafından sohbet genele kapatıldı, yazılanları sadece adminler görebilir.","tarafından sohbet genele açıldı, artık herkes konuşabilir."],
-	NoAuthorization:{
-	    MapChange: "Bu odada harita değiştirmek için yetkiniz bulunmamaktadır!",
-	    MapLoad: "Bu odada komutla harita açmak için yetkiniz bulunmamaktadır!",
-	    Mute: "Bu odada oyuncu susturmak için yetkiniz bulunmamaktadır!",
-	    MuteAll: ["Bu odada sohbeti kapatmak için yetkiniz bulunmamaktadır!","Bu odada sohbeti açmak için yetkiniz bulunmamaktadır!"],
-	    Password: ["Bu odada parolayı sıfırlamak için yetkiniz bulunmamaktadır!","Bu odada parola oluşturmak için yetkiniz bulunmamaktadır!"],
-	    Recaptcha: ["Bu odada re-captcha'yı açmak için yetkiniz bulunmamaktadır!","Bu odada re-captcha'yı kapatmak için yetkiniz bulunmamaktadır!"]
-	},
-	Password: ["Parola başarıyla sıfırlandı! Sıfırlayan kişi:","Parola başarıyla oluşturuldu! Oluşturan kişi:"],
-	Recaptcha: ["Re-captcha kapatıldı! Kapatan kişi:","Re-captcha açıldı! Açan kişi:"],
-	SomethingWentWrong:{
-	    InvalidID: "Geçersiz ID!",
-	    InvalidLanguageCode: "Geçersiz dil kodu! Kullanılabilir dil kodları:",
-	    InvalidTime: "Lütfen 1 ile 10 dakika arasında bir süre giriniz!",
-	    Main: "Hay aksi! Bir şeyler yanlış gitti!",
-	    MapLoad: "Harita açılamıyor.",
-	    NoCorrespondingPlayers: "Bu ID'de bir oyuncu odada yok!",
-	    NotACommand: "Böyle bir komut yok. Komutları görmek için !commands yazınız."
-	},
-	Speed: ["Hız kapalı!","Hız açık!"],
-	Welcome: "Hoş geldiniz!"
+    tr: {
+        Ban: {
+            BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır."
+        },
+        Bye: "Güle güle!",
+        Commands: [commandList.player, commandList.admin],
+        Info: {
+            AFK: ["şimdi oyunda!", "şimdi AFK!"],
+            BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır. Tekrar etmeniz hâlinde banlanacaksınız!",
+            Commands: "Kullanılabilir komutlar:\n",
+            Discord: "Discord adresimiz:",
+            GameStarted: `Oyun başladı! Süreniz ${Math.floor(timeoutObject.MapChange / 60)} dakika ${Math.floor(timeoutObject.MapChange % 60)} saniyedir.`,
+            Map: "Harita bilgileri aşağıdaki gibidir:\n",
+            MapList: "Harita listesi aşağıdaki gibidir:\n",
+            Mute: "susturuldu. Cezası bitene kadar konuşamaz. Susturan kişi:",
+            MuteAll: "Sohbet kapatılmış durumda. Yazdıklarınızı sadece adminler görebilir.",
+            Muted: "Cezalı olduğunuz için yazdıklarınızı sadece adminler görebilir.",
+            SlowMode: "Yavaş mod aktif. Yazdıklarınızı sadece adminler görebilir.",
+            Unmute: "'nin cezası sona erdi, artık konuşabilir."
+        },
+        Kick: {
+            Duplicated: {
+                Account: "Odaya birden fazla hesapla giriş yasaktır! Odadaki hesabınız:",
+                Name: "Aynı isimde oyuncu zaten var!"
+            },
+        },
+        LanguageChanged: "Dil başarıyla değiştirildi:",
+        MapLoad: "haritası açıldı, haritayı açan:",
+        MuteAll: ["tarafından sohbet genele kapatıldı, yazılanları sadece adminler görebilir.", "tarafından sohbet genele açıldı, artık herkes konuşabilir."],
+        NoAuthorization: {
+            MapChange: "Bu odada harita değiştirmek için yetkiniz bulunmamaktadır!",
+            MapLoad: "Bu odada komutla harita açmak için yetkiniz bulunmamaktadır!",
+            Mute: "Bu odada oyuncu susturmak için yetkiniz bulunmamaktadır!",
+            MuteAll: ["Bu odada sohbeti kapatmak için yetkiniz bulunmamaktadır!", "Bu odada sohbeti açmak için yetkiniz bulunmamaktadır!"],
+            Password: ["Bu odada parolayı sıfırlamak için yetkiniz bulunmamaktadır!", "Bu odada parola oluşturmak için yetkiniz bulunmamaktadır!"],
+            Recaptcha: ["Bu odada re-captcha'yı açmak için yetkiniz bulunmamaktadır!", "Bu odada re-captcha'yı kapatmak için yetkiniz bulunmamaktadır!"]
+        },
+        Password: ["Parola başarıyla sıfırlandı! Sıfırlayan kişi:", "Parola başarıyla oluşturuldu! Oluşturan kişi:"],
+        Recaptcha: ["Re-captcha kapatıldı! Kapatan kişi:", "Re-captcha açıldı! Açan kişi:"],
+        SomethingWentWrong: {
+            InvalidID: "Geçersiz ID!",
+            InvalidLanguageCode: "Geçersiz dil kodu! Kullanılabilir dil kodları:",
+            InvalidTime: "Lütfen 1 ile 10 dakika arasında bir süre giriniz!",
+            Main: "Hay aksi! Bir şeyler yanlış gitti!",
+            MapLoad: "Harita açılamıyor.",
+            NoCorrespondingPlayers: "Bu ID'de bir oyuncu odada yok!",
+            NotACommand: "Böyle bir komut yok. Komutları görmek için !commands yazınız."
+        },
+        Speed: ["Hız kapalı!", "Hız açık!"],
+        Welcome: "Hoş geldiniz!"
     },
-    en:{
-	Ban:{
-	    BadWords: "Using bad words is prohibited in our room."
-	},
-	Bye: "Bye!",
-	Commands: [commandList.player,commandList.admin],
-	Info: {
-	    AFK: ["is now AFK!","is now with us!"],
-	    BadWords: "Using bad words is prohibited in our room, you will be banned if going on!",
-	    Commands: "Available commands:\n",
-	    Discord: "Our discord server:",
-	    GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange/60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " minute" : Math.floor(timeoutObject.MapChange/60) +  "minutes"} ${Math.floor(timeoutObject.MapChange%60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " second" : Math.floor(timeoutObject.MapChange/60) + " seconds"}.`,
-	    Map: "Map info below:\n",
-	    MapList: "Map list below:\n",
-	    Mute: "was muted and cannot talk until his punishment removed. By:",
-	    MuteAll: "Chat is muted. Only the administration can see your messages.",
-	    Muted: "You are muted. Only the administration can see your messages.",
-	    SlowMode: "Slowmode is active. Only the administration can see your messages.",
-	    Unmute: "'s mute punishment has ended."
-	},
-	Kick:{
-	    Duplicated:{
-		Account: "Joining with multiple accounts is not allowed in this room. Original:",
-		Name: "A player name with the same name already exists!"
-	    },
-	},
-	LanguageChanged: "Your language was successfully switched to",
-	MapLoad: "was loaded by",
-	MuteAll: ["has muted chat, only the administration can see the messages.","has unmuted chat, everybody can talk"],
-	NoAuthorization:{
-	    MapChange: "You don't have authorization to change maps in this room!",
-	    MapLoad: "You don't have authorization to load maps by command in this room!",
-	    Mute: "You don't have authorization to mute players by command in this room!",
-	    MuteAll: ["You don't have authorization to mute chat in this room!","You don't have authorization to unmute chat in this room!"],
-	    Password: ["You don't have authorization to remove the password in this room!","You don't have authorization to set a password in this room!"],
-	    Recaptcha: ["You don't have authorization to turn off re-captcha in this room!","You don't have authorization to turn on re-captcha in this room!"]
-	},
-	Password: ["Password removed by","Password set by"],
-	Recaptcha: ["Re-captcha turned off by","Re-captcha turned on by"],
-	SomethingWentWrong:{
-	    InvalidID: "Invalid ID!",
-	    InvalidLanguageCode: "Invalid language code! Available language codes:",
-	    InvalidTime: "Please enter a value between 1 and 10 (in minutes)!",
-	    Main: "Something went wrong!",
-	    MapLoad: "Map couldn't be load",
-	    NoCorrespondingPlayers: "There aren't any corresponding players with the given ID!",
-	    NotACommand: "No such a command. Type !commands to see the commands available."
-	},
-	Speed: ["Speed is turned off!","Speed is turned on!"],
-	Welcome: "Welcome!"
-    },   
+    en: {
+        Ban: {
+            BadWords: "Using bad words is prohibited in our room."
+        },
+        Bye: "Bye!",
+        Commands: [commandList.player, commandList.admin],
+        Info: {
+            AFK: ["is now AFK!", "is now with us!"],
+            BadWords: "Using bad words is prohibited in our room, you will be banned if going on!",
+            Commands: "Available commands:\n",
+            Discord: "Our discord server:",
+            GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange / 60) == 1 ? Math.floor(timeoutObject.MapChange / 60) + " minute" : Math.floor(timeoutObject.MapChange / 60) + "minutes"} ${Math.floor(timeoutObject.MapChange % 60) == 1 ? Math.floor(timeoutObject.MapChange / 60) + " second" : Math.floor(timeoutObject.MapChange / 60) + " seconds"}.`,
+            Map: "Map info below:\n",
+            MapList: "Map list below:\n",
+            Mute: "was muted and cannot talk until his punishment removed. By:",
+            MuteAll: "Chat is muted. Only the administration can see your messages.",
+            Muted: "You are muted. Only the administration can see your messages.",
+            SlowMode: "Slowmode is active. Only the administration can see your messages.",
+            Unmute: "'s mute punishment has ended."
+        },
+        Kick: {
+            Duplicated: {
+                Account: "Joining with multiple accounts is not allowed in this room. Original:",
+                Name: "A player name with the same name already exists!"
+            },
+        },
+        LanguageChanged: "Your language was successfully switched to",
+        MapLoad: "was loaded by",
+        MuteAll: ["has muted chat, only the administration can see the messages.", "has unmuted chat, everybody can talk"],
+        NoAuthorization: {
+            MapChange: "You don't have authorization to change maps in this room!",
+            MapLoad: "You don't have authorization to load maps by command in this room!",
+            Mute: "You don't have authorization to mute players by command in this room!",
+            MuteAll: ["You don't have authorization to mute chat in this room!", "You don't have authorization to unmute chat in this room!"],
+            Password: ["You don't have authorization to remove the password in this room!", "You don't have authorization to set a password in this room!"],
+            Recaptcha: ["You don't have authorization to turn off re-captcha in this room!", "You don't have authorization to turn on re-captcha in this room!"]
+        },
+        Password: ["Password removed by", "Password set by"],
+        Recaptcha: ["Re-captcha turned off by", "Re-captcha turned on by"],
+        SomethingWentWrong: {
+            InvalidID: "Invalid ID!",
+            InvalidLanguageCode: "Invalid language code! Available language codes:",
+            InvalidTime: "Please enter a value between 1 and 10 (in minutes)!",
+            Main: "Something went wrong!",
+            MapLoad: "Map couldn't be load",
+            NoCorrespondingPlayers: "There aren't any corresponding players with the given ID!",
+            NotACommand: "No such a command. Type !commands to see the commands available."
+        },
+        Speed: ["Speed is turned off!", "Speed is turned on!"],
+        Welcome: "Welcome!"
+    },
 };
 
 var badwords = {
-    tr:[/[a4@][./]m[./][gkq]+/,/[a4@]hm[a4@][gğk]+/,/[a4@]mc[ıi1][gğk]+/,/[a4@]m[ı1]n+/,/[a4@]m[kq]+/,/[a4@]ngu[t₺]+/,/[a4@]n[a4@][ns$5]+/,/[a4@]nn[e€][s$5][ıi1]+/,/[a4@][bp][t₺][a4@][l1]+/,/[a4@]q+/,/[a4@][t₺][a4@]pu[t₺]+/,/[bß][a4@][bß][a4@]n+/,/[bß][o0]k+/,/d[a4@][l1][l1][a4@]m[a4@]+/,/d[a4@]ng[a4@][l1][a4@][gğkq]+/,/[e€][bß][e€][ns$5]+/,/f[a4@]h[ıi1][sş$5][e€]+/,/g[e€]r[ıi1]z[e€]k[a4@]+/,/g[a4@]v[a4@][t₺]+/,/[cg][oö0][t₺][uü][mn]+/,/[cg][oö0][t₺]v[e€]r[e€]n+/,/h[a4@][s$5][s$5][ıi1]k[t₺][ıi1]r+/,/[ıi1][bp]n[e€]+/,/k[a4@]f[ıi1]r+/,/k[a4@]h[bpß][e€]+/,/k[a4@]n[c¢][ıi1]k/,/k[e€]r[ıi1]z+/,/k[e€]v[a4@][sş$5][e€]+/,/[l1][a4@]vu[gğk]+/,/m[./][gkq]+/,/m[o0]r[o0]n+/,/n[o0]n[o0][sş$5]+/,/[o0][./][cç¢]+/,/[o0][cç¢]+/,/[o0][rvw][o0][sş$5][bpß][ıiou]+/,/p[e€]z[e€]v[e€]n[gkq]+/,/p[ıi1][cçj¢]+/,/pu[sş$5][t₺]+/,/s.g+/,/[s$5][a4@][l1][a4@][gğk]+/,/[sşz$5][ıi1!]k[eıikmt₺1]+/,/[sşz$5]+2+[ikmşy]+/,/[sş$5][e€]r[e€]f[sş$5][ıi1]z+/,/[t₺][a4@][sş$5][a4@]k+/,/[t₺][a4@][sş$5][sş$5][a4@]k+/,/v[a4@][l1][ıi1]d[e€][ns]+/,/[y7][a4@]r[a4@][gğkmq]+/,/[y7][a4@]rr[a4@][gğkmq]+/,/[y7][a4@][uv][sş$5][a4@][gğk]+/,/[y7][o0][sş$5]m[a4@]+/],
-    en:[/[a4@][s$5][s$5]h[o0][l1][e€]+/,/[bß][a4@]rm[iy7]+/,/[bß][a4@][s$5][t₺][a4@]rd+/,/[bß][ıi1][t₺][cç¢]h+/,/[c¢]un[t₺]+/,/f[uü][cç¢]k+/,/[l1]m[a4@][o0]+/,/[l1]mf[a4@][o0]+/,/pu[s5$][s5$][y7]+/,/r[e€][t₺][a4@]rd+/,/[s$5][t₺]fu+/,/wh[o0]r[e€]+/,/w[t₺]f+/]
+    tr: [/[a4@][./]m[./][gkq]+/, /[a4@]hm[a4@][gğk]+/, /[a4@]mc[ıi1][gğk]+/, /[a4@]m[ı1]n+/, /[a4@]m[kq]+/, /[a4@]ngu[t₺]+/, /[a4@]n[a4@][ns$5]+/, /[a4@]nn[e€][s$5][ıi1]+/, /[a4@][bp][t₺][a4@][l1]+/, /[a4@]q+/, /[a4@][t₺][a4@]pu[t₺]+/, /[bß][a4@][bß][a4@]n+/, /[bß][o0]k+/, /d[a4@][l1][l1][a4@]m[a4@]+/, /d[a4@]ng[a4@][l1][a4@][gğkq]+/, /[e€][bß][e€][ns$5]+/, /f[a4@]h[ıi1][sş$5][e€]+/, /g[e€]r[ıi1]z[e€]k[a4@]+/, /g[a4@]v[a4@][t₺]+/, /[cg][oö0][t₺][uü][mn]+/, /[cg][oö0][t₺]v[e€]r[e€]n+/, /h[a4@][s$5][s$5][ıi1]k[t₺][ıi1]r+/, /[ıi1][bp]n[e€]+/, /k[a4@]f[ıi1]r+/, /k[a4@]h[bpß][e€]+/, /k[a4@]n[c¢][ıi1]k/, /k[e€]r[ıi1]z+/, /k[e€]v[a4@][sş$5][e€]+/, /[l1][a4@]vu[gğk]+/, /m[./][gkq]+/, /m[o0]r[o0]n+/, /n[o0]n[o0][sş$5]+/, /[o0][./][cç¢]+/, /[o0][cç¢]+/, /[o0][rvw][o0][sş$5][bpß][ıiou]+/, /p[e€]z[e€]v[e€]n[gkq]+/, /p[ıi1][cçj¢]+/, /pu[sş$5][t₺]+/, /s.g+/, /[s$5][a4@][l1][a4@][gğk]+/, /[sşz$5][ıi1!]k[eıikmt₺1]+/, /[sşz$5]+2+[ikmşy]+/, /[sş$5][e€]r[e€]f[sş$5][ıi1]z+/, /[t₺][a4@][sş$5][a4@]k+/, /[t₺][a4@][sş$5][sş$5][a4@]k+/, /v[a4@][l1][ıi1]d[e€][ns]+/, /[y7][a4@]r[a4@][gğkmq]+/, /[y7][a4@]rr[a4@][gğkmq]+/, /[y7][a4@][uv][sş$5][a4@][gğk]+/, /[y7][o0][sş$5]m[a4@]+/],
+    en: [/[a4@][s$5][s$5]h[o0][l1][e€]+/, /[bß][a4@]rm[iy7]+/, /[bß][a4@][s$5][t₺][a4@]rd+/, /[bß][ıi1][t₺][cç¢]h+/, /[c¢]un[t₺]+/, /f[uü][cç¢]k+/, /[l1]m[a4@][o0]+/, /[l1]mf[a4@][o0]+/, /pu[s5$][s5$][y7]+/, /r[e€][t₺][a4@]rd+/, /[s$5][t₺]fu+/, /wh[o0]r[e€]+/, /w[t₺]f+/]
 };
 
 var kickTypes = {
     BadWords: true,
-    Duplicated:{
-	Account: false,
-	Name: false
+    Duplicated: {
+        Account: false,
+        Name: false
     }
 };
 
-var teamObject = {Spectators: 0, Red: 1, Blue: 2};
+var teamObject = { Spectators: 0, Red: 1, Blue: 2 };
 
 var playerList = {};
 
 var logMessages = {
-    adminChanges: ["'s admin rights were taken away"," was given admin rights"],
-    playerKicked: [" was kicked"," was banned"],
-    teams: ["spectators","red","blue"]
+    adminChanges: ["'s admin rights were taken away", " was given admin rights"],
+    playerKicked: [" was kicked", " was banned"],
+    teams: ["spectators", "red", "blue"]
 };
 
-var languages = ["tr","en"];
+var languages = ["tr", "en"];
 var locale = languages[0];
 
 var isRoomSet = false;
@@ -335,9 +336,9 @@ var _room = {
 
 roomObject.password = _room.password;
 
-var room = HBInit({roomName:_room.roomName,noPlayer:_room.noPlayer,public:_room.public,maxPlayers:_room.maxPlayers,password:_room.password});
+var room = HBInit({ roomName: _room.roomName, noPlayer: _room.noPlayer, public: _room.public, maxPlayers: _room.maxPlayers, password: _room.password });
 
-var passwordFunctions = [removePassword,generateRandomPassword];
+var passwordFunctions = [removePassword, generateRandomPassword];
 
 room.setCustomStadium(Parkours[0]);
 room.setRequireRecaptcha(roomObject.requireRecaptcha);
@@ -345,432 +346,432 @@ room.setScoreLimit(roomObject.scoreLimit);
 room.setTeamsLock(roomObject.teamsLock);
 room.setTimeLimit(roomObject.timeLimit);
 
-function checkInactivity(){
+function checkInactivity() {
     var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
 
     players.forEach(p => {
-	if(timeoutObject.AFK <= (Date.now() - playerList[p.name].LastActivity) && (Date.now() - playerList[p.name].LastActivity) <= (timeoutObject.AFK + toleranceObject.AFK)){
-	    playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
-	    room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`,player.id,colors.Info.AFK[Number(playerList[player.name].AFKStatus)],fonts.Info.AFK[Number(playerList[player.name].AFKStatus)],sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
-	    room.setPlayerTeam(p.id,0);
-	}
+        if (timeoutObject.AFK <= (Date.now() - playerList[p.name].LastActivity) && (Date.now() - playerList[p.name].LastActivity) <= (timeoutObject.AFK + toleranceObject.AFK)) {
+            playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[player.name].AFKStatus)], fonts.Info.AFK[Number(playerList[player.name].AFKStatus)], sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
+            room.setPlayerTeam(p.id, 0);
+        }
     });
 }
 
-function checkTimer(){
+function checkTimer() {
     var index = _Parkours.findIndex(p => p.ID == _Parkour.ID);
 
-    if(room.getScores() != null){
-	if(index !== -1){
-	    if(timeoutObject.MapChange <= _Parkour.Timer && _Parkour.Timer <= timeoutObject.MapChange + toleranceObject.MapChange){
-		nextMap();
-	    }
-	}
+    if (room.getScores() != null) {
+        if (index !== -1) {
+            if (timeoutObject.MapChange <= _Parkour.Timer && _Parkour.Timer <= timeoutObject.MapChange + toleranceObject.MapChange) {
+                nextMap();
+            }
+        }
     }
 }
 
-function generateRandomPassword(length = randomStringLength){
+function generateRandomPassword(length = randomStringLength) {
     var randomChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     var result = "";
-    for(var i=0; i<length; i++){
-	result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    for (var i = 0; i < length; i++) {
+        result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
     }
     room.setPassword(result);
     roomObject.password = result;
 }
 
-function increaseTimer(){
+function increaseTimer() {
     var index = _Parkours.findIndex(p => p.ID == _Parkour.ID);
 
-    if(room.getScores() != null){
-	if(index !== -1){
-	    _Parkour.Timer += 1/60;
-	}
+    if (room.getScores() != null) {
+        if (index !== -1) {
+            _Parkour.Timer += 1 / 60;
+        }
     }
 }
 
-function isBadword(lang,str){
+function isBadword(lang, str) {
     return badwords[lang].filter(b => str.match(b)).length > 0;
 }
 
-function isCommand(string){
+function isCommand(string) {
     return commands[string.substr(messagePrefix.length)] != undefined;
 }
 
-function isDuplicatedAccount(player,auth,conn){
+function isDuplicatedAccount(player, auth, conn) {
     var players = room.getPlayerList();
     var result = players.length > 0 && players.filter(p => playerList[p.name] != undefined && p.id != player.id && (playerList[p.name].Auth == auth || playerList[p.name].Conn == conn)).length > 0;
 
     var p = players.filter(p => playerList[p.name] != undefined && (playerList[p.name].Auth == auth || playerList[p.name].Conn == conn))[0];
 
-    if(result == true){
-	room.kickPlayer(player.id,`${locales[locale].Kick.Duplicated.Account} ${p.name}`,kickTypes.Duplicated.Account);
+    if (result == true) {
+        room.kickPlayer(player.id, `${locales[locale].Kick.Duplicated.Account} ${p.name}`, kickTypes.Duplicated.Account);
     }
 }
 
-function isDuplicatedName(player,name){
+function isDuplicatedName(player, name) {
     var players = room.getPlayerList();
     var result = players.length > 0 && players.filter(p => playerList[p.name] != undefined && p.id != player.id && playerList[p.name].Name == name).length > 0;
 
-    if(result == true){
-	room.kickPlayer(player.id,`${locales[locale].Kick.Duplicated.Name}`,kickTypes.Duplicated.Name);
+    if (result == true) {
+        room.kickPlayer(player.id, `${locales[locale].Kick.Duplicated.Name}`, kickTypes.Duplicated.Name);
     }
 }
 
-function loadMap(map,scoreLimit,timeLimit){
-    if(room.getScores() == null){
-	room.setCustomStadium(map);
-	room.setScoreLimit(scoreLimit);
-	room.setTimeLimit(timeLimit);
-	room.startGame();
+function loadMap(map, scoreLimit, timeLimit) {
+    if (room.getScores() == null) {
+        room.setCustomStadium(map);
+        room.setScoreLimit(scoreLimit);
+        room.setTimeLimit(timeLimit);
+        room.startGame();
     }
-    else{
-	room.stopGame();
-	room.setCustomStadium(map);
-	room.setScoreLimit(scoreLimit);
-	room.setTimeLimit(timeLimit);
-	room.startGame();
+    else {
+        room.stopGame();
+        room.setCustomStadium(map);
+        room.setScoreLimit(scoreLimit);
+        room.setTimeLimit(timeLimit);
+        room.startGame();
     }
 }
 
-function logPlayerSpeed(){
+function logPlayerSpeed() {
     var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && playerList[p.name].SpeedEnabled == true);
 
     players.forEach(p => {
-	room.setPlayerAvatar(p.id,(Math.floor(10*Math.hypot(room.getPlayerDiscProperties(p.id).xspeed,room.getPlayerDiscProperties(p.id).yspeed))).toString());
+        room.setPlayerAvatar(p.id, (Math.floor(10 * Math.hypot(room.getPlayerDiscProperties(p.id).xspeed, room.getPlayerDiscProperties(p.id).yspeed))).toString());
     });
 }
 
-function nextMap(){
-    if(_Parkour.ID != 0){
-	var ID = _Parkour.ID;
-	ID != _Parkours[_Parkours.length-1].ID ? loadMap(Parkours[ID],roomObject.scoreLimit,roomObject.timeLimit) : loadMap(Parkours[0],roomObject.scoreLimit,roomObject.timeLimit);
+function nextMap() {
+    if (_Parkour.ID != 0) {
+        var ID = _Parkour.ID;
+        ID != _Parkours[_Parkours.length - 1].ID ? loadMap(Parkours[ID], roomObject.scoreLimit, roomObject.timeLimit) : loadMap(Parkours[0], roomObject.scoreLimit, roomObject.timeLimit);
     }
 }
 
-function removePassword(){
+function removePassword() {
     room.setPassword();
     roomObject.password = null;
 }
 
-function resetTimers(){
+function resetTimers() {
     _Parkours.filter(p => p.Timer != 0).forEach(p => p.Timer = 0);
 }
 
-function serialize(number){
+function serialize(number) {
     return number.toFixed(3);
 }
 
-room.onGamePaused = function(byPlayer){
+room.onGamePaused = function (byPlayer) {
     byPlayer == null ? console.log(`Game paused`) : console.log(`Game paused by ${byPlayer.name}`);
 }
 
-room.onGameStart = function(byPlayer){
+room.onGameStart = function (byPlayer) {
     byPlayer == null ? console.log(`Game started`) : console.log(`Game started by ${byPlayer.name}`);
-    room.sendAnnouncement(`${locales[locale].Info.GameStarted}`,null,colors.Info.GameStarted,fonts.Info.GameStarted,sounds.Info.GameStarted);
+    room.sendAnnouncement(`${locales[locale].Info.GameStarted}`, null, colors.Info.GameStarted, fonts.Info.GameStarted, sounds.Info.GameStarted);
 }
 
-room.onGameStop = function(byPlayer){
+room.onGameStop = function (byPlayer) {
     byPlayer == null ? console.log(`Game stopped`) : console.log(`Game stopped by ${byPlayer.name}`);
     resetTimers();
 }
 
-room.onGameTick = function(){
+room.onGameTick = function () {
     checkTimer();
     increaseTimer();
     logPlayerSpeed();
 }
 
-room.onGameUnpaused = function(byPlayer){
+room.onGameUnpaused = function (byPlayer) {
     byPlayer == null ? console.log(`Game unpaused`) : console.log(`Game unpaused by ${byPlayer.name}`);
 }
 
-room.onKickRateLimitSet = function(min,rate,burst,byPlayer){
+room.onKickRateLimitSet = function (min, rate, burst, byPlayer) {
     byPlayer == null ? console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst} by ${byPlayer.name}`);
 }
 
-room.onPlayerActivity = function(player){
-    if(playerList[player.name].LastActivity != Date.now()) playerList[player.name].LastActivity = Date.now();
+room.onPlayerActivity = function (player) {
+    if (playerList[player.name].LastActivity != Date.now()) playerList[player.name].LastActivity = Date.now();
 }
 
-room.onPlayerAdminChange = function(changedPlayer,byPlayer){
+room.onPlayerAdminChange = function (changedPlayer, byPlayer) {
     byPlayer == null ? console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]}`) : console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]} by ${byPlayer.name}`);
 }
 
-room.onPlayerBallKick = function(player){
+room.onPlayerBallKick = function (player) {
     console.log(`${player.name} has kicked the ball`);
 }
 
-room.onPlayerChat = function(player,message){
+room.onPlayerChat = function (player, message) {
     console.log(`${player.name}: ${message}`);
     var players = room.getPlayerList();
     var administrators = players.filter(p => p.admin == true);
 
-    if(isBadword(playerList[player.name].Language,message) == true){
-	playerList[player.name].BadWordUsage++;
-	playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`,player.id,colors.Info.BadWords,fonts.Info.BadWords,sounds.Info.BadWords) : room.kickPlayer(player.id,`${locales[playerList[player.name].Language].Ban.BadWords}`,kickTypes.BadWords);
+    if (isBadword(playerList[player.name].Language, message) == true) {
+        playerList[player.name].BadWordUsage++;
+        playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`, player.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords) : room.kickPlayer(player.id, `${locales[playerList[player.name].Language].Ban.BadWords}`, kickTypes.BadWords);
 
-	administrators.forEach(a => {
-	    room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`,p.id,colors.Info.BadWords,fonts.Info.BadWords,sounds.Info.BadWords);
-	});
+        administrators.forEach(a => {
+            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords);
+        });
 
-	return false;
+        return false;
     }
-    if(playerList[player.name].SlowMode == false) playerList[player.name].SlowMode = true;
-    setTimeout(function(){
-	if(playerList[player.name].SlowMode == true) playerList[player.name].SlowMode = false;
-    },timeoutObject.SlowMode);
+    if (playerList[player.name].SlowMode == false) playerList[player.name].SlowMode = true;
+    setTimeout(function () {
+        if (playerList[player.name].SlowMode == true) playerList[player.name].SlowMode = false;
+    }, timeoutObject.SlowMode);
 
-    if(message.startsWith(messagePrefix) == true){
-	if(isCommand(message) == true || isCommand(message.toLowerCase().split(" ")[0]) == true){
-	    if(message.toLowerCase() == commands.admin){
-		room.setPlayerAdmin(player.id,!player.admin);
-		return false;
-	    }
-	    else if(message.toLowerCase() == commands.afk){
-		playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
-		room.sendAnnouncement(`${player.name} ${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`,player.id,colors.Info.AFK[Number(playerList[player.name].AFKStatus)],fonts.Info.AFK[Number(playerList[player.name].AFKStatus)],sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
-		playerList[player.name].AFKStatus == true ? room.setPlayerTeam(player.id,teamObject.Spectators) : room.setPlayerTeam(player.id,1+Math.floor(Math.random()*2));
-		return false;
-	    }
-	    else if(message.toLowerCase() == commands.commands){
-		room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Commands}${locales[playerList[player.name].Language].Commands[Number(player.admin)]}`,player.id,colors.Info.Commands,fonts.Info.Commands,sounds.Info.Commands);
-		return false;
-	    }
-	    else if(message.toLowerCase() == commands.discord){
-		room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Discord} ${discordLink}`,player.id,colors.Info.Discord,fonts.Info.Discord,sounds.Info.Discord);
-		return false;
-	    }
-	    else if(message.toLowerCase().split(" ")[0] == commands.lang){
-		var lang = message.toLowerCase().split(" ")[1];
-		var l = languages.findIndex(x => x == lang);
+    if (message.startsWith(messagePrefix) == true) {
+        if (isCommand(message) == true || isCommand(message.toLowerCase().split(" ")[0]) == true) {
+            if (message.toLowerCase() == commands.admin) {
+                room.setPlayerAdmin(player.id, !player.admin);
+                return false;
+            }
+            else if (message.toLowerCase() == commands.afk) {
+                playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
+                room.sendAnnouncement(`${player.name} ${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[player.name].AFKStatus)], fonts.Info.AFK[Number(playerList[player.name].AFKStatus)], sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
+                playerList[player.name].AFKStatus == true ? room.setPlayerTeam(player.id, teamObject.Spectators) : room.setPlayerTeam(player.id, 1 + Math.floor(Math.random() * 2));
+                return false;
+            }
+            else if (message.toLowerCase() == commands.commands) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Commands}${locales[playerList[player.name].Language].Commands[Number(player.admin)]}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
+                return false;
+            }
+            else if (message.toLowerCase() == commands.discord) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Discord} ${discordLink}`, player.id, colors.Info.Discord, fonts.Info.Discord, sounds.Info.Discord);
+                return false;
+            }
+            else if (message.toLowerCase().split(" ")[0] == commands.lang) {
+                var lang = message.toLowerCase().split(" ")[1];
+                var l = languages.findIndex(x => x == lang);
 
-		if(l !== -1){
-		    playerList[player.name].Language = lang;
-		    room.sendAnnouncement(`${locales[playerList[player.name].Language].LanguageChanged} ${playerList[player.name].Language}`,player.id,colors.LanguageChanged,fonts.LanguageChanged,sounds.LanguageChanged);
-		    return false;
-		}
-		else{
-		    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidLanguageCode} ${languages.toString()}`,player.id,colors.SomethingWentWrong.InvalidLanguageCode,fonts.SomethingWentWrong.InvalidLanguageCode,sounds.SomethingWentWrong.InvalidLanguageCode);
-		    return false;
-		}
-	    }
-	    else if(message.toLowerCase() == commands.mapinfo){
-		room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Map}`,player.id,colors.Info.Commands,fonts.Info.Commands,sounds.Info.Commands);
-		room.sendAnnouncement(`${_Parkour.Name} [${_Parkour.ID}]`,player.id,colors.Info.Map,fonts.Info.Map,sounds.Info.Map);
-		return false;
-	    }
-	    else if(message.toLowerCase().split(" ")[0] == commands.mapload){
-		var ID = parseInt(message.toLowerCase().split(" ")[1]);
+                if (l !== -1) {
+                    playerList[player.name].Language = lang;
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].LanguageChanged} ${playerList[player.name].Language}`, player.id, colors.LanguageChanged, fonts.LanguageChanged, sounds.LanguageChanged);
+                    return false;
+                }
+                else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidLanguageCode} ${languages.toString()}`, player.id, colors.SomethingWentWrong.InvalidLanguageCode, fonts.SomethingWentWrong.InvalidLanguageCode, sounds.SomethingWentWrong.InvalidLanguageCode);
+                    return false;
+                }
+            }
+            else if (message.toLowerCase() == commands.mapinfo) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Map}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
+                room.sendAnnouncement(`${_Parkour.Name} [${_Parkour.ID}]`, player.id, colors.Info.Map, fonts.Info.Map, sounds.Info.Map);
+                return false;
+            }
+            else if (message.toLowerCase().split(" ")[0] == commands.mapload) {
+                var ID = parseInt(message.toLowerCase().split(" ")[1]);
 
-		if(player.admin == true){
-		    var p = _Parkours.findIndex(x => x.ID == ID);
+                if (player.admin == true) {
+                    var p = _Parkours.findIndex(x => x.ID == ID);
 
-		    if(p !== -1){
-			loadMap(Parkours[p],roomObject.scoreLimit,roomObject.timeLimit);
-			room.sendAnnouncement(`${_Parkours[p].Name} ${locales[playerList[player.name].Language].MapLoad} ${player.name}`,null,colors.MapLoad,fonts.MapLoad,sounds.MapLoad);
-			return false;
-		    }
-		    else{
-			room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`,player.id,colors.SomethingWentWrong.InvalidID,fonts.SomethingWentWrong.InvalidID,sounds.SomethingWentWrong.InvalidID);
-			return false;
-		    }
-		}
-		else{
-		    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MapLoad}`,player.id,colors.NoAuthorization.MapLoad,fonts.NoAuthorization.MapLoad,sounds.NoAuthorization.MapLoad);
-		    return false;
-		}
-	    }
-	    else if(message.toLowerCase() == commands.maps){
-		room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MapList}`,player.id,colors.Info.Commands,fonts.Info.Commands,sounds.Info.Commands);
-		room.sendAnnouncement(`${_Parkours.map(p => p.Name + " [" + p.ID + "]").join('\n')}`,player.id,colors.Info.MapList,fonts.Info.MapList,sounds.Info.MapList);
-		return false;
-	    }
-	    else if(message.toLowerCase().split(" ")[0] == commands.mute){
-		if(player.admin == true){
-		    var ID = message.toLowerCase().split(" ")[1];
-		    var p = players.find(x => x.id == parseInt(ID) && x.id != player.id);
-		    if(!isNaN(ID)){
-			if(p){
-			    var Time = message.toLowerCase().split(" ")[2];
-			    if(!isNaN(Time)){
-				if(toleranceObject.LowerBound <= Time && Time <= toleranceObject.UpperBound){
-				    var name = p.name;
-				    var pname = player.name;
-				    playerList[name].IsMuted = true;
-				    room.sendAnnouncement(`${p.name} ${locales[locale].Info.Mute} ${player.name}`,null,colors.Info.Mute,fonts.Info.Mute,sounds.Info.Mute);
-				    setTimeout(function(){
-					playerList[name].IsMuted = false;
-					room.sendAnnouncement(`${name} ${locales[locale].Info.Unmute} ${pname}`,null,colors.Info.Unmute,fonts.Info.Unmute,sounds.Info.Unmute);
-				    },Time*1000);
-				    return false;
-				}
-			    }
-			    else{
-				room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`,player.id,colors.SomethingWentWrong.InvalidTime,fonts.SomethingWentWrong.InvalidTime,sounds.SomethingWentWrong.InvalidTime);
-				return false;
-			    }
-			}
-			else{
-			    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`,player.id,colors.SomethingWentWrong.NoCorrespondingPlayers,fonts.SomethingWentWrong.NoCorrespondingPlayers,sounds.SomethingWentWrong.NoCorrespondingPlayers);
-			    return false;
-			}
-		    }
-		    else{
-			room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`,player.id,colors.SomethingWentWrong.InvalidID,fonts.SomethingWentWrong.InvalidID,sounds.SomethingWentWrong.InvalidID);
-			return false;
-		    }
-		}
-		else{
-		    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Mute}`,player.id,colors.NoAuthorization.Mute,fonts.NoAuthorization.Mute,sounds.NoAuthorization.Mute);
-		    return false;
-		}
-	    }
-	    else if(message.toLowerCase() == commands.muteall){
-		if(player.admin == true){
-		    _roomObject.muteAll = !_roomObject.muteAll;
-		    room.sendAnnouncement(`${locales[locale].MuteAll[Number(roomObject.muteAll)]} ${player.name}`,null,colors.MuteAll[Number(roomObject.muteAll)],fonts.MuteAll[Number(roomObject.muteAll)],sounds.MuteAll[Number(roomObject.muteAll)]);
-		    return false;
-		}
-		else{
-		    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MuteAll[Number(roomObject.muteAll)]}`,player.id,colors.NoAuthorization.MuteAll[Number(roomObject.muteAll)],fonts.NoAuthorization.MuteAll[Number(roomObject.muteAll)],sounds.NoAuthorization.MuteAll[Number(roomObject.muteAll)]);
-		    return false;
-		}
-	    }
-	    else if(message.toLowerCase() == commands.pass){
-		if(player.admin == true){
-		    passwordFunctions[Number(roomObject.password == null)]();
-		    room.sendAnnouncement(`${locales[locale].Password[Number(roomObject.password != null)]} ${player.name}`,null,colors.Password[Number(roomObject.password != null)],fonts.Password[Number(roomObject.password != null)],sounds.Password[Number(roomObject.password != null)]);
-		    return false;
-		}
-		else{
-		    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Password[Number(roomObject.password != null)]}`,player.id,colors.NoAuthorization.Password[Number(roomObject.password != null)],fonts.NoAuthorization.Password[Number(roomObject.password != null)],sounds.NoAuthorization.Password[Number(roomObject.password != null)]);
-		    return false;
-		}
-	    }
-	    else if(message.toLowerCase() == commands.recaptcha){
-		if(player.admin == true){
-		    room.setRequireRecaptcha(!roomObject.requireRecaptcha);
-		    roomObject.requireRecaptcha = !roomObject.requireRecaptcha;
-		    room.sendAnnouncement(`${locales[locale].Recaptcha[Number(roomObject.requireRecaptcha)]} ${player.name}`,null,colors.Recaptcha,fonts.Recaptcha,sounds.Recaptcha);
-		    return false;
-		}
-		else{
-		    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]}`,player.id,colors.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)],fonts.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)],sounds.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]);
-		    return false;
-		}
-	    }
-	    else if(message.toLowerCase() == commands.speed){
-		playerList[player.name].SpeedEnabled = !playerList[player.name].SpeedEnabled;
-		room.sendAnnouncement(`${locales[playerList[player.name].Language].Speed[Number(playerList[player.name].SpeedEnabled)]}`,player.id,colors.Speed,fonts.Speed,sounds.Speed);
-		return false;
-	    }
-	}
-	else{
-	    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NotACommand}`,player.id,colors.SomethingWentWrong.NotACommand,fonts.SomethingWentWrong.NotACommand,sounds.SomethingWentWrong.NotACommand);
-	    return false;
-	}
+                    if (p !== -1) {
+                        loadMap(Parkours[p], roomObject.scoreLimit, roomObject.timeLimit);
+                        room.sendAnnouncement(`${_Parkours[p].Name} ${locales[playerList[player.name].Language].MapLoad} ${player.name}`, null, colors.MapLoad, fonts.MapLoad, sounds.MapLoad);
+                        return false;
+                    }
+                    else {
+                        room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
+                        return false;
+                    }
+                }
+                else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MapLoad}`, player.id, colors.NoAuthorization.MapLoad, fonts.NoAuthorization.MapLoad, sounds.NoAuthorization.MapLoad);
+                    return false;
+                }
+            }
+            else if (message.toLowerCase() == commands.maps) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MapList}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
+                room.sendAnnouncement(`${_Parkours.map(p => p.Name + " [" + p.ID + "]").join('\n')}`, player.id, colors.Info.MapList, fonts.Info.MapList, sounds.Info.MapList);
+                return false;
+            }
+            else if (message.toLowerCase().split(" ")[0] == commands.mute) {
+                if (player.admin == true) {
+                    var ID = message.toLowerCase().split(" ")[1];
+                    var p = players.find(x => x.id == parseInt(ID) && x.id != player.id);
+                    if (!isNaN(ID)) {
+                        if (p) {
+                            var Time = message.toLowerCase().split(" ")[2];
+                            if (!isNaN(Time)) {
+                                if (toleranceObject.LowerBound <= Time && Time <= toleranceObject.UpperBound) {
+                                    var name = p.name;
+                                    var pname = player.name;
+                                    playerList[name].IsMuted = true;
+                                    room.sendAnnouncement(`${p.name} ${locales[locale].Info.Mute} ${player.name}`, null, colors.Info.Mute, fonts.Info.Mute, sounds.Info.Mute);
+                                    setTimeout(function () {
+                                        playerList[name].IsMuted = false;
+                                        room.sendAnnouncement(`${name} ${locales[locale].Info.Unmute} ${pname}`, null, colors.Info.Unmute, fonts.Info.Unmute, sounds.Info.Unmute);
+                                    }, Time * 1000);
+                                    return false;
+                                }
+                            }
+                            else {
+                                room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
+                                return false;
+                            }
+                        }
+                        else {
+                            room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
+                            return false;
+                        }
+                    }
+                    else {
+                        room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
+                        return false;
+                    }
+                }
+                else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Mute}`, player.id, colors.NoAuthorization.Mute, fonts.NoAuthorization.Mute, sounds.NoAuthorization.Mute);
+                    return false;
+                }
+            }
+            else if (message.toLowerCase() == commands.muteall) {
+                if (player.admin == true) {
+                    roomObject.muteAll = !roomObject.muteAll;
+                    room.sendAnnouncement(`${locales[locale].MuteAll[Number(roomObject.muteAll)]} ${player.name}`, null, colors.MuteAll[Number(roomObject.muteAll)], fonts.MuteAll[Number(roomObject.muteAll)], sounds.MuteAll[Number(roomObject.muteAll)]);
+                    return false;
+                }
+                else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MuteAll[Number(roomObject.muteAll)]}`, player.id, colors.NoAuthorization.MuteAll[Number(roomObject.muteAll)], fonts.NoAuthorization.MuteAll[Number(roomObject.muteAll)], sounds.NoAuthorization.MuteAll[Number(roomObject.muteAll)]);
+                    return false;
+                }
+            }
+            else if (message.toLowerCase() == commands.pass) {
+                if (player.admin == true) {
+                    passwordFunctions[Number(roomObject.password == null)]();
+                    room.sendAnnouncement(`${locales[locale].Password[Number(roomObject.password != null)]} ${player.name}`, null, colors.Password[Number(roomObject.password != null)], fonts.Password[Number(roomObject.password != null)], sounds.Password[Number(roomObject.password != null)]);
+                    return false;
+                }
+                else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Password[Number(roomObject.password != null)]}`, player.id, colors.NoAuthorization.Password[Number(roomObject.password != null)], fonts.NoAuthorization.Password[Number(roomObject.password != null)], sounds.NoAuthorization.Password[Number(roomObject.password != null)]);
+                    return false;
+                }
+            }
+            else if (message.toLowerCase() == commands.recaptcha) {
+                if (player.admin == true) {
+                    room.setRequireRecaptcha(!roomObject.requireRecaptcha);
+                    roomObject.requireRecaptcha = !roomObject.requireRecaptcha;
+                    room.sendAnnouncement(`${locales[locale].Recaptcha[Number(roomObject.requireRecaptcha)]} ${player.name}`, null, colors.Recaptcha, fonts.Recaptcha, sounds.Recaptcha);
+                    return false;
+                }
+                else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]}`, player.id, colors.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], fonts.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], sounds.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]);
+                    return false;
+                }
+            }
+            else if (message.toLowerCase() == commands.speed) {
+                playerList[player.name].SpeedEnabled = !playerList[player.name].SpeedEnabled;
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Speed[Number(playerList[player.name].SpeedEnabled)]}`, player.id, colors.Speed, fonts.Speed, sounds.Speed);
+                return false;
+            }
+        }
+        else {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NotACommand}`, player.id, colors.SomethingWentWrong.NotACommand, fonts.SomethingWentWrong.NotACommand, sounds.SomethingWentWrong.NotACommand);
+            return false;
+        }
     }
-    else{
-	room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`,null,colors.Player[Number(player.admin)],fonts.Player[Number(player.admin)],sounds.Player[Number(player.admin)]);
-	return false;
+    else {
+        room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, null, colors.Player[Number(player.admin)], fonts.Player[Number(player.admin)], sounds.Player[Number(player.admin)]);
+        return false;
     }
-    if(_roomObject.muteAll == true && player.admin == false){
-	room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MuteAll} (${message})`,player.id,colors.Info.MuteAll,fonts.Info.MuteAll,sounds.Info.MuteAll);
-	administrators.forEach(a => {
-	    room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`,p.id,colors.Info.MuteAll,fonts.Info.MuteAll,sounds.Info.MuteAll);
-	});
-	return false;
+    if (_roomObject.muteAll == true && player.admin == false) {
+        room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MuteAll} (${message})`, player.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
+        administrators.forEach(a => {
+            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
+        });
+        return false;
     }
-    if(playerList[player.name].IsMuted == true){
-	room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Muted} (${message})`,player.id,colors.Info.Muted,fonts.Info.Muted,sounds.Info.Muted);
-	administrators.forEach(a => {
-	    room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`,p.id,colors.Info.Muted,fonts.Info.Muted,sounds.Info.Muted);
-	});
-	return false;
+    if (playerList[player.name].IsMuted == true) {
+        room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Muted} (${message})`, player.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
+        administrators.forEach(a => {
+            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
+        });
+        return false;
     }
-    if(playerList[player.name].SlowMode == true){
-	room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.SlowMode} (${message})`,player.id,colors.Info.SlowMode,fonts.Info.SlowMode,sounds.Info.SlowMode);
-	administrators.forEach(a => {
-	    room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`,p.id,colors.Info.SlowMode,fonts.Info.SlowMode,sounds.Info.SlowMode);
-	});
-	return false;
+    if (playerList[player.name].SlowMode == true) {
+        room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.SlowMode} (${message})`, player.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
+        administrators.forEach(a => {
+            room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, p.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
+        });
+        return false;
     }
 }
 
-room.onPlayerJoin = function(player){
+room.onPlayerJoin = function (player) {
     console.log(`${player.name} has joined`);
+    var randomInt = 1 + Math.floor(Math.random() * 2);
 
-    isDuplicatedAccount(player,player.auth,player.conn);
-    isDuplicatedAccount(player,player.name);
+    isDuplicatedAccount(player, player.auth, player.conn);
+    isDuplicatedAccount(player, player.name);
 
     var players = room.getPlayerList();
 
-    if(playerList[player.name] == undefined) playerList[player.name] = {AFKStatus: false, Auth: player.auth, BadWordUsage: 0, Conn: player.conn, ID: player.id, IsMuted: false, Language: locale, LastActivity: Date.now(), Name: player.name, SlowMode: false, SpeedEnabled: false};
+    if (playerList[player.name] == undefined) playerList[player.name] = { AFKStatus: false, Auth: player.auth, BadWordUsage: 0, Conn: player.conn, ID: player.id, IsMuted: false, Language: locale, LastActivity: Date.now(), Name: player.name, SlowMode: false, SpeedEnabled: false };
 
-    room.sendAnnouncement(`${locales[playerList[player.name].Language].Welcome}`,player.id,colors.Welcome,fonts.Welcome,sounds.Welcome);
+    room.sendAnnouncement(`${locales[playerList[player.name].Language].Welcome}`, player.id, colors.Welcome, fonts.Welcome, sounds.Welcome);
 
-    if(room.getScores() == null && players.length == 1){
-	var randomInt = 1 + Math.floor(Math.random() * 2);
-	room.setPlayerTeam(player.id,randomInt);
-	room.startGame();
+    if (room.getScores() == null && players.length == 1) {
+        room.startGame();
     }
+    room.setPlayerTeam(player.id, randomInt);
 }
 
-room.onPlayerKicked = function(kickedPlayer,reason,ban,byPlayer){
+room.onPlayerKicked = function (kickedPlayer, reason, ban, byPlayer) {
     byPlayer == null ? console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} (${reason})`) : console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} by ${byPlayer.name} (${reason})`);
 }
 
-room.onPlayerLeave = function(player){
+room.onPlayerLeave = function (player) {
     console.log(`${player.name} has left`);
     var players = room.getPlayerList();
 
-    if(room.getScores() != null && players.length == 0) room.stopGame();
+    if (room.getScores() != null && players.length == 0) room.stopGame();
 }
 
-room.onPlayerTeamChange = function(changedPlayer,byPlayer){
+room.onPlayerTeamChange = function (changedPlayer, byPlayer) {
     byPlayer == null ? console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]}`) : console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]} by ${byPlayer.name}`);
-    if(playerList[changedPlayer.name].AFKStatus == true && changedPlayer.team != 0) room.setPlayerTeam(changedPlayer.id,0);
+    if (playerList[changedPlayer.name].AFKStatus == true && changedPlayer.team != 0) room.setPlayerTeam(changedPlayer.id, 0);
 }
 
-room.onPositionsReset = function(){
+room.onPositionsReset = function () {
     console.log("Positions reset");
 }
 
-room.onRoomLink = function(url){
-    if(isRoomSet == false){
-	console.log(`Room set with url: ${url}`);
-	isRoomSet = true;
+room.onRoomLink = function (url) {
+    if (isRoomSet == false) {
+        console.log(`Room set with url: ${url}`);
+        isRoomSet = true;
     }
 }
 
-room.onStadiumChange = function(newStadiumName,byPlayer){
+room.onStadiumChange = function (newStadiumName, byPlayer) {
     byPlayer == null ? console.log(`${newStadiumName} was loaded`) : console.log(`${newStadiumName} was loaded by ${byPlayer.name}`);
 
     var m = _Parkours.find(x => x.Name == newStadiumName);
     var players = room.getPlayerList();
 
-    if(byPlayer == null){
-	if(m){
-	    _Parkour = {ID: m.ID, Name: m.Name, Timer: m.Timer};
-	}
-	else{
-	    console.log(`${locales[locale].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`);
-	    players.forEach(x => {
-		room.sendAnnouncement(`${locales[playerList[p.name].language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`,p.id,colors.SomethingWentWrong.Main,fonts.SomethingWentWrong.Main,sounds.SomethingWentWrong.Main);
-	    });
-	}
+    if (byPlayer == null) {
+        if (m) {
+            _Parkour = { ID: m.ID, Name: m.Name, Timer: m.Timer };
+        }
+        else {
+            console.log(`${locales[locale].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`);
+            players.forEach(x => {
+                room.sendAnnouncement(`${locales[playerList[p.name].language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`, p.id, colors.SomethingWentWrong.Main, fonts.SomethingWentWrong.Main, sounds.SomethingWentWrong.Main);
+            });
+        }
     }
-    else{
-	room.sendAnnouncement(locales[playerList[byPlayer.name].NoAuthorization.MapChange],byPlayer.id,colors.MapChange,fonts.MapChange,sounds.MapChange);
-	room.setCustomStadium(Parkours[0]);
+    else {
+        room.sendAnnouncement(locales[playerList[byPlayer.name].NoAuthorization.MapChange], byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
+        room.setCustomStadium(Parkours[0]);
     }
 }
 
-room.onTeamGoal = function(team){
+room.onTeamGoal = function (team) {
     nextMap();
 }
 
-room.onTeamVictory = function(scores){
+room.onTeamVictory = function (scores) {
     nextMap();
 }
