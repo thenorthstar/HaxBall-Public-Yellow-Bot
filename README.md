@@ -52,14 +52,32 @@ Image 2.2 (Speed is shown on player avatar)
 ## Commands
 Of course we manage our rooms with some commands. For example, map changing, speed status changing etc. So, without further ado, let's take a look at the commands:
 
+### Version 1
 * !admin: Changes the player's admin status.
 * !commands: Shows the available commands. **(3.1)**
 * !discord: Shows the discord address. User can adjust it through the scripts.
 * !lang: Switches the language of the player with given language code. If there are no languages corresponding with the given code, then a warning is displayed.
 * !mapinfo: Displays the information (its name and ID) about the current map.
 * !maplist: Displays the map list (name and ID). **(admin only)** **(3.2)**
-* !mapload [ID]: Loads the map with given ID. If there are no maps corresponding with the given ID, then a warning is displayed. **(3.3)**
+* !mapload **ID**: Loads the map with given ID. If there are no maps corresponding with the given ID, then a warning is displayed. **(3.3)**
 * !speed: Turns the speed on/off. When **ON**, player can see their speed during the race.
+
+### Version 2
+* !mute **ID** **Time**: Mutes the player with given ID for the given time.
+* !muteall: Administrators can mute/unmute chat for others.
+* !pass: Creates a random password, removes if a password already exists.
+* !recaptcha: Turns off/on re-captcha.
+
+### Version 3
+* !joinhistory: Players can see their join history.
+* !push: Turns off/on the push feature. If closed, players are transparent to the each other, otherwise the default conditions occur.
+* !vote **ID**: Players can vote others to make them banned.
+
+### Version 4 (Coming soon)
+*
+
+### Version 5 (Coming soon)
+*
 
 Image 3.1 (Commands are being displayed)
 
