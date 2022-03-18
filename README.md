@@ -28,7 +28,7 @@ Before talking about this section, let us indicate that this bot will be separat
 * Mute system and slow mode for players (adjustable through console panel)
 * Password and re-captcha settings via command
 
-### Version 3 (Coming Soon)
+### Version 3
 * Join history
 * Push control
 * Speed control
