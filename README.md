@@ -29,8 +29,10 @@ Before talking about this section, let us indicate that this bot will be separat
 * Password and re-captcha settings via command
 
 ### Version 3 (Coming Soon)
-* Game functions
-* Vote system
+* Join history
+* Push control
+* Speed control
+* Vote system (for banning riotous players)
 
 ### Version 4 (Coming Soon)
 * Map and player statistics
