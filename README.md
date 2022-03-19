@@ -34,7 +34,7 @@ Before talking about this section, let us indicate that this bot will be separat
 * Speed control
 * Vote system (for banning riotous players)
 
-### Version 4 (Coming Soon)
+### Version 4
 * Map and player statistics
 * Map related uniform
 
@@ -73,8 +73,10 @@ Of course we manage our rooms with some commands. For example, map changing, spe
 * !push: Turns off/on the push feature. If closed, players are transparent to the each other, otherwise the default conditions occur.
 * !vote **ID**: Players can vote others to make them banned.
 
-### Version 4 (Coming soon)
-*
+### Version 4
+* !mapinfo (v4 update): Shows the current map's best time with details.
+* !spawn: Resets player location and timer.
+* !top5: Shows the top 5 statistics for the current map.
 
 ### Version 5 (Coming soon)
 *
