@@ -322,7 +322,7 @@ var locales = {
 	    BadWords: "Using bad words is prohibited in our room, you will be banned if going on!",
 	    Commands: "Available commands:\n",
 	    Discord: "Our discord server:",
-	    GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange/60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " minute" : Math.floor(timeoutObject.MapChange/60) +  "minutes"} ${Math.floor(timeoutObject.MapChange%60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " second" : Math.floor(timeoutObject.MapChange/60) + " seconds"}.`,
+	    GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange/60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " minute" : Math.floor(timeoutObject.MapChange/60) +  " minutes"} ${Math.floor(timeoutObject.MapChange%60) == 1 ? Math.floor(timeoutObject.MapChange%60) + " second" : Math.floor(timeoutObject.MapChange%60) + " seconds"}.`,
 	    JoinHistory: "Your joining history below:\n",
 	    Map: "Map info below:\n",
 	    MapList: "Map list below:\n",
