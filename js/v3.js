@@ -588,6 +588,7 @@ room.onGameStop = function(byPlayer){
 }
 
 room.onGameTick = function(){
+    checkInactivity();
     checkTimer();
     increaseTimer();
     logPlayerSpeed();
