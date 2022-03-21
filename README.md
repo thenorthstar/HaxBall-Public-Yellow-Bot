@@ -102,6 +102,7 @@ Image 3.3 (An administrator is changing the current map by command)
 Of course we are not going to add some enhanced functions to let somethings should stay hidden. Hence, the user should try and do them as their own. Now, let's take a look at that topics:
 
 * Blacklist
+* Camera on the leading player
 * Collision detector between players and map objects (Hint: Dot product)
 * Database related stuff (Hint: JQuery - AJAX and the technology which you preferred to use, for example: C#)
 * Discord approval
