@@ -109,6 +109,6 @@ Of course we are not going to add some enhanced functions to let somethings shou
 * IP based localization (Hint: JQuery - AJAX)
 * LocalStorage based statistics
 * Rank system
-* Spam ban
 * Registration system
+* Spam ban
 * Webhooks
