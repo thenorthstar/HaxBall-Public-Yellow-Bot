@@ -637,6 +637,7 @@ room.onGameStop = function(byPlayer){
 }
 
 room.onGameTick = function(){
+    checkInactivity();
     checkTimer();
     getLastToucher();
     increaseTimer();
