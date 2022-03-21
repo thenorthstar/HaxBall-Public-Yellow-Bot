@@ -345,7 +345,7 @@ var locales = {
 	    BadWords: "Using bad words is prohibited in our room, you will be banned if going on!",
 	    Commands: "Available commands:\n",
 	    Discord: "Our discord server:",
-	    GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange/60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " minute" : Math.floor(timeoutObject.MapChange/60) +  "minutes"} ${Math.floor(timeoutObject.MapChange%60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " second" : Math.floor(timeoutObject.MapChange/60) + " seconds"}.`,
+	    GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange/60) == 1 ? Math.floor(timeoutObject.MapChange/60) + " minute" : Math.floor(timeoutObject.MapChange/60) +  " minutes"} ${Math.floor(timeoutObject.MapChange%60) == 1 ? Math.floor(timeoutObject.MapChange%60) + " second" : Math.floor(timeoutObject.MapChange%60) + " seconds"}.`,
 	    Goal:{
 		Scored: ["finish time","finish time","finish time","finish time","finish time"]
 	    },
@@ -1120,7 +1120,7 @@ room.onTeamGoal = function(team){
     }
 
     var index = _Parkour.TopList.findIndex(p => p[0] == finishTime);
-    (index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s`,null,colors.Info.Goal.Scored[index],fonts.Info.Goal.Scored[index],sounds.Info.Goal.Scored[index]) : room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`,null,colors.Info.Goal.Scored[5],fonts.Info.Goal.Scored[5],sounds.Info.Goal.Scored[5]);
+    (index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s ${lastToucher.name} (${new Date(finishDate).toLocaleString()})`,null,colors.Info.Goal.Scored[index],fonts.Info.Goal.Scored[index],sounds.Info.Goal.Scored[index]) : room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`,null,colors.Info.Goal.Scored[5],fonts.Info.Goal.Scored[5],sounds.Info.Goal.Scored[5]);
     nextMap();
 }
 
