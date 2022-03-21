@@ -35,11 +35,13 @@ Before talking about this section, let us indicate that this bot will be separat
 * Vote system (for banning riotous players)
 
 ### Version 4
+* Goal messages
 * Map and player statistics
 * Map related uniform
+* Player timer
 
 ### Version 5 (Coming Soon)
-* Optimization
+* Optimization for **room.onPlayerChat** section
 
 Image 2.1 (A player is trying to change their language)
 
@@ -78,8 +80,8 @@ Of course we manage our rooms with some commands. For example, map changing, spe
 * !spawn: Resets player location and timer.
 * !top5: Shows the top 5 statistics for the current map.
 
-### Version 5 (Coming soon)
-*
+### Version 5
+* Nothing new for now
 
 Image 3.1 (Commands are being displayed)
 
@@ -94,6 +96,18 @@ Image 3.3 (An administrator is changing the current map by command)
 ![3 3](https://user-images.githubusercontent.com/68077608/158399806-906cfdf3-1e6f-4c21-8f8f-8a876a0b8437.PNG)
 
 ## Notes
-
 * As you see above **(3.3)**, global announcements will be made in the room's own language.
-* Step by step, we are going to add advanced functions and separate our bot into different versions. That's all for now, stay with us...
+
+### Homework For the Users
+Of course we are not going to add some enhanced functions to let somethings should stay hidden. Hence, the user should try and do them as their own. Now, let's take a look at that topics:
+
+* Blacklist
+* Collision detector between players and map objects (Hint: Dot product)
+* Database related stuff (Hint: JQuery - AJAX and the technology which you preferred to use, for example: C#)
+* Discord approval
+* IP based localization (Hint: JQuery - AJAX)
+* LocalStorage based statistics
+* Rank system
+* Spam ban
+* Registration system
+* Webhooks
