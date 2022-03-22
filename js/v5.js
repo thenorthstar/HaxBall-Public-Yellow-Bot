@@ -258,24 +258,24 @@ var commands = {
 };
 
 var commandFunctions = {
-    admin: chat_admin,
-    afk: chat_afk,
-    commands: chat_commands,
-    discord: chat_discord,
-    joinhistory: chat_joinhistory,
-    lang: chat_lang,
-    mapinfo: chat_mapinfo,
-    mapload: chat_mapload,
-    maps: chat_maps,
-    mute: chat_mute,
-    muteall: chat_muteall,
-    pass: chat_pass,
-    push: chat_push,
-    recaptcha: chat_recaptcha,
-    spawn: chat_spawn,
-    speed: chat_speed,
-    top5: chat_top5,
-    vote: chat_vote
+    "!admin": chat_admin,
+    "!afk": chat_afk,
+    "!commands": chat_commands,
+    "!discord": chat_discord,
+    "!joinhistory": chat_joinhistory,
+    "!lang": chat_lang,
+    "!mapinfo": chat_mapinfo,
+    "!mapload": chat_mapload,
+    "!maps": chat_maps,
+    "!mute": chat_mute,
+    "!muteall": chat_muteall,
+    "!pass": chat_pass,
+    "!push": chat_push,
+    "!recaptcha": chat_recaptcha,
+    "!spawn": chat_spawn,
+    "!speed": chat_speed,
+    "!top5": chat_top5,
+    "!vote": chat_vote
 };
 
 var commandList = {
@@ -996,8 +996,13 @@ room.onPlayerChat = function(player,message){
     },timeoutObject.SlowMode.Stop);
 
     if(message.startsWith(messagePrefix) == true){
-	if(isCommand(message) == true || isCommand(message.toLowerCase().split(" ")[0]) == true){
-	    commandFunctions[message];
+	if(isCommand(message) == true){
+	    commandFunctions[message](player,message);
+	    return false;
+	}
+	else if(isCommand(message.toLowerCase().split(" ")[0]) == true){
+	    commandFunctions[message.toLowerCase().split(" ")[0]](player,message);
+	    return false;
 	}
 	else{
 	    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NotACommand}`,player.id,colors.SomethingWentWrong.NotACommand,fonts.SomethingWentWrong.NotACommand,sounds.SomethingWentWrong.NotACommand);
