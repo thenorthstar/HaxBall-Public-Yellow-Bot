@@ -1128,7 +1128,7 @@ room.onTeamGoal = function (team) {
 	var finishDate = Date.now();
 	var lastToucher = roomObject.game.lastToucher;
 	console.log(lastToucher);
-	roomObject.game.finishTime = (finishDate - playerList[lastToucher.Name].Timer) / 1000;
+	roomObject.game.finishTime = (finishDate - playerList[lastToucher.name].Timer) / 1000;
 	var finishTime = parseFloat(roomObject.game.finishTime.toPrecision(5));
 
 	if (finishTime < _Parkour.TopList[0][0]) {
@@ -1196,7 +1196,7 @@ room.onTeamGoal = function (team) {
 	}
 
 	var index = _Parkour.TopList.findIndex(p => p[0] == finishTime);
-	(index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s ${lastToucher.Name} (${new Date(finishDate).toLocaleString()})`, null, colors.Info.Goal.Scored[index], fonts.Info.Goal.Scored[index], sounds.Info.Goal.Scored[index]) : room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`, null, colors.Info.Goal.Scored[5], fonts.Info.Goal.Scored[5], sounds.Info.Goal.Scored[5]);
+	(index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s ${lastToucher.name} (${new Date(finishDate).toLocaleString()})`, null, colors.Info.Goal.Scored[index], fonts.Info.Goal.Scored[index], sounds.Info.Goal.Scored[index]) : room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`, null, colors.Info.Goal.Scored[5], fonts.Info.Goal.Scored[5], sounds.Info.Goal.Scored[5]);
 	nextMap();
 }
 
