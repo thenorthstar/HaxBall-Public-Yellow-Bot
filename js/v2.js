@@ -351,8 +351,8 @@ function checkInactivity() {
 
     players.forEach(p => {
         if (timeoutObject.AFK <= (Date.now() - playerList[p.name].LastActivity) && (Date.now() - playerList[p.name].LastActivity) <= (timeoutObject.AFK + toleranceObject.AFK)) {
-            playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
-            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[player.name].AFKStatus)], fonts.Info.AFK[Number(playerList[player.name].AFKStatus)], sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
+            playerList[p.name].AFKStatus = !playerList[p.name].AFKStatus;
+            room.sendAnnouncement(`${locales[playerList[p.name].Language].Info.AFK[Number(playerList[p.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[p.name].AFKStatus)], fonts.Info.AFK[Number(playerList[p.name].AFKStatus)], sounds.Info.AFK[Number(playerList[p.name].AFKStatus)]);
             room.setPlayerTeam(p.id, 0);
         }
     });
@@ -477,7 +477,6 @@ room.onGameStop = function (byPlayer) {
 }
 
 room.onGameTick = function () {
-    checkInactivity();
     checkTimer();
     increaseTimer();
     logPlayerSpeed();
