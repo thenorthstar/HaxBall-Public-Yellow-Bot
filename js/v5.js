@@ -1119,7 +1119,7 @@ room.onStadiumChange = function (newStadiumName, byPlayer) {
 		}
 	}
 	else {
-		room.sendAnnouncement(locales[playerList[byPlayer.name].NoAuthorization.MapChange], byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
+		room.sendAnnouncement(`${locales[playerList[byPlayer.name].language].NoAuthorization.MapChange}`, byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
 		room.setCustomStadium(Parkours[0]);
 	}
 }
