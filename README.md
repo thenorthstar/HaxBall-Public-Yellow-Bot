@@ -40,8 +40,9 @@ Before talking about this section, let us indicate that this bot will be separat
 * Map related uniform
 * Player timer
 
-### Version 5 (Coming Soon)
+### Version 5
 * Optimization for **room.onPlayerChat** section
+* Path finder for the fastest route (coming soon).
 
 Image 2.1 (A player is trying to change their language)
 
@@ -81,7 +82,7 @@ Of course we manage our rooms with some commands. For example, map changing, spe
 * !top5: Shows the top 5 statistics for the current map.
 
 ### Version 5
-* Nothing new for now
+* !path: Shows the actual fastest route (coming soon).
 
 Image 3.1 (Commands are being displayed)
 
