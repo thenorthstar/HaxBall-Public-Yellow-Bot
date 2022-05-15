@@ -159,7 +159,7 @@ var locales = {
 	Info: {
 	    Commands: "Available commands:\n",
 	    Discord: "Our discord server:",
-	    GameStarted: `Game started! Your time is ${Math.floor(mapChangeLimit/60) == 1 ? Math.floor(mapChangeLimit/60) + " minute" : Math.floor(mapChangeLimit/60) +  "minutes"} ${Math.floor(mapChangeLimit%60) == 1 ? Math.floor(mapChangeLimit/60) + " second" : Math.floor(mapChangeLimit/60) + " seconds"}.`,
+	    GameStarted: `Game started! Your time is ${Math.floor(mapChangeLimit/60) == 1 ? Math.floor(mapChangeLimit/60) + " minute" : Math.floor(mapChangeLimit/60) +  "minutes"} ${Math.floor(mapChangeLimit%60) == 1 ? Math.floor(mapChangeLimit%60) + " second" : Math.floor(mapChangeLimit%60) + " seconds"}.`,
 	    Map: "Map info below:\n",
 	    MapList: "Map list below:\n"
 	},
