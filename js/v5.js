@@ -785,7 +785,7 @@ function checkInactivity() {
 	players.forEach(p => {
 		if (timeoutObject.AFK <= (Date.now() - playerList[p.name].LastActivity) && (Date.now() - playerList[p.name].LastActivity) <= (timeoutObject.AFK + toleranceObject.AFK)) {
 			playerList[p.name].AFKStatus = !playerList[p.name].AFKStatus;
-			room.sendAnnouncement(`${locales[playerList[p.name].Language].Info.AFK[Number(playerList[p.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[p.name].AFKStatus)], fonts.Info.AFK[Number(playerList[p.name].AFKStatus)], sounds.Info.AFK[Number(playerList[p.name].AFKStatus)]);
+			room.sendAnnouncement(`${locales[playerList[p.name].Language].Info.AFK[Number(playerList[p.name].AFKStatus)]}`, p.id, colors.Info.AFK[Number(playerList[p.name].AFKStatus)], fonts.Info.AFK[Number(playerList[p.name].AFKStatus)], sounds.Info.AFK[Number(playerList[p.name].AFKStatus)]);
 			room.setPlayerTeam(p.id, teamObject.Spectators);
 		}
 	});
