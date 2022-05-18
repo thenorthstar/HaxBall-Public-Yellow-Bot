@@ -843,7 +843,7 @@ function generateRandomPassword(length = randomStringLength) {
 
 function getLastToucher() {
     var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
-    var ballPosition = room.getDiscProperties(0);
+    var ballPosition = room.getDiscProperties(1);
 
     for (var i = 0; i < players.length; i++) {
         if (isColliding(room.getPlayerDiscProperties(players[i].id), ballPosition) == true && (roomObject.game.lastToucher == undefined || (roomObject.game.lastToucher != undefined && roomObject.game.lastToucher.id != players[i].id))) {
