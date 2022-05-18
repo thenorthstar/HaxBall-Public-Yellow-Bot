@@ -14,15 +14,15 @@ var Parkour7 = `{"name":"Yellow Hell by [KOR]Kuszczak","width":4000,"height":200
 
 var Parkours = [Parkour1, Parkour2, Parkour3, Parkour4, Parkour5, Parkour6, Parkour7];
 
-var _Parkour1 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 1, MainColors: [0xFF0000, 0x0000FF], MapObject: JSON.parse(Parkour1), Name: JSON.parse(Parkour1).name, Path: [], PathBallID: 1, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour2 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 2, MainColors: [0xE00000, 0x0000E0], MapObject: JSON.parse(Parkour2), Name: JSON.parse(Parkour2).name, Path: [], PathBallID: 2, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour3 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 3, MainColors: [0xC00000, 0x0000C0], MapObject: JSON.parse(Parkour3), Name: JSON.parse(Parkour3).name, Path: [], PathBallID: 3, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour4 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 4, MainColors: [0xA00000, 0x0000A0], MapObject: JSON.parse(Parkour4), Name: JSON.parse(Parkour4).name, Path: [], PathBallID: 4, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour5 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 5, MainColors: [0x800000, 0x000080], MapObject: JSON.parse(Parkour5), Name: JSON.parse(Parkour5).name, Path: [], PathBallID: 5, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour6 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 6, MainColors: [0x600000, 0x000060], MapObject: JSON.parse(Parkour6), Name: JSON.parse(Parkour6).name, Path: [], PathBallID: 6, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour7 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 7, MainColors: [0x400000, 0x000040], MapObject: JSON.parse(Parkour7), Name: JSON.parse(Parkour7).name, Path: [], PathBallID: 7, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour1 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 1, MainColors: [0xFF0000, 0x0000FF], MapObject: JSON.parse(Parkour1), Name: JSON.parse(Parkour1).name, Path: [], PathBallID: 1, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour2 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 2, MainColors: [0xE00000, 0x0000E0], MapObject: JSON.parse(Parkour2), Name: JSON.parse(Parkour2).name, Path: [], PathBallID: 2, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour3 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 3, MainColors: [0xC00000, 0x0000C0], MapObject: JSON.parse(Parkour3), Name: JSON.parse(Parkour3).name, Path: [], PathBallID: 3, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour4 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 4, MainColors: [0xA00000, 0x0000A0], MapObject: JSON.parse(Parkour4), Name: JSON.parse(Parkour4).name, Path: [], PathBallID: 4, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour5 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 5, MainColors: [0x800000, 0x000080], MapObject: JSON.parse(Parkour5), Name: JSON.parse(Parkour5).name, Path: [], PathBallID: 5, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour6 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 6, MainColors: [0x600000, 0x000060], MapObject: JSON.parse(Parkour6), Name: JSON.parse(Parkour6).name, Path: [], PathBallID: 6, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour7 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 7, MainColors: [0x400000, 0x000040], MapObject: JSON.parse(Parkour7), Name: JSON.parse(Parkour7).name, Path: [], PathBallID: 7, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
 
-var _Parkour = { Angles: [0, 0], AvatarColors: [0x000000, 0x000000], ID: 0, MainColors: [0x000000, 0x000000], MapObject: undefined, Name: undefined, Path: [], PathBallID: 0, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 0 };
+var _Parkour = { Angles: [0, 0], AvatarColors: [0x000000, 0x000000], ID: 0, MainColors: [0x000000, 0x000000], MapObject: undefined, Name: undefined, Path: [], PathBallID: 0, Timer: 0, ToSet: { x: 0, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 0 };
 var _Parkours = [_Parkour1, _Parkour2, _Parkour3, _Parkour4, _Parkour5, _Parkour6, _Parkour7];
 
 var timeoutObject = {
@@ -951,9 +951,16 @@ function push() {
     players.forEach(p => room.setPlayerDiscProperties(p.id, { cGroup: push_cGroups[Number(roomObject.push)][p.team - 1] }));
 }
 
-function putBallOnPath(id = _Parkour.PathBallID) { //ID ayarlanacak
-    if (room.getDiscProperties(id) != null && _Parkour.Path != [] && 60 * room.getScores().time < _Parkour.Path.length) {
-        room.setDiscProperties(id, { x: _Parkour.Path[parseInt(60 * room.getScores().time)][0], y: _Parkour.Path[parseInt(60 * room.getScores().time)][1], xspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][2], yspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][3] });
+function putBallOnPath(id = _Parkour.PathBallID) {
+    if (_Parkour.Path.length != 0) {
+        if (room.getDiscProperties(id) != null && 60 * room.getScores().time < _Parkour.Path.length) {
+            room.setDiscProperties(id, { x: _Parkour.Path[parseInt(60 * room.getScores().time)][0], y: _Parkour.Path[parseInt(60 * room.getScores().time)][1], xspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][2], yspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][3] });
+        }
+    }
+    else {
+        if (room.getDiscProperties(id).x != _Parkour.ToSet.x || room.getDiscProperties(id).y != _Parkour.ToSet.y) {
+            room.setDiscProperties(id, { x: _Parkour.ToSet.x, y: _Parkour.ToSet.y });
+        }
     }
 }
 
@@ -1201,7 +1208,7 @@ room.onStadiumChange = function (newStadiumName, byPlayer) {
 
     if (byPlayer == null) {
         if (m) {
-            _Parkour = { Angles: [m.Angles[0], m.Angles[1]], AvatarColors: [m.AvatarColors[0], m.AvatarColors[1]], MainColors: [m.MainColors[0], m.MainColors[1]], ID: m.ID, MapObject: m.MapObject, Name: m.Name, Path: m.Path, PathBallID: m.PathBallID, Timer: m.Timer, TopList: [m.TopList[0], m.TopList[1], m.TopList[2], m.TopList[3], m.TopList[4]], UpperSpeedBound: m.UpperSpeedBound };
+            _Parkour = { Angles: [m.Angles[0], m.Angles[1]], AvatarColors: [m.AvatarColors[0], m.AvatarColors[1]], MainColors: [m.MainColors[0], m.MainColors[1]], ID: m.ID, MapObject: m.MapObject, Name: m.Name, Path: m.Path, PathBallID: m.PathBallID, Timer: m.Timer, ToSet: { x: m.ToSet.x, y: m.ToSet.y }, TopList: [m.TopList[0], m.TopList[1], m.TopList[2], m.TopList[3], m.TopList[4]], UpperSpeedBound: m.UpperSpeedBound };
             for (var i = 1; i <= 2; i++) {
                 room.setTeamColors(i, m.Angles[i - 1], [m.AvatarColors[i - 1]], [m.MainColors[i - 1]]);
             }
