@@ -42,7 +42,7 @@ Before talking about this section, let us indicate that this bot will be separat
 
 ### Version 5
 * Optimization for **room.onPlayerChat** section
-* Path finder for the fastest route (coming soon).
+* Path finder for the fastest route. Is updated when a new record made.
 
 Image 2.1 (A player is trying to change their language)
 
@@ -82,7 +82,7 @@ Of course we manage our rooms with some commands. For example, map changing, spe
 * !top5: Shows the top 5 statistics for the current map.
 
 ### Version 5
-* !path: Shows the actual fastest route (coming soon).
+* Nothing for this version yet.
 
 Image 3.1 (Commands are being displayed)
 
@@ -103,7 +103,6 @@ Image 3.3 (An administrator is changing the current map by command)
 Of course we are not going to add some enhanced functions to let somethings should stay hidden. Hence, the user should try and do them as their own. Now, let's take a look at that topics:
 
 * Blacklist
-* Camera on the leading player
 * Collision detector between players and map objects (Hint: Dot product)
 * Database related stuff (Hint: JQuery - AJAX and the technology which you preferred to use, for example: C#)
 * Discord approval
