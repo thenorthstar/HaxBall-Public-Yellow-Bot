@@ -689,6 +689,7 @@ function chat_spawn(player, message) {
         if (_Parkour.ID != 0 && room.getScores() != null && room.getPlayerDiscProperties(player.id) != null) {
             player.team == 1 ? room.setPlayerDiscProperties(player.id, { x: _Parkour.MapObject.redSpawnPoints[0][0], y: _Parkour.MapObject.redSpawnPoints[0][1], xspeed: 0, yspeed: 0 }) : room.setPlayerDiscProperties(player.id, { x: _Parkour.MapObject.blueSpawnPoints[0][0], y: _Parkour.MapObject.blueSpawnPoints[0][1], xspeed: 0, yspeed: 0 });
             updatePlayerTimer(player);
+            resetPlayerPath(player);
             return false;
         }
     }
@@ -953,8 +954,13 @@ function push() {
 
 function putBallOnPath(id = _Parkour.PathBallID) {
     if (_Parkour.Path.length != 0) {
-        if (room.getDiscProperties(id) != null && 60 * room.getScores().time < _Parkour.Path.length) {
-            room.setDiscProperties(id, { x: _Parkour.Path[parseInt(60 * room.getScores().time)][0], y: _Parkour.Path[parseInt(60 * room.getScores().time)][1], xspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][2], yspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][3] });
+        if (room.getDiscProperties(id) != null) {
+            if (60 * room.getScores().time < _Parkour.Path.length) {
+                room.setDiscProperties(id, { x: _Parkour.Path[parseInt(60 * room.getScores().time)][0], y: _Parkour.Path[parseInt(60 * room.getScores().time)][1], xspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][2], yspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][3] });
+            }
+            else {
+                room.setDiscProperties(id, { xspeed: 0, yspeed: 0 });
+            }
         }
     }
     else {
@@ -969,16 +975,16 @@ function removePassword() {
     roomObject.password = null;
 }
 
-function resetPlayerPath(player) {
-    if (playerList[player.name].Path != []) playerList[player.name].Path = [];
-}
-
 function resetMapPath(id) {
     if (_Parkours[id].Path != []) _Parkours[id].Path = [];
 }
 
 function resetMapPaths() {
     _Parkours.forEach(p => resetMapPath(p.ID - 1));
+}
+
+function resetPlayerPath(player) {
+    if (playerList[player.name].Path != []) playerList[player.name].Path = [];
 }
 
 function resetPlayerPaths() {
