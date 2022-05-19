@@ -1098,7 +1098,7 @@ room.onPlayerAdminChange = function (changedPlayer, byPlayer) {
 
 room.onPlayerBallKick = function (player) {
     console.log(`${player.name} has kicked the ball`);
-    var ballPosition = room.getDiscProperties(1);
+    //var ballPosition = room.getDiscProperties(1);
     //if (isColliding(room.getPlayerDiscProperties(player.id), ballPosition) == true && (roomObject.game.lastToucher == undefined || (roomObject.game.lastToucher != undefined && roomObject.game.lastToucher.id != player.id))) {
     roomObject.game.lastToucher = player;
     //}
@@ -1262,7 +1262,6 @@ room.onTeamGoal = function (team) {
     var finishDate = Date.now();
     var lastToucher = roomObject.game.lastToucher;
     if (lastToucher != undefined) updatePlayerActivity(lastToucher);
-    console.log(lastToucher);
     roomObject.game.finishTime = (finishDate - playerList[lastToucher.name].Timer) / 1000;
     var finishTime = parseFloat(roomObject.game.finishTime.toPrecision(5));
 
