@@ -41,8 +41,9 @@ Before talking about this section, let us indicate that this bot will be separat
 * Player timer
 
 ### Version 5
+* Camera on the leading player
 * Optimization for **room.onPlayerChat** section
-* Path finder for the fastest route. Is updated when a new record made.
+* Path finder for the fastest route
 
 Image 2.1 (A player is trying to change their language)
 
