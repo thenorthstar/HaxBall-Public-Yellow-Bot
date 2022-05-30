@@ -1247,13 +1247,13 @@ room.onStadiumChange = function (newStadiumName, byPlayer) {
         else {
             console.log(`${locales[locale].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`);
             players.forEach(x => {
-                room.sendAnnouncement(`${locales[playerList[p.name].language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`, p.id, colors.SomethingWentWrong.Main, fonts.SomethingWentWrong.Main, sounds.SomethingWentWrong.Main);
+                room.sendAnnouncement(`${locales[playerList[p.name].Language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`, p.id, colors.SomethingWentWrong.Main, fonts.SomethingWentWrong.Main, sounds.SomethingWentWrong.Main);
             });
         }
     }
     else {
         updatePlayerActivity(byPlayer);
-        room.sendAnnouncement(`${locales[playerList[byPlayer.name].language].NoAuthorization.MapChange}`, byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
+        room.sendAnnouncement(`${locales[playerList[byPlayer.name].Language].NoAuthorization.MapChange}`, byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
         room.setCustomStadium(Parkours[0]);
     }
 }
