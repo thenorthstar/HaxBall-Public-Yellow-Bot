@@ -581,6 +581,7 @@ function chat_maps(player, message) {
 }
 
 function chat_mute(player, message) {
+    var players = room.getPlayerList();
     if (message.toLowerCase().split(" ")[0] == commands.mute) {
         var ID = parseInt(message.toLowerCase().split(" ")[1]);
         if (player.admin == true) {
@@ -719,6 +720,7 @@ function chat_top5(player, message) {
 }
 
 function chat_vote(player, message) {
+    var players = room.getPlayerList();
     if (message.toLowerCase().split(" ")[0] == commands.vote) {
         if (players.length >= toleranceObject.Vote.People) {
             if (Date.now() - playerList[player.name].JoinDate >= timeoutObject.Vote.Join) {
