@@ -728,15 +728,15 @@ function chat_vote(player, message) {
                 if (!isNaN(ID)) {
                     var p = players.find(x => x.id == ID && x.id != player.id && x.admin == false);
                     if (p) {
-                        if (playerList[p.name].Voters.includes(playerList[player.name].auth) == false) {
+                        if (playerList[p.name].Voters.includes(playerList[player.name].Auth) == false) {
                             if (playerList[p.name].Voters.length < toleranceObject.Vote.Ban) {
-                                playerList[p.name].Voters.push(playerList[player.name].auth);
+                                playerList[p.name].Voters.push(playerList[player.name].Auth);
                                 var pname = p.name;
                                 var playername = player.name;
                                 room.sendAnnouncement(`${p.name} ${locales[playerList[player.name].Language].Info.Vote} ${playerList[p.name].Voters.length}/${toleranceObject.Vote.Ban}`, player.id, colors.Info.Vote, fonts.Info.Vote, sounds.Info.Vote);
                                 setTimeout(function () {
-                                    if (playerList[pname].Voters.includes(playerList[playername].auth) == false) {
-                                        var index = playerList[pname].Voters.indexOf(playerList[playername].auth);
+                                    if (playerList[pname].Voters.includes(playerList[playername].Auth) == false) {
+                                        var index = playerList[pname].Voters.indexOf(playerList[playername].Auth);
                                         playerList[pname].Voters.splice(index, 1);
                                     }
                                 }, timeoutObject.Vote);
@@ -744,7 +744,7 @@ function chat_vote(player, message) {
                             }
                             else {
                                 room.kickPlayer(p.id, `${locales[playerList[p.name].Language].Vote.Ban}`, kickTypes.Vote);
-                                var index = playerList[p.name].Voters.indexOf(playerList[player.name].auth);
+                                var index = playerList[p.name].Voters.indexOf(playerList[player.name].Auth);
                                 if (playerList[p.name].Voters.length > 0 || index !== -1) {
                                     playerList[p.name].Voters = [];
                                     playerList[player.name].Voters.splice(index, 1);
