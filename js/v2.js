@@ -424,8 +424,7 @@ function loadMap(map, scoreLimit, timeLimit) {
         room.setScoreLimit(scoreLimit);
         room.setTimeLimit(timeLimit);
         room.startGame();
-    }
-    else {
+    } else {
         room.stopGame();
         room.setCustomStadium(map);
         room.setScoreLimit(scoreLimit);
@@ -462,47 +461,47 @@ function serialize(number) {
     return number.toFixed(3);
 }
 
-room.onGamePaused = function (byPlayer) {
+room.onGamePause = function(byPlayer) {
     byPlayer == null ? console.log(`Game paused`) : console.log(`Game paused by ${byPlayer.name}`);
 }
 
-room.onGameStart = function (byPlayer) {
+room.onGameStart = function(byPlayer) {
     byPlayer == null ? console.log(`Game started`) : console.log(`Game started by ${byPlayer.name}`);
     room.sendAnnouncement(`${locales[locale].Info.GameStarted}`, null, colors.Info.GameStarted, fonts.Info.GameStarted, sounds.Info.GameStarted);
 }
 
-room.onGameStop = function (byPlayer) {
+room.onGameStop = function(byPlayer) {
     byPlayer == null ? console.log(`Game stopped`) : console.log(`Game stopped by ${byPlayer.name}`);
     resetTimers();
 }
 
-room.onGameTick = function () {
+room.onGameTick = function() {
     checkTimer();
     increaseTimer();
     logPlayerSpeed();
 }
 
-room.onGameUnpaused = function (byPlayer) {
+room.onGameUnpause = function(byPlayer) {
     byPlayer == null ? console.log(`Game unpaused`) : console.log(`Game unpaused by ${byPlayer.name}`);
 }
 
-room.onKickRateLimitSet = function (min, rate, burst, byPlayer) {
-    byPlayer == null ? console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst} by ${byPlayer.name}`);
+room.onKickRateLimitSet = function(min, rate, burst, byPlayer) {
+    byPlayer == null ? console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst} by ${byPlayer.name}`);
 }
 
-room.onPlayerActivity = function (player) {
+room.onPlayerActivity = function(player) {
     if (playerList[player.name].LastActivity != Date.now()) playerList[player.name].LastActivity = Date.now();
 }
 
-room.onPlayerAdminChange = function (changedPlayer, byPlayer) {
+room.onPlayerAdminChange = function(changedPlayer, byPlayer) {
     byPlayer == null ? console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]}`) : console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]} by ${byPlayer.name}`);
 }
 
-room.onPlayerBallKick = function (player) {
+room.onPlayerBallKick = function(player) {
     console.log(`${player.name} has kicked the ball`);
 }
 
-room.onPlayerChat = function (player, message) {
+room.onPlayerChat = function(player, message) {
     console.log(`${player.name}: ${message}`);
     var players = room.getPlayerList();
     var administrators = players.filter(p => p.admin == true);
@@ -512,22 +511,18 @@ room.onPlayerChat = function (player, message) {
             if (message.toLowerCase() == commands.admin) {
                 room.setPlayerAdmin(player.id, !player.admin);
                 return false;
-            }
-            else if (message.toLowerCase() == commands.afk) {
+            } else if (message.toLowerCase() == commands.afk) {
                 playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
                 room.sendAnnouncement(`${player.name} ${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[player.name].AFKStatus)], fonts.Info.AFK[Number(playerList[player.name].AFKStatus)], sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
                 playerList[player.name].AFKStatus == true ? room.setPlayerTeam(player.id, teamObject.Spectators) : room.setPlayerTeam(player.id, 1 + Math.floor(Math.random() * 2));
                 return false;
-            }
-            else if (message.toLowerCase() == commands.commands) {
+            } else if (message.toLowerCase() == commands.commands) {
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Commands}${locales[playerList[player.name].Language].Commands[Number(player.admin)]}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
                 return false;
-            }
-            else if (message.toLowerCase() == commands.discord) {
+            } else if (message.toLowerCase() == commands.discord) {
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Discord} ${discordLink}`, player.id, colors.Info.Discord, fonts.Info.Discord, sounds.Info.Discord);
                 return false;
-            }
-            else if (message.toLowerCase().split(" ")[0] == commands.lang) {
+            } else if (message.toLowerCase().split(" ")[0] == commands.lang) {
                 var lang = message.toLowerCase().split(" ")[1];
                 var l = languages.findIndex(x => x == lang);
 
@@ -535,18 +530,15 @@ room.onPlayerChat = function (player, message) {
                     playerList[player.name].Language = lang;
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].LanguageChanged} ${playerList[player.name].Language}`, player.id, colors.LanguageChanged, fonts.LanguageChanged, sounds.LanguageChanged);
                     return false;
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidLanguageCode} ${languages.toString()}`, player.id, colors.SomethingWentWrong.InvalidLanguageCode, fonts.SomethingWentWrong.InvalidLanguageCode, sounds.SomethingWentWrong.InvalidLanguageCode);
                     return false;
                 }
-            }
-            else if (message.toLowerCase() == commands.mapinfo) {
+            } else if (message.toLowerCase() == commands.mapinfo) {
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Map}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
                 room.sendAnnouncement(`${_Parkour.Name} [${_Parkour.ID}]`, player.id, colors.Info.Map, fonts.Info.Map, sounds.Info.Map);
                 return false;
-            }
-            else if (message.toLowerCase().split(" ")[0] == commands.mapload) {
+            } else if (message.toLowerCase().split(" ")[0] == commands.mapload) {
                 var ID = parseInt(message.toLowerCase().split(" ")[1]);
 
                 if (player.admin == true) {
@@ -556,23 +548,19 @@ room.onPlayerChat = function (player, message) {
                         loadMap(Parkours[p], roomObject.scoreLimit, roomObject.timeLimit);
                         room.sendAnnouncement(`${_Parkours[p].Name} ${locales[playerList[player.name].Language].MapLoad} ${player.name}`, null, colors.MapLoad, fonts.MapLoad, sounds.MapLoad);
                         return false;
-                    }
-                    else {
+                    } else {
                         room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
                         return false;
                     }
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MapLoad}`, player.id, colors.NoAuthorization.MapLoad, fonts.NoAuthorization.MapLoad, sounds.NoAuthorization.MapLoad);
                     return false;
                 }
-            }
-            else if (message.toLowerCase() == commands.maps) {
+            } else if (message.toLowerCase() == commands.maps) {
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MapList}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
                 room.sendAnnouncement(`${_Parkours.map(p => p.Name + " [" + p.ID + "]").join('\n')}`, player.id, colors.Info.MapList, fonts.Info.MapList, sounds.Info.MapList);
                 return false;
-            }
-            else if (message.toLowerCase().split(" ")[0] == commands.mute) {
+            } else if (message.toLowerCase().split(" ")[0] == commands.mute) {
                 if (player.admin == true) {
                     var ID = message.toLowerCase().split(" ")[1];
                     var p = players.find(x => x.id == parseInt(ID) && x.id != player.id);
@@ -585,83 +573,69 @@ room.onPlayerChat = function (player, message) {
                                     var pname = player.name;
                                     playerList[name].IsMuted = true;
                                     room.sendAnnouncement(`${p.name} ${locales[locale].Info.Mute} ${player.name}`, null, colors.Info.Mute, fonts.Info.Mute, sounds.Info.Mute);
-                                    setTimeout(function () {
+                                    setTimeout(function() {
                                         playerList[name].IsMuted = false;
                                         room.sendAnnouncement(`${name} ${locales[locale].Info.Unmute} ${pname}`, null, colors.Info.Unmute, fonts.Info.Unmute, sounds.Info.Unmute);
                                     }, Time * 60000);
                                     return false;
-                                }
-                                else {
+                                } else {
                                     room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
                                     return false;
                                 }
-                            }
-                            else {
+                            } else {
                                 room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
                                 return false;
                             }
-                        }
-                        else {
+                        } else {
                             room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
                             return false;
                         }
-                    }
-                    else {
+                    } else {
                         room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
                         return false;
                     }
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Mute}`, player.id, colors.NoAuthorization.Mute, fonts.NoAuthorization.Mute, sounds.NoAuthorization.Mute);
                     return false;
                 }
-            }
-            else if (message.toLowerCase() == commands.muteall) {
+            } else if (message.toLowerCase() == commands.muteall) {
                 if (player.admin == true) {
                     roomObject.muteAll = !roomObject.muteAll;
                     room.sendAnnouncement(`${locales[locale].MuteAll[Number(!roomObject.muteAll)]} ${player.name}`, null, colors.MuteAll[Number(!roomObject.muteAll)], fonts.MuteAll[Number(!roomObject.muteAll)], sounds.MuteAll[Number(!roomObject.muteAll)]);
                     return false;
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MuteAll[Number(roomObject.muteAll)]}`, player.id, colors.NoAuthorization.MuteAll[Number(roomObject.muteAll)], fonts.NoAuthorization.MuteAll[Number(roomObject.muteAll)], sounds.NoAuthorization.MuteAll[Number(roomObject.muteAll)]);
                     return false;
                 }
-            }
-            else if (message.toLowerCase() == commands.pass) {
+            } else if (message.toLowerCase() == commands.pass) {
                 if (player.admin == true) {
                     passwordFunctions[Number(roomObject.password == null)]();
                     room.sendAnnouncement(`${locales[locale].Password[Number(roomObject.password != null)]} ${player.name}`, null, colors.Password[Number(roomObject.password != null)], fonts.Password[Number(roomObject.password != null)], sounds.Password[Number(roomObject.password != null)]);
                     return false;
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Password[Number(roomObject.password != null)]}`, player.id, colors.NoAuthorization.Password[Number(roomObject.password != null)], fonts.NoAuthorization.Password[Number(roomObject.password != null)], sounds.NoAuthorization.Password[Number(roomObject.password != null)]);
                     return false;
                 }
-            }
-            else if (message.toLowerCase() == commands.recaptcha) {
+            } else if (message.toLowerCase() == commands.recaptcha) {
                 if (player.admin == true) {
                     room.setRequireRecaptcha(!roomObject.requireRecaptcha);
                     roomObject.requireRecaptcha = !roomObject.requireRecaptcha;
                     room.sendAnnouncement(`${locales[locale].Recaptcha[Number(roomObject.requireRecaptcha)]} ${player.name}`, null, colors.Recaptcha, fonts.Recaptcha, sounds.Recaptcha);
                     return false;
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]}`, player.id, colors.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], fonts.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], sounds.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]);
                     return false;
                 }
-            }
-            else if (message.toLowerCase() == commands.speed) {
+            } else if (message.toLowerCase() == commands.speed) {
                 playerList[player.name].SpeedEnabled = !playerList[player.name].SpeedEnabled;
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].Speed[Number(playerList[player.name].SpeedEnabled)]}`, player.id, colors.Speed, fonts.Speed, sounds.Speed);
                 return false;
             }
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NotACommand}`, player.id, colors.SomethingWentWrong.NotACommand, fonts.SomethingWentWrong.NotACommand, sounds.SomethingWentWrong.NotACommand);
             return false;
         }
-    }
-    else {
+    } else {
         if (isBadword(playerList[player.name].Language, message) == true && player.admin == false) {
             playerList[player.name].BadWordUsage++;
             playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`, player.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords) : room.kickPlayer(player.id, `${locales[playerList[player.name].Language].Ban.BadWords}`, kickTypes.BadWords);
@@ -699,7 +673,7 @@ room.onPlayerChat = function (player, message) {
     }
 }
 
-room.onPlayerJoin = function (player) {
+room.onPlayerJoin = function(player) {
     console.log(`${player.name} has joined`);
     var randomInt = 1 + Math.floor(Math.random() * 2);
 
@@ -718,34 +692,34 @@ room.onPlayerJoin = function (player) {
     room.setPlayerTeam(player.id, randomInt);
 }
 
-room.onPlayerKicked = function (kickedPlayer, reason, ban, byPlayer) {
+room.onPlayerKicked = function(kickedPlayer, reason, ban, byPlayer) {
     byPlayer == null ? console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} (${reason})`) : console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} by ${byPlayer.name} (${reason})`);
 }
 
-room.onPlayerLeave = function (player) {
+room.onPlayerLeave = function(player) {
     console.log(`${player.name} has left`);
     var players = room.getPlayerList();
 
     if (room.getScores() != null && players.length == 0) room.stopGame();
 }
 
-room.onPlayerTeamChange = function (changedPlayer, byPlayer) {
+room.onPlayerTeamChange = function(changedPlayer, byPlayer) {
     byPlayer == null ? console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]}`) : console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]} by ${byPlayer.name}`);
     if (playerList[changedPlayer.name].AFKStatus == true && changedPlayer.team != 0) room.setPlayerTeam(changedPlayer.id, 0);
 }
 
-room.onPositionsReset = function () {
+room.onPositionsReset = function() {
     console.log("Positions reset");
 }
 
-room.onRoomLink = function (url) {
+room.onRoomLink = function(url) {
     if (isRoomSet == false) {
         console.log(`Room set with url: ${url}`);
         isRoomSet = true;
     }
 }
 
-room.onStadiumChange = function (newStadiumName, byPlayer) {
+room.onStadiumChange = function(newStadiumName, byPlayer) {
     byPlayer == null ? console.log(`${newStadiumName} was loaded`) : console.log(`${newStadiumName} was loaded by ${byPlayer.name}`);
 
     var m = _Parkours.find(x => x.Name == newStadiumName);
@@ -754,24 +728,22 @@ room.onStadiumChange = function (newStadiumName, byPlayer) {
     if (byPlayer == null) {
         if (m) {
             _Parkour = { ID: m.ID, Name: m.Name, Timer: m.Timer };
-        }
-        else {
+        } else {
             console.log(`${locales[locale].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`);
             players.forEach(x => {
                 room.sendAnnouncement(`${locales[playerList[p.name].Language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`, p.id, colors.SomethingWentWrong.Main, fonts.SomethingWentWrong.Main, sounds.SomethingWentWrong.Main);
             });
         }
-    }
-    else {
+    } else {
         room.sendAnnouncement(`${locales[playerList[byPlayer.name].Language].NoAuthorization.MapChange}`, byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
         room.setCustomStadium(Parkours[0]);
     }
 }
 
-room.onTeamGoal = function (team) {
+room.onTeamGoal = function(team) {
     nextMap();
 }
 
-room.onTeamVictory = function (scores) {
+room.onTeamVictory = function(scores) {
     nextMap();
 }
