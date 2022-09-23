@@ -277,7 +277,7 @@ function serialize(number){
     return number.toFixed(3);
 }
 
-room.onGamePaused = function(byPlayer){
+room.onGamePause = function(byPlayer){
     byPlayer == null ? console.log(`Game paused`) : console.log(`Game paused by ${byPlayer.name}`);
 }
 
@@ -297,12 +297,12 @@ room.onGameTick = function(){
     logPlayerSpeed();
 }
 
-room.onGameUnpaused = function(byPlayer){
+room.onGameUnpause = function(byPlayer){
     byPlayer == null ? console.log(`Game unpaused`) : console.log(`Game unpaused by ${byPlayer.name}`);
 }
 
 room.onKickRateLimitSet = function(min,rate,burst,byPlayer){
-    byPlayer == null ? console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst} by ${byPlayer.name}`);
+    byPlayer == null ? console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst} by ${byPlayer.name}`);
 }
 
 room.onPlayerAdminChange = function(changedPlayer,byPlayer){
