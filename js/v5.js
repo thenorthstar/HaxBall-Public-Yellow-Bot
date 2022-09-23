@@ -14,15 +14,167 @@ var Parkour7 = `{"name":"Yellow Hell by [KOR]Kuszczak","width":4000,"height":200
 
 var Parkours = [Parkour1, Parkour2, Parkour3, Parkour4, Parkour5, Parkour6, Parkour7];
 
-var _Parkour1 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 1, MainColors: [0xFF0000, 0x0000FF], MapObject: JSON.parse(Parkour1), Name: JSON.parse(Parkour1).name, Path: [], PathBallID: 1, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour2 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 2, MainColors: [0xE00000, 0x0000E0], MapObject: JSON.parse(Parkour2), Name: JSON.parse(Parkour2).name, Path: [], PathBallID: 2, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour3 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 3, MainColors: [0xC00000, 0x0000C0], MapObject: JSON.parse(Parkour3), Name: JSON.parse(Parkour3).name, Path: [], PathBallID: 3, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour4 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 4, MainColors: [0xA00000, 0x0000A0], MapObject: JSON.parse(Parkour4), Name: JSON.parse(Parkour4).name, Path: [], PathBallID: 4, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour5 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 5, MainColors: [0x800000, 0x000080], MapObject: JSON.parse(Parkour5), Name: JSON.parse(Parkour5).name, Path: [], PathBallID: 5, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour6 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 6, MainColors: [0x600000, 0x000060], MapObject: JSON.parse(Parkour6), Name: JSON.parse(Parkour6).name, Path: [], PathBallID: 6, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour7 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 7, MainColors: [0x400000, 0x000040], MapObject: JSON.parse(Parkour7), Name: JSON.parse(Parkour7).name, Path: [], PathBallID: 7, Timer: 0, ToSet: { x: -10000, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour1 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 1,
+    MainColors: [0xFF0000, 0x0000FF],
+    MapObject: JSON.parse(Parkour1),
+    Name: JSON.parse(Parkour1).name,
+    Path: [],
+    PathBallID: 1,
+    Timer: 0,
+    ToSet: { x: -10000, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour2 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 2,
+    MainColors: [0xE00000, 0x0000E0],
+    MapObject: JSON.parse(Parkour2),
+    Name: JSON.parse(Parkour2).name,
+    Path: [],
+    PathBallID: 2,
+    Timer: 0,
+    ToSet: { x: -10000, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour3 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 3,
+    MainColors: [0xC00000, 0x0000C0],
+    MapObject: JSON.parse(Parkour3),
+    Name: JSON.parse(Parkour3).name,
+    Path: [],
+    PathBallID: 3,
+    Timer: 0,
+    ToSet: { x: -10000, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour4 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 4,
+    MainColors: [0xA00000, 0x0000A0],
+    MapObject: JSON.parse(Parkour4),
+    Name: JSON.parse(Parkour4).name,
+    Path: [],
+    PathBallID: 4,
+    Timer: 0,
+    ToSet: { x: -10000, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour5 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 5,
+    MainColors: [0x800000, 0x000080],
+    MapObject: JSON.parse(Parkour5),
+    Name: JSON.parse(Parkour5).name,
+    Path: [],
+    PathBallID: 5,
+    Timer: 0,
+    ToSet: { x: -10000, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour6 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 6,
+    MainColors: [0x600000, 0x000060],
+    MapObject: JSON.parse(Parkour6),
+    Name: JSON.parse(Parkour6).name,
+    Path: [],
+    PathBallID: 6,
+    Timer: 0,
+    ToSet: { x: -10000, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour7 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 7,
+    MainColors: [0x400000, 0x000040],
+    MapObject: JSON.parse(Parkour7),
+    Name: JSON.parse(Parkour7).name,
+    Path: [],
+    PathBallID: 7,
+    Timer: 0,
+    ToSet: { x: -10000, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
 
-var _Parkour = { Angles: [0, 0], AvatarColors: [0x000000, 0x000000], ID: 0, MainColors: [0x000000, 0x000000], MapObject: undefined, Name: undefined, Path: [], PathBallID: 0, Timer: 0, ToSet: { x: 0, y: 0 }, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 0 };
+var _Parkour = {
+    Angles: [0, 0],
+    AvatarColors: [0x000000, 0x000000],
+    ID: 0,
+    MainColors: [0x000000, 0x000000],
+    MapObject: undefined,
+    Name: undefined,
+    Path: [],
+    PathBallID: 0,
+    Timer: 0,
+    ToSet: { x: 0, y: 0 },
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 0
+};
 var _Parkours = [_Parkour1, _Parkour2, _Parkour3, _Parkour4, _Parkour5, _Parkour6, _Parkour7];
 
 var timeoutObject = {
@@ -534,8 +686,7 @@ function chat_lang(player, message) {
             playerList[player.name].Language = lang;
             room.sendAnnouncement(`${locales[playerList[player.name].Language].LanguageChanged} ${playerList[player.name].Language}`, player.id, colors.LanguageChanged, fonts.LanguageChanged, sounds.LanguageChanged);
             return false;
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidLanguageCode} ${languages.toString()}`, player.id, colors.SomethingWentWrong.InvalidLanguageCode, fonts.SomethingWentWrong.InvalidLanguageCode, sounds.SomethingWentWrong.InvalidLanguageCode);
             return false;
         }
@@ -559,13 +710,11 @@ function chat_mapload(player, message) {
                 loadMap(Parkours[p], roomObject.scoreLimit, roomObject.timeLimit);
                 room.sendAnnouncement(`${_Parkours[p].Name} ${locales[playerList[player.name].Language].MapLoad} ${player.name}`, null, colors.MapLoad, fonts.MapLoad, sounds.MapLoad);
                 return false;
-            }
-            else {
+            } else {
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
                 return false;
             }
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MapLoad}`, player.id, colors.NoAuthorization.MapLoad, fonts.NoAuthorization.MapLoad, sounds.NoAuthorization.MapLoad);
             return false;
         }
@@ -595,33 +744,28 @@ function chat_mute(player, message) {
                             var pname = player.name;
                             playerList[name].IsMuted = true;
                             room.sendAnnouncement(`${p.name} ${locales[locale].Info.Mute} ${player.name}`, null, colors.Info.Mute, fonts.Info.Mute, sounds.Info.Mute);
-                            setTimeout(function () {
+                            setTimeout(function() {
                                 playerList[name].IsMuted = false;
                                 room.sendAnnouncement(`${name} ${locales[locale].Info.Unmute} ${pname}`, null, colors.Info.Unmute, fonts.Info.Unmute, sounds.Info.Unmute);
                             }, Time * 60000);
                             return false;
-                        }
-                        else {
+                        } else {
                             room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
                             return false;
                         }
-                    }
-                    else {
+                    } else {
                         room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
                         return false;
                     }
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
                     return false;
                 }
-            }
-            else {
+            } else {
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
                 return false;
             }
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Mute}`, player.id, colors.NoAuthorization.Mute, fonts.NoAuthorization.Mute, sounds.NoAuthorization.Mute);
             return false;
         }
@@ -634,8 +778,7 @@ function chat_muteall(player, message) {
             roomObject.muteAll = !roomObject.muteAll;
             room.sendAnnouncement(`${player.name} ${locales[locale].MuteAll[Number(!roomObject.muteAll)]}`, null, colors.MuteAll[Number(!roomObject.muteAll)], fonts.MuteAll[Number(!roomObject.muteAll)], sounds.MuteAll[Number(!roomObject.muteAll)]);
             return false;
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MuteAll[Number(roomObject.muteAll)]}`, player.id, colors.NoAuthorization.MuteAll[Number(roomObject.muteAll)], fonts.NoAuthorization.MuteAll[Number(roomObject.muteAll)], sounds.NoAuthorization.MuteAll[Number(roomObject.muteAll)]);
             return false;
         }
@@ -648,8 +791,7 @@ function chat_pass(player, message) {
             passwordFunctions[Number(roomObject.password == null)]();
             room.sendAnnouncement(`${locales[locale].Password[Number(roomObject.password != null)]} ${player.name}`, null, colors.Password[Number(roomObject.password != null)], fonts.Password[Number(roomObject.password != null)], sounds.Password[Number(roomObject.password != null)]);
             return false;
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Password[Number(roomObject.password != null)]}`, player.id, colors.NoAuthorization.Password[Number(roomObject.password != null)], fonts.NoAuthorization.Password[Number(roomObject.password != null)], sounds.NoAuthorization.Password[Number(roomObject.password != null)]);
             return false;
         }
@@ -662,8 +804,7 @@ function chat_push(player, message) {
             roomObject.push = !roomObject.push;
             room.sendAnnouncement(`${locales[locale].Info.Push[Number(roomObject.push)]} ${player.name}`, null, colors.Info.Push[Number(roomObject.push)], fonts.Info.Push[Number(roomObject.push)], sounds.Info.Push[Number(roomObject.push)]);
             return false;
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Push[Number(roomObject.push)]}`, player.id, colors.NoAuthorization.Push[Number(roomObject.push)], fonts.NoAuthorization.Push[Number(roomObject.push)], sounds.NoAuthorization.Push[Number(roomObject.push)]);
             return false;
         }
@@ -677,8 +818,7 @@ function chat_recaptcha(player, message) {
             roomObject.requireRecaptcha = !roomObject.requireRecaptcha;
             room.sendAnnouncement(`${locales[locale].Recaptcha[Number(roomObject.requireRecaptcha)]} ${player.name}`, null, colors.Recaptcha, fonts.Recaptcha, sounds.Recaptcha);
             return false;
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]}`, player.id, colors.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], fonts.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], sounds.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]);
             return false;
         }
@@ -734,15 +874,14 @@ function chat_vote(player, message) {
                                 var pname = p.name;
                                 var playername = player.name;
                                 room.sendAnnouncement(`${p.name} ${locales[playerList[player.name].Language].Info.Vote} ${playerList[p.name].Voters.length}/${toleranceObject.Vote.Ban}`, player.id, colors.Info.Vote, fonts.Info.Vote, sounds.Info.Vote);
-                                setTimeout(function () {
+                                setTimeout(function() {
                                     if (playerList[pname].Voters.includes(playerList[playername].Auth) == false) {
                                         var index = playerList[pname].Voters.indexOf(playerList[playername].Auth);
                                         playerList[pname].Voters.splice(index, 1);
                                     }
                                 }, timeoutObject.Vote);
                                 return false;
-                            }
-                            else {
+                            } else {
                                 room.kickPlayer(p.id, `${locales[playerList[p.name].Language].Vote.Ban}`, kickTypes.Vote);
                                 var index = playerList[p.name].Voters.indexOf(playerList[player.name].Auth);
                                 if (playerList[p.name].Voters.length > 0 || index !== -1) {
@@ -751,28 +890,23 @@ function chat_vote(player, message) {
                                 }
                                 return false;
                             }
-                        }
-                        else {
+                        } else {
                             room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.Already}`, player.id, colors.SomethingWentWrong.Vote.Already, fonts.SomethingWentWrong.Vote.Already, sounds.SomethingWentWrong.Vote.Already);
                             return false;
                         }
-                    }
-                    else {
+                    } else {
                         room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
                         return false;
                     }
-                }
-                else {
+                } else {
                     room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
                     return false;
                 }
-            }
-            else {
+            } else {
                 room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.Timeout.Join}`, player.id, colors.SomethingWentWrong.Vote.Timeout.Join, fonts.SomethingWentWrong.Vote.Timeout.Join, sounds.SomethingWentWrong.Vote.Timeout.Join);
                 return false;
             }
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.People}`, player.id, colors.SomethingWentWrong.Vote.People, fonts.SomethingWentWrong.Vote.People, sounds.SomethingWentWrong.Vote.People);
             return false;
         }
@@ -819,8 +953,7 @@ function findNearestPlayerToBall() {
                 }
             }
         }
-    }
-    else {
+    } else {
         if (nearest != undefined) {
             nearest = undefined;
         }
@@ -903,8 +1036,7 @@ function loadMap(map, scoreLimit, timeLimit) {
         room.setScoreLimit(scoreLimit);
         room.setTimeLimit(timeLimit);
         room.startGame();
-    }
-    else {
+    } else {
         room.stopGame();
         room.setCustomStadium(map);
         room.setScoreLimit(scoreLimit);
@@ -921,8 +1053,7 @@ function locateBall() {
             if (room.getDiscProperties(0).x != room.getPlayerDiscProperties(nearest.id).x || room.getDiscProperties(0).y != room.getPlayerDiscProperties(nearest.id).y) {
                 room.setDiscProperties(0, { x: room.getPlayerDiscProperties(nearest.id).x, y: room.getPlayerDiscProperties(nearest.id).y, xspeed: -1e-30, yspeed: 0 });
             }
-        }
-        else {
+        } else {
             if (room.getDiscProperties(0).x != _Parkour.MapObject.discs[0].pos[0] || room.getDiscProperties(0).y != _Parkour.MapObject.discs[0].pos[1]) {
                 room.setDiscProperties(0, { x: _Parkour.MapObject.discs[0].pos[0], y: _Parkour.MapObject.discs[0].pos[1], xspeed: 0, yspeed: 0 });
             }
@@ -959,13 +1090,11 @@ function putBallOnPath(id = _Parkour.PathBallID) {
         if (room.getDiscProperties(id) != null) {
             if (60 * room.getScores().time < _Parkour.Path.length) {
                 room.setDiscProperties(id, { x: _Parkour.Path[parseInt(60 * room.getScores().time)][0], y: _Parkour.Path[parseInt(60 * room.getScores().time)][1], xspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][2], yspeed: _Parkour.Path[parseInt(60 * room.getScores().time)][3] });
-            }
-            else {
+            } else {
                 room.setDiscProperties(id, { xspeed: 0, yspeed: 0 });
             }
         }
-    }
-    else {
+    } else {
         if (room.getDiscProperties(id).x != _Parkour.ToSet.x || room.getDiscProperties(id).y != _Parkour.ToSet.y) {
             room.setDiscProperties(id, { x: _Parkour.ToSet.x, y: _Parkour.ToSet.y });
         }
@@ -1043,12 +1172,12 @@ function updatePlayerTimers() {
     players.forEach(p => playerList[p.name].Timer = Date.now());
 }
 
-room.onGamePaused = function (byPlayer) {
+room.onGamePause = function(byPlayer) {
     byPlayer == null ? console.log(`Game paused`) : console.log(`Game paused by ${byPlayer.name}`);
     updatePlayerActivities();
 }
 
-room.onGameStart = function (byPlayer) {
+room.onGameStart = function(byPlayer) {
     byPlayer == null ? console.log(`Game started`) : console.log(`Game started by ${byPlayer.name}`);
     updatePlayerTimers();
     if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
@@ -1057,7 +1186,7 @@ room.onGameStart = function (byPlayer) {
     updatePlayerActivities();
 }
 
-room.onGameStop = function (byPlayer) {
+room.onGameStop = function(byPlayer) {
     byPlayer == null ? console.log(`Game stopped`) : console.log(`Game stopped by ${byPlayer.name}`);
     if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
     if (roomObject.game.lastToucher != undefined) roomObject.game.lastToucher = undefined;
@@ -1066,7 +1195,7 @@ room.onGameStop = function (byPlayer) {
     updatePlayerActivities();
 }
 
-room.onGameTick = function () {
+room.onGameTick = function() {
     checkInactivity();
     checkTimer();
     findNearestPlayerToBall();
@@ -1079,26 +1208,26 @@ room.onGameTick = function () {
     updatePlayerPaths();
 }
 
-room.onGameUnpaused = function (byPlayer) {
+room.onGameUnpause = function(byPlayer) {
     byPlayer == null ? console.log(`Game unpaused`) : console.log(`Game unpaused by ${byPlayer.name}`);
     updatePlayerActivities();
 }
 
-room.onKickRateLimitSet = function (min, rate, burst, byPlayer) {
-    byPlayer == null ? console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst} by ${byPlayer.name}`);
+room.onKickRateLimitSet = function(min, rate, burst, byPlayer) {
+    byPlayer == null ? console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst} by ${byPlayer.name}`);
     if (byPlayer != null) updatePlayerActivity(byPlayer);
 }
 
-room.onPlayerActivity = function (player) {
+room.onPlayerActivity = function(player) {
     updatePlayerActivity(player);
 }
 
-room.onPlayerAdminChange = function (changedPlayer, byPlayer) {
+room.onPlayerAdminChange = function(changedPlayer, byPlayer) {
     byPlayer == null ? console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]}`) : console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]} by ${byPlayer.name}`);
     if (byPlayer != null) updatePlayerActivity(byPlayer);
 }
 
-room.onPlayerBallKick = function (player) {
+room.onPlayerBallKick = function(player) {
     console.log(`${player.name} has kicked the ball`);
     //var ballPosition = room.getDiscProperties(1);
     //if (isColliding(room.getPlayerDiscProperties(player.id), ballPosition) == true && (roomObject.game.lastToucher == undefined || (roomObject.game.lastToucher != undefined && roomObject.game.lastToucher.id != player.id))) {
@@ -1107,17 +1236,17 @@ room.onPlayerBallKick = function (player) {
     updatePlayerActivity(player);
 }
 
-room.onPlayerChat = function (player, message) {
+room.onPlayerChat = function(player, message) {
     console.log(`${player.name}: ${message}`);
     updatePlayerActivity(player);
     var players = room.getPlayerList();
     var administrators = players.filter(p => p.admin == true);
     var name = player.name;
 
-    setTimeout(function () {
+    setTimeout(function() {
         if (playerList[name].SlowMode == false) playerList[name].SlowMode = true;
     }, timeoutObject.SlowMode.Start);
-    setTimeout(function () {
+    setTimeout(function() {
         if (playerList[name].SlowMode == true) playerList[name].SlowMode = false;
     }, timeoutObject.SlowMode.Stop);
 
@@ -1125,17 +1254,14 @@ room.onPlayerChat = function (player, message) {
         if (isCommand(message) == true) {
             commandFunctions[message](player, message);
             return false;
-        }
-        else if (isCommand(message.toLowerCase().split(" ")[0]) == true) {
+        } else if (isCommand(message.toLowerCase().split(" ")[0]) == true) {
             commandFunctions[message.toLowerCase().split(" ")[0]](player, message);
             return false;
-        }
-        else {
+        } else {
             room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NotACommand}`, player.id, colors.SomethingWentWrong.NotACommand, fonts.SomethingWentWrong.NotACommand, sounds.SomethingWentWrong.NotACommand);
             return false;
         }
-    }
-    else {
+    } else {
         if (isBadword(playerList[player.name].Language, message) == true && player.admin == false) {
             playerList[player.name].BadWordUsage++;
             playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`, player.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords) : room.kickPlayer(player.id, `${locales[playerList[player.name].Language].Ban.BadWords}`, kickTypes.BadWords);
@@ -1173,7 +1299,7 @@ room.onPlayerChat = function (player, message) {
     }
 }
 
-room.onPlayerJoin = function (player) {
+room.onPlayerJoin = function(player) {
     console.log(`${player.name} has joined`);
     var randomInt = 1 + Math.floor(Math.random() * 2);
 
@@ -1193,25 +1319,25 @@ room.onPlayerJoin = function (player) {
     room.setPlayerTeam(player.id, randomInt);
 }
 
-room.onPlayerKicked = function (kickedPlayer, reason, ban, byPlayer) {
+room.onPlayerKicked = function(kickedPlayer, reason, ban, byPlayer) {
     byPlayer == null ? console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} (${reason})`) : console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} by ${byPlayer.name} (${reason})`);
     if (byPlayer != null) updatePlayerActivity(byPlayer);
 }
 
-room.onPlayerLeave = function (player) {
+room.onPlayerLeave = function(player) {
     console.log(`${player.name} has left`);
     var players = room.getPlayerList();
     if (room.getScores() != null && players.length == 0) room.stopGame();
 }
 
-room.onPlayerTeamChange = function (changedPlayer, byPlayer) {
+room.onPlayerTeamChange = function(changedPlayer, byPlayer) {
     byPlayer == null ? console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]}`) : console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]} by ${byPlayer.name}`);
     if (playerList[changedPlayer.name].AFKStatus == true && changedPlayer.team != 0) room.setPlayerTeam(changedPlayer.id, 0);
     updatePlayerTimer(changedPlayer);
     if (byPlayer != null) updatePlayerActivity(byPlayer);
 }
 
-room.onPositionsReset = function () {
+room.onPositionsReset = function() {
     console.log("Positions reset");
     updatePlayerTimers();
     if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
@@ -1220,7 +1346,7 @@ room.onPositionsReset = function () {
     updatePlayerActivities();
 }
 
-room.onRoomLink = function (url) {
+room.onRoomLink = function(url) {
     if (isRoomSet == false) {
         console.log(`Room set with url: ${url}`);
         findPathBallIDs();
@@ -1233,7 +1359,7 @@ room.onRoomLink = function (url) {
     }
 }
 
-room.onStadiumChange = function (newStadiumName, byPlayer) {
+room.onStadiumChange = function(newStadiumName, byPlayer) {
     byPlayer == null ? console.log(`${newStadiumName} was loaded`) : console.log(`${newStadiumName} was loaded by ${byPlayer.name}`);
 
     var m = _Parkours.find(x => x.Name == newStadiumName);
@@ -1245,22 +1371,20 @@ room.onStadiumChange = function (newStadiumName, byPlayer) {
             for (var i = 1; i <= 2; i++) {
                 room.setTeamColors(i, m.Angles[i - 1], [m.AvatarColors[i - 1]], [m.MainColors[i - 1]]);
             }
-        }
-        else {
+        } else {
             console.log(`${locales[locale].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`);
             players.forEach(x => {
                 room.sendAnnouncement(`${locales[playerList[p.name].Language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`, p.id, colors.SomethingWentWrong.Main, fonts.SomethingWentWrong.Main, sounds.SomethingWentWrong.Main);
             });
         }
-    }
-    else {
+    } else {
         updatePlayerActivity(byPlayer);
         room.sendAnnouncement(`${locales[playerList[byPlayer.name].Language].NoAuthorization.MapChange}`, byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
         room.setCustomStadium(Parkours[0]);
     }
 }
 
-room.onTeamGoal = function (team) {
+room.onTeamGoal = function(team) {
     var finishDate = Date.now();
     var lastToucher = roomObject.game.lastToucher;
     if (lastToucher != undefined) updatePlayerActivity(lastToucher);
@@ -1287,8 +1411,7 @@ room.onTeamGoal = function (team) {
         _Parkour.TopList[0][2] = finishDate;
 
         updateMapPath(_Parkour.ID - 1, lastToucher);
-    }
-    else if (_Parkour.TopList[0][0] <= finishTime && finishTime < _Parkour.TopList[1][0]) {
+    } else if (_Parkour.TopList[0][0] <= finishTime && finishTime < _Parkour.TopList[1][0]) {
         _Parkour.TopList[4][0] = _Parkour.TopList[3][0];
         _Parkour.TopList[3][0] = _Parkour.TopList[2][0];
         _Parkour.TopList[2][0] = _Parkour.TopList[1][0];
@@ -1303,8 +1426,7 @@ room.onTeamGoal = function (team) {
         _Parkour.TopList[3][2] = _Parkour.TopList[2][2];
         _Parkour.TopList[2][2] = _Parkour.TopList[1][2];
         _Parkour.TopList[1][2] = finishDate;
-    }
-    else if (_Parkour.TopList[1][0] <= finishTime && finishTime < _Parkour.TopList[2][0]) {
+    } else if (_Parkour.TopList[1][0] <= finishTime && finishTime < _Parkour.TopList[2][0]) {
         _Parkour.TopList[4][0] = _Parkour.TopList[3][0];
         _Parkour.TopList[3][0] = _Parkour.TopList[2][0];
         _Parkour.TopList[2][0] = finishTime;
@@ -1316,8 +1438,7 @@ room.onTeamGoal = function (team) {
         _Parkour.TopList[4][2] = _Parkour.TopList[3][2];
         _Parkour.TopList[3][2] = _Parkour.TopList[2][2];
         _Parkour.TopList[2][2] = finishDate;
-    }
-    else if (_Parkour.TopList[2][0] <= finishTime && finishTime < _Parkour.TopList[3][0]) {
+    } else if (_Parkour.TopList[2][0] <= finishTime && finishTime < _Parkour.TopList[3][0]) {
         _Parkour.TopList[4][0] = _Parkour.TopList[3][0];
         _Parkour.TopList[3][0] = finishTime;
 
@@ -1326,20 +1447,19 @@ room.onTeamGoal = function (team) {
 
         _Parkour.TopList[4][2] = _Parkour.TopList[3][2];
         _Parkour.TopList[3][2] = finishDate;
-    }
-    else if (_Parkour.TopList[3][0] <= finishTime && finishTime < _Parkour.TopList[4][0]) {
+    } else if (_Parkour.TopList[3][0] <= finishTime && finishTime < _Parkour.TopList[4][0]) {
         _Parkour.TopList[4][0] = finishTime;
         _Parkour.TopList[4][1] = lastToucher.name;
         _Parkour.TopList[4][2] = finishDate;
     }
 
     var index = _Parkour.TopList.findIndex(p => p[0] == finishTime);
-    (index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s ${lastToucher.name} (${new Date(finishDate).toLocaleString()})`, null, colors.Info.Goal.Scored[index], fonts.Info.Goal.Scored[index], sounds.Info.Goal.Scored[index]) : room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`, null, colors.Info.Goal.Scored[5], fonts.Info.Goal.Scored[5], sounds.Info.Goal.Scored[5]);
+    (index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s ${lastToucher.name} (${new Date(finishDate).toLocaleString()})`, null, colors.Info.Goal.Scored[index], fonts.Info.Goal.Scored[index], sounds.Info.Goal.Scored[index]): room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`, null, colors.Info.Goal.Scored[5], fonts.Info.Goal.Scored[5], sounds.Info.Goal.Scored[5]);
     nextMap();
 }
 
-room.onTeamVictory = function (scores) {
+room.onTeamVictory = function(scores) {
     nextMap();
 }
 
-var locateBallInterval = setInterval(function () { locateBall(); }, roomObject.intervals.locateBall);
+var locateBallInterval = setInterval(function() { locateBall(); }, roomObject.intervals.locateBall);
