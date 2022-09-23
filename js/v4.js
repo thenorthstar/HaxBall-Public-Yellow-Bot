@@ -14,409 +14,537 @@ var Parkour7 = `{"name":"Yellow Hell by [KOR]Kuszczak","width":4000,"height":200
 
 var Parkours = [Parkour1, Parkour2, Parkour3, Parkour4, Parkour5, Parkour6, Parkour7];
 
-var _Parkour1 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 1, MainColors: [0xFF0000, 0x0000FF], MapObject: JSON.parse(Parkour1), Name: JSON.parse(Parkour1).name, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour2 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 2, MainColors: [0xE00000, 0x0000E0], MapObject: JSON.parse(Parkour2), Name: JSON.parse(Parkour2).name, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour3 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 3, MainColors: [0xC00000, 0x0000C0], MapObject: JSON.parse(Parkour3), Name: JSON.parse(Parkour3).name, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour4 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 4, MainColors: [0xA00000, 0x0000A0], MapObject: JSON.parse(Parkour4), Name: JSON.parse(Parkour4).name, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour5 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 5, MainColors: [0x800000, 0x000080], MapObject: JSON.parse(Parkour5), Name: JSON.parse(Parkour5).name, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour6 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 6, MainColors: [0x600000, 0x000060], MapObject: JSON.parse(Parkour6), Name: JSON.parse(Parkour6).name, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
-var _Parkour7 = { Angles: [0, 0], AvatarColors: [0xFFFFFF, 0xFFFFFF], ID: 7, MainColors: [0x400000, 0x000040], MapObject: JSON.parse(Parkour7), Name: JSON.parse(Parkour7).name, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 10 };
+var _Parkour1 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 1,
+    MainColors: [0xFF0000, 0x0000FF],
+    MapObject: JSON.parse(Parkour1),
+    Name: JSON.parse(Parkour1).name,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour2 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 2,
+    MainColors: [0xE00000, 0x0000E0],
+    MapObject: JSON.parse(Parkour2),
+    Name: JSON.parse(Parkour2).name,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour3 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 3,
+    MainColors: [0xC00000, 0x0000C0],
+    MapObject: JSON.parse(Parkour3),
+    Name: JSON.parse(Parkour3).name,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour4 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 4,
+    MainColors: [0xA00000, 0x0000A0],
+    MapObject: JSON.parse(Parkour4),
+    Name: JSON.parse(Parkour4).name,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour5 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 5,
+    MainColors: [0x800000, 0x000080],
+    MapObject: JSON.parse(Parkour5),
+    Name: JSON.parse(Parkour5).name,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour6 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 6,
+    MainColors: [0x600000, 0x000060],
+    MapObject: JSON.parse(Parkour6),
+    Name: JSON.parse(Parkour6).name,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
+var _Parkour7 = {
+    Angles: [0, 0],
+    AvatarColors: [0xFFFFFF, 0xFFFFFF],
+    ID: 7,
+    MainColors: [0x400000, 0x000040],
+    MapObject: JSON.parse(Parkour7),
+    Name: JSON.parse(Parkour7).name,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 10
+};
 
-var _Parkour = { Angles: [0, 0], AvatarColors: [0x000000, 0x000000], ID: 0, MainColors: [0x000000, 0x000000], MapObject: undefined, Name: undefined, Timer: 0, TopList: [[999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0], [999.99, undefined, 0]], UpperSpeedBound: 0 };
+var _Parkour = {
+    Angles: [0, 0],
+    AvatarColors: [0x000000, 0x000000],
+    ID: 0,
+    MainColors: [0x000000, 0x000000],
+    MapObject: undefined,
+    Name: undefined,
+    Timer: 0,
+    TopList: [
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0],
+        [999.99, undefined, 0]
+    ],
+    UpperSpeedBound: 0
+};
 var _Parkours = [_Parkour1, _Parkour2, _Parkour3, _Parkour4, _Parkour5, _Parkour6, _Parkour7];
 
 var timeoutObject = {
-	AFK: 30,
-	MapChange: 300,
-	SlowMode: {
-		Start: 1,
-		Stop: 5000
-	},
-	Vote: {
-		Join: 300000,
-		Voted: 60000
-	}
+    AFK: 30,
+    MapChange: 300,
+    SlowMode: {
+        Start: 1,
+        Stop: 5000
+    },
+    Vote: {
+        Join: 300000,
+        Voted: 60000
+    }
 };
 
 var toleranceObject = {
-	AFK: 1 / 60,
-	BadWords: 3,
-	Collision: 1,
-	MapChange: 1 / 60,
-	Mute: {
-		LowerBound: 1,
-		UpperBound: 10
-	},
-	SpeedControl: 100,
-	Vote: {
-		People: 4,
-		Ban: 7
-	}
+    AFK: 1 / 60,
+    BadWords: 3,
+    Collision: 1,
+    MapChange: 1 / 60,
+    Mute: {
+        LowerBound: 1,
+        UpperBound: 10
+    },
+    SpeedControl: 100,
+    Vote: {
+        People: 4,
+        Ban: 7
+    }
 };
 
 var roomObject = {
-	game: {
-		finishTime: 0,
-		lastToucher: undefined
-	},
-	muteAll: false,
-	password: null,
-	push: true,
-	requireRecaptcha: false,
-	scoreLimit: 0,
-	teamsLock: true,
-	timeLimit: 0
+    game: {
+        finishTime: 0,
+        lastToucher: undefined
+    },
+    muteAll: false,
+    password: null,
+    push: true,
+    requireRecaptcha: false,
+    scoreLimit: 0,
+    teamsLock: true,
+    timeLimit: 0
 };
 
 var colors = {
-	Commands: 0xFFFFFF,
-	Info: {
-		AFK: [0x00FF00, 0xFFFF00],
-		BadWords: 0xFF0000,
-		Commands: 0x00FFFF,
-		Discord: 0x7289DA,
-		GameStarted: 0xFFFFFF,
-		Goal: {
-			Scored: [0xFFD800, 0xC0C0C0, 0xCD7F32, 0xC0FFFF, 0xC0FFFF, 0xFFFFFF],
-		},
-		JoinHistory: 0xFFFFFF,
-		Map: 0xFFFFFF,
-		MapList: 0xFFFFFF,
-		Mute: 0xFFFF00,
-		MuteAll: 0xFFFF00,
-		Muted: 0xFFFF00,
-		Push: [0xFFFF00, 0xFFFF00],
-		SlowMode: 0x00FF00,
-		Top5: [0xFFD800, 0xC0C0C0, 0xCD7F32, 0xC0FFFF, 0xC0FFFF],
-		Unmute: 0xFFFF00
-	},
-	LanguageChanged: 0x80FF00,
-	MapLoad: 0x80FF00,
-	MuteAll: [0x00FF00, 0xFFFF00],
-	NoAuthorization: {
-		MapChange: 0xFF0000,
-		MapLoad: 0xFFFF00,
-		Mute: 0xFF0000,
-		MuteAll: [0xFFFF00, 0xFFFF00],
-		Password: [0xFF8000, 0xFF8000],
-		Push: [0xFFFF00, 0xFFFF00],
-		Recaptcha: [0xFF8000, 0xFF8000]
-	},
-	Password: [0x00FF00, 0x00FF00],
-	Player: [0xFFFFFF, 0xFFDB72],
-	Recaptcha: 0x00FF00,
-	SomethingWentWrong: {
-		InvalidID: 0xFFFF00,
-		Main: 0xFFFFFF,
-		MapLoad: 0xFFFF00,
-		NotACommand: 0xFF0000,
-		Vote: {
-			Admin: 0xFF0000,
-			Already: 0xFF0000,
-			People: 0xFFFF00,
-			Self: 0xFF0000,
-			Timeout: {
-				Join: 0xFFFF00,
-				Voted: 0xFFFF00
-			}
-		},
-	},
-	Speed: 0x2DF73B,
+    Commands: 0xFFFFFF,
+    Info: {
+        AFK: [0x00FF00, 0xFFFF00],
+        BadWords: 0xFF0000,
+        Commands: 0x00FFFF,
+        Discord: 0x7289DA,
+        GameStarted: 0xFFFFFF,
+        Goal: {
+            Scored: [0xFFD800, 0xC0C0C0, 0xCD7F32, 0xC0FFFF, 0xC0FFFF, 0xFFFFFF],
+        },
+        JoinHistory: 0xFFFFFF,
+        Map: 0xFFFFFF,
+        MapList: 0xFFFFFF,
+        Mute: 0xFFFF00,
+        MuteAll: 0xFFFF00,
+        Muted: 0xFFFF00,
+        Push: [0xFFFF00, 0xFFFF00],
+        SlowMode: 0x00FF00,
+        Top5: [0xFFD800, 0xC0C0C0, 0xCD7F32, 0xC0FFFF, 0xC0FFFF],
+        Unmute: 0xFFFF00
+    },
+    LanguageChanged: 0x80FF00,
+    MapLoad: 0x80FF00,
+    MuteAll: [0x00FF00, 0xFFFF00],
+    NoAuthorization: {
+        MapChange: 0xFF0000,
+        MapLoad: 0xFFFF00,
+        Mute: 0xFF0000,
+        MuteAll: [0xFFFF00, 0xFFFF00],
+        Password: [0xFF8000, 0xFF8000],
+        Push: [0xFFFF00, 0xFFFF00],
+        Recaptcha: [0xFF8000, 0xFF8000]
+    },
+    Password: [0x00FF00, 0x00FF00],
+    Player: [0xFFFFFF, 0xFFDB72],
+    Recaptcha: 0x00FF00,
+    SomethingWentWrong: {
+        InvalidID: 0xFFFF00,
+        Main: 0xFFFFFF,
+        MapLoad: 0xFFFF00,
+        NotACommand: 0xFF0000,
+        Vote: {
+            Admin: 0xFF0000,
+            Already: 0xFF0000,
+            People: 0xFFFF00,
+            Self: 0xFF0000,
+            Timeout: {
+                Join: 0xFFFF00,
+                Voted: 0xFFFF00
+            }
+        },
+    },
+    Speed: 0x2DF73B,
 };
 
 var fonts = {
-	Commands: "normal",
-	Info: {
-		AFK: ["normal", "bold"],
-		BadWords: "bold",
-		Commands: "normal",
-		Discord: "normal",
-		GameStarted: "normal",
-		Goal: {
-			Scored: ["bold", "bold", "bold", "normal", "normal", "normal"],
-		},
-		JoinHistory: "normal",
-		Map: "normal",
-		MapList: "normal",
-		Mute: "normal",
-		MuteAll: "bold",
-		Muted: "bold",
-		Push: ["normal", "normal"],
-		SlowMode: "bold",
-		Top5: ["bold", "bold", "bold", "normal", "normal"],
-		Unmute: "normal"
-	},
-	LanguageChanged: "normal",
-	MapLoad: "normal",
-	MuteAll: ["bold", "normal"],
-	NoAuthorization: {
-		MapChange: "bold",
-		MapLoad: "bold",
-		Mute: "bold",
-		MuteAll: ["bold", "bold"],
-		Password: ["bold", "bold"],
-		Push: ["bold", "bold"],
-		Recaptcha: ["bold", "bold"]
-	},
-	Password: ["normal", "normal"],
-	Player: ["normal", "bold"],
-	Recaptcha: "normal",
-	SomethingWentWrong: {
-		InvalidID: "bold",
-		Main: "normal",
-		MapLoad: "bold",
-		NotACommand: "bold",
-		Vote: {
-			Admin: "bold",
-			Already: "bold",
-			People: "bold",
-			Self: "bold",
-			Timeout: {
-				Join: "bold",
-				Voted: "bold"
-			}
-		},
-	},
-	Speed: "small",
+    Commands: "normal",
+    Info: {
+        AFK: ["normal", "bold"],
+        BadWords: "bold",
+        Commands: "normal",
+        Discord: "normal",
+        GameStarted: "normal",
+        Goal: {
+            Scored: ["bold", "bold", "bold", "normal", "normal", "normal"],
+        },
+        JoinHistory: "normal",
+        Map: "normal",
+        MapList: "normal",
+        Mute: "normal",
+        MuteAll: "bold",
+        Muted: "bold",
+        Push: ["normal", "normal"],
+        SlowMode: "bold",
+        Top5: ["bold", "bold", "bold", "normal", "normal"],
+        Unmute: "normal"
+    },
+    LanguageChanged: "normal",
+    MapLoad: "normal",
+    MuteAll: ["bold", "normal"],
+    NoAuthorization: {
+        MapChange: "bold",
+        MapLoad: "bold",
+        Mute: "bold",
+        MuteAll: ["bold", "bold"],
+        Password: ["bold", "bold"],
+        Push: ["bold", "bold"],
+        Recaptcha: ["bold", "bold"]
+    },
+    Password: ["normal", "normal"],
+    Player: ["normal", "bold"],
+    Recaptcha: "normal",
+    SomethingWentWrong: {
+        InvalidID: "bold",
+        Main: "normal",
+        MapLoad: "bold",
+        NotACommand: "bold",
+        Vote: {
+            Admin: "bold",
+            Already: "bold",
+            People: "bold",
+            Self: "bold",
+            Timeout: {
+                Join: "bold",
+                Voted: "bold"
+            }
+        },
+    },
+    Speed: "small",
 };
 
 var sounds = {
-	Commands: 1,
-	Info: {
-		AFK: [0, 0],
-		BadWords: 2,
-		Commands: 1,
-		Discord: 1,
-		GameStarted: 1,
-		Goal: {
-			Scored: [2, 1, 1, 1, 1, 1],
-		},
-		JoinHistory: 1,
-		Map: 1,
-		MapList: 0,
-		Mute: 1,
-		MuteAll: 2,
-		Muted: 2,
-		Push: [1, 1],
-		SlowMode: 2,
-		Top5: [2, 1, 1, 1, 1],
-		Unmute: 1,
-	},
-	LanguageChanged: 0,
-	MapLoad: 0,
-	MuteAll: [2, 1],
-	NoAuthorization: {
-		MapChange: 2,
-		MapLoad: 2,
-		Mute: 2,
-		MuteAll: [1, 1],
-		Password: [2, 2],
-		Push: [2, 2],
-		Recaptcha: [2, 2]
-	},
-	Password: [1, 1],
-	Player: [1, 1],
-	Recaptcha: 0,
-	SomethingWentWrong: {
-		InvalidID: 2,
-		Main: 1,
-		MapLoad: 2,
-		NotACommand: 2,
-		Vote: {
-			Admin: 2,
-			Already: 2,
-			People: 2,
-			Self: 2,
-			Timeout: {
-				Join: 2,
-				Voted: 2
-			}
-		},
-	},
-	Speed: 1,
+    Commands: 1,
+    Info: {
+        AFK: [0, 0],
+        BadWords: 2,
+        Commands: 1,
+        Discord: 1,
+        GameStarted: 1,
+        Goal: {
+            Scored: [2, 1, 1, 1, 1, 1],
+        },
+        JoinHistory: 1,
+        Map: 1,
+        MapList: 0,
+        Mute: 1,
+        MuteAll: 2,
+        Muted: 2,
+        Push: [1, 1],
+        SlowMode: 2,
+        Top5: [2, 1, 1, 1, 1],
+        Unmute: 1,
+    },
+    LanguageChanged: 0,
+    MapLoad: 0,
+    MuteAll: [2, 1],
+    NoAuthorization: {
+        MapChange: 2,
+        MapLoad: 2,
+        Mute: 2,
+        MuteAll: [1, 1],
+        Password: [2, 2],
+        Push: [2, 2],
+        Recaptcha: [2, 2]
+    },
+    Password: [1, 1],
+    Player: [1, 1],
+    Recaptcha: 0,
+    SomethingWentWrong: {
+        InvalidID: 2,
+        Main: 1,
+        MapLoad: 2,
+        NotACommand: 2,
+        Vote: {
+            Admin: 2,
+            Already: 2,
+            People: 2,
+            Self: 2,
+            Timeout: {
+                Join: 2,
+                Voted: 2
+            }
+        },
+    },
+    Speed: 1,
 };
 
 var commands = {
-	admin: "!admin",
-	afk: "!afk",
-	commands: "!commands",
-	discord: "!discord",
-	joinhistory: "!joinhistory",
-	lang: "!lang",
-	mapinfo: "!mapinfo",
-	mapload: "!mapload",
-	maps: "!maps",
-	mute: "!mute",
-	muteall: "!muteall",
-	pass: "!pass",
-	push: "!push",
-	recaptcha: "!recaptcha",
-	spawn: "!spawn",
-	speed: "!speed",
-	top5: "!top5",
-	vote: "!vote"
+    admin: "!admin",
+    afk: "!afk",
+    commands: "!commands",
+    discord: "!discord",
+    joinhistory: "!joinhistory",
+    lang: "!lang",
+    mapinfo: "!mapinfo",
+    mapload: "!mapload",
+    maps: "!maps",
+    mute: "!mute",
+    muteall: "!muteall",
+    pass: "!pass",
+    push: "!push",
+    recaptcha: "!recaptcha",
+    spawn: "!spawn",
+    speed: "!speed",
+    top5: "!top5",
+    vote: "!vote"
 };
 
 var commandList = {
-	admin: "!admin 🟡 !afk 🟡 !commands 🟡 !discord 🟡 !joinhistory 🟡 !lang [Code] 🟡 !mapinfo 🟡 !mapload [ID] 🟡 !maps 🟡 !mute [ID] [Time] 🟡 !muteall 🟡 !pass 🟡 !push 🟡 !recaptcha 🟡 !spawn 🟡 !speed 🟡 !top5 🟡 !vote [ID]",
-	player: "!admin 🟡 !afk 🟡 !commands 🟡 !discord 🟡 !joinhistory 🟡 !lang [Code] 🟡 !mapinfo 🟡 !maps 🟡 !spawn 🟡 !speed 🟡 !top5 🟡 !vote [ID]"
+    admin: "!admin 🟡 !afk 🟡 !commands 🟡 !discord 🟡 !joinhistory 🟡 !lang [Code] 🟡 !mapinfo 🟡 !mapload [ID] 🟡 !maps 🟡 !mute [ID] [Time] 🟡 !muteall 🟡 !pass 🟡 !push 🟡 !recaptcha 🟡 !spawn 🟡 !speed 🟡 !top5 🟡 !vote [ID]",
+    player: "!admin 🟡 !afk 🟡 !commands 🟡 !discord 🟡 !joinhistory 🟡 !lang [Code] 🟡 !mapinfo 🟡 !maps 🟡 !spawn 🟡 !speed 🟡 !top5 🟡 !vote [ID]"
 };
 
 var locales = {
-	tr: {
-		Ban: {
-			BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır.",
-			Vote: "Oylama sonucunda banlandınız!"
-		},
-		Bye: "Güle güle!",
-		Commands: [commandList.player, commandList.admin],
-		Info: {
-			AFK: ["şimdi oyunda!", "şimdi AFK!"],
-			BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır. Tekrar etmeniz hâlinde banlanacaksınız!",
-			Commands: "Kullanılabilir komutlar:\n",
-			Discord: "Discord adresimiz:",
-			GameStarted: `Oyun başladı! Süreniz ${Math.floor(timeoutObject.MapChange / 60)} dakika ${Math.floor(timeoutObject.MapChange % 60)} saniyedir.`,
-			Goal: {
-				Scored: ["bitirilme süresi", "bitirilme süresi", "bitirilme süresi", "bitirilme süresi", "bitirilme süresi", "bitirilme süresi"]
-			},
-			JoinHistory: "Odaya katılım bilgileriniz aşağıdaki gibidir:\n",
-			Map: "Harita bilgileri aşağıdaki gibidir:\n",
-			MapList: "Harita listesi aşağıdaki gibidir:\n",
-			Mute: "susturuldu. Cezası bitene kadar konuşamaz. Susturan kişi:",
-			MuteAll: "Sohbet kapatılmış durumda. Yazdıklarınızı sadece adminler görebilir.",
-			Muted: "Cezalı olduğunuz için yazdıklarınızı sadece adminler görebilir.",
-			Push: ["İtme kapatıldı! Artık oyuncular birbirini itemez.", "İtme açıldı! Artık oyuncular birbirini itebilir."],
-			SlowMode: "Yavaş mod aktif. Yazdıklarınızı sadece adminler görebilir.",
-			Top5: "En iyi süre listesi aşağıdaki gibidir:\n",
-			Unmute: "'nin cezası sona erdi, artık konuşabilir.",
-			Vote: "için oyunuzu kullandınız."
-		},
-		Kick: {
-			Duplicated: {
-				Account: "Odaya birden fazla hesapla giriş yasaktır! Odadaki hesabınız:",
-				Name: "Aynı isimde oyuncu zaten var!"
-			}
-		},
-		LanguageChanged: "Dil başarıyla değiştirildi:",
-		MapLoad: "haritası açıldı, haritayı açan:",
-		MuteAll: ["tarafından sohbet genele kapatıldı, yazılanları sadece adminler görebilir.", "tarafından sohbet genele açıldı, artık herkes konuşabilir."],
-		NoAuthorization: {
-			MapChange: "Bu odada harita değiştirmek için yetkiniz bulunmamaktadır!",
-			MapLoad: "Bu odada komutla harita açmak için yetkiniz bulunmamaktadır!",
-			Mute: "Bu odada oyuncu susturmak için yetkiniz bulunmamaktadır!",
-			MuteAll: ["Bu odada sohbeti kapatmak için yetkiniz bulunmamaktadır!", "Bu odada sohbeti açmak için yetkiniz bulunmamaktadır!"],
-			Password: ["Bu odada parola oluşturmak için yetkiniz bulunmamaktadır!", "Bu odada parolayı sıfırlamak için yetkiniz bulunmamaktadır!"],
-			Push: ["Bu odada itme kontrolünü açmak için yetkiniz bulunmamaktadır!", "Bu odada itme kontrolünü kapatmak için yetkiniz bulunmamaktadır!"],
-			Recaptcha: ["Bu odada re-captcha'yı açmak için yetkiniz bulunmamaktadır!", "Bu odada re-captcha'yı kapatmak için yetkiniz bulunmamaktadır!"]
-		},
-		Password: ["Parola başarıyla sıfırlandı! Sıfırlayan kişi:", "Parola başarıyla oluşturuldu! Oluşturan kişi:"],
-		Recaptcha: ["Re-captcha kapatıldı! Kapatan kişi:", "Re-captcha açıldı! Açan kişi:"],
-		SomethingWentWrong: {
-			InvalidID: "Geçersiz ID!",
-			InvalidLanguageCode: "Geçersiz dil kodu! Kullanılabilir dil kodları:",
-			InvalidTime: "Lütfen 1 ile 10 dakika arasında bir süre giriniz!",
-			Main: "Hay aksi! Bir şeyler yanlış gitti!",
-			MapLoad: "Harita açılamıyor.",
-			NoCorrespondingPlayers: "Bu ID'de bir oyuncu odada yok!",
-			NotACommand: "Böyle bir komut yok. Komutları görmek için !commands yazınız.",
-			Vote: {
-				Admin: "Adminleri oylayamazsınız!",
-				Already: "Bu kişiye zaten oy verdiniz!",
-				People: "Odada yeterli sayıda oyuncu olmadığı için oylama yapamazsınız!",
-				Self: "Kendinizi oylayamazsınız!",
-				Timeout: {
-					Join: `${timeoutObject.Vote.Join / 60000} dakika geçmeden oy kullanamazsınız!`,
-					Voted: `${timeoutObject.Vote.Voted / 60000} dakika geçmeden oy kullanamazsınız!`
-				}
-			},
-		},
-		Speed: ["Hız kapalı!", "Hız açık!"],
-		Welcome: "Hoş geldiniz!"
-	},
-	en: {
-		Ban: {
-			BadWords: "Using bad words is prohibited in our room.",
-			Vote: "You were banned by vote!"
-		},
-		Bye: "Bye!",
-		Commands: [commandList.player, commandList.admin],
-		Info: {
-			AFK: ["is now AFK!", "is now with us!"],
-			BadWords: "Using bad words is prohibited in our room, you will be banned if going on!",
-			Commands: "Available commands:\n",
-			Discord: "Our discord server:",
-			GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange / 60) == 1 ? Math.floor(timeoutObject.MapChange / 60) + " minute" : Math.floor(timeoutObject.MapChange / 60) + " minutes"} ${Math.floor(timeoutObject.MapChange % 60) == 1 ? Math.floor(timeoutObject.MapChange % 60) + " second" : Math.floor(timeoutObject.MapChange % 60) + " seconds"}.`,
-			Goal: {
-				Scored: ["finish time", "finish time", "finish time", "finish time", "finish time"]
-			},
-			JoinHistory: "Your joining history below:\n",
-			Map: "Map info below:\n",
-			MapList: "Map list below:\n",
-			Mute: "was muted and cannot talk until his punishment removed. By:",
-			MuteAll: "Chat is muted. Only the administration can see your messages.",
-			Muted: "You are muted. Only the administration can see your messages.",
-			Push: ["Push is turned off! Players are transparent to each other.", "Push is on! Players can push each other."],
-			SlowMode: "Slowmode is active. Only the administration can see your messages.",
-			Top5: "The best times below:\n",
-			Unmute: "'s mute punishment has ended.",
-			Vote: "you have voted for."
-		},
-		Kick: {
-			Duplicated: {
-				Account: "Joining with multiple accounts is not allowed in this room. Original:",
-				Name: "A player name with the same name already exists!"
-			},
-		},
-		LanguageChanged: "Your language was successfully switched to",
-		MapLoad: "was loaded by",
-		MuteAll: ["has muted chat, only the administration can see the messages.", "has unmuted chat, everybody can talk"],
-		NoAuthorization: {
-			MapChange: "You don't have authorization to change maps in this room!",
-			MapLoad: "You don't have authorization to load maps by command in this room!",
-			Mute: "You don't have authorization to mute players by command in this room!",
-			MuteAll: ["You don't have authorization to mute chat in this room!", "You don't have authorization to unmute chat in this room!"],
-			Password: ["You don't have authorization to set a password in this room!", "You don't have authorization to remove the password in this room!"],
-			Push: ["You don't have authorization to turn on push control in this room!", "You don't have authorization to turn off push control in this room!"],
-			Recaptcha: ["You don't have authorization to turn on re-captcha in this room!", "You don't have authorization to turn off re-captcha in this room!"]
-		},
-		Password: ["Password removed by", "Password set by"],
-		Recaptcha: ["Re-captcha turned off by", "Re-captcha turned on by"],
-		SomethingWentWrong: {
-			InvalidID: "Invalid ID!",
-			InvalidLanguageCode: "Invalid language code! Available language codes:",
-			InvalidTime: "Please enter a value between 1 and 10 (in minutes)!",
-			Main: "Something went wrong!",
-			MapLoad: "Map couldn't be load",
-			NoCorrespondingPlayers: "There aren't any corresponding players with the given ID!",
-			NotACommand: "No such a command. Type !commands to see the commands available.",
-			Vote: {
-				Admin: "You cannot vote administrators!",
-				Already: "You have already voted this player!",
-				People: "There aren't enough players to start a vote!",
-				Self: "You cannot vote yourselves!",
-				Timeout: {
-					Join: `${timeoutObject.Vote.Join / 60000 == 1 ? " minute is " : " minutes are "} needed to vote again!`,
-					Voted: `${timeoutObject.Vote.Voted / 60000 == 1 ? " minute is " : " minutes are "} needed to start a vote after joining the room!}`
-				}
-			},
-		},
-		Speed: ["Speed is turned off!", "Speed is turned on!"],
-		Welcome: "Welcome!"
-	},
+    tr: {
+        Ban: {
+            BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır.",
+            Vote: "Oylama sonucunda banlandınız!"
+        },
+        Bye: "Güle güle!",
+        Commands: [commandList.player, commandList.admin],
+        Info: {
+            AFK: ["şimdi oyunda!", "şimdi AFK!"],
+            BadWords: "Odamızda küfür/hakaret içerikli ifadeler kullanmak yasaktır. Tekrar etmeniz hâlinde banlanacaksınız!",
+            Commands: "Kullanılabilir komutlar:\n",
+            Discord: "Discord adresimiz:",
+            GameStarted: `Oyun başladı! Süreniz ${Math.floor(timeoutObject.MapChange / 60)} dakika ${Math.floor(timeoutObject.MapChange % 60)} saniyedir.`,
+            Goal: {
+                Scored: ["bitirilme süresi", "bitirilme süresi", "bitirilme süresi", "bitirilme süresi", "bitirilme süresi", "bitirilme süresi"]
+            },
+            JoinHistory: "Odaya katılım bilgileriniz aşağıdaki gibidir:\n",
+            Map: "Harita bilgileri aşağıdaki gibidir:\n",
+            MapList: "Harita listesi aşağıdaki gibidir:\n",
+            Mute: "susturuldu. Cezası bitene kadar konuşamaz. Susturan kişi:",
+            MuteAll: "Sohbet kapatılmış durumda. Yazdıklarınızı sadece adminler görebilir.",
+            Muted: "Cezalı olduğunuz için yazdıklarınızı sadece adminler görebilir.",
+            Push: ["İtme kapatıldı! Artık oyuncular birbirini itemez.", "İtme açıldı! Artık oyuncular birbirini itebilir."],
+            SlowMode: "Yavaş mod aktif. Yazdıklarınızı sadece adminler görebilir.",
+            Top5: "En iyi süre listesi aşağıdaki gibidir:\n",
+            Unmute: "'nin cezası sona erdi, artık konuşabilir.",
+            Vote: "için oyunuzu kullandınız."
+        },
+        Kick: {
+            Duplicated: {
+                Account: "Odaya birden fazla hesapla giriş yasaktır! Odadaki hesabınız:",
+                Name: "Aynı isimde oyuncu zaten var!"
+            }
+        },
+        LanguageChanged: "Dil başarıyla değiştirildi:",
+        MapLoad: "haritası açıldı, haritayı açan:",
+        MuteAll: ["tarafından sohbet genele kapatıldı, yazılanları sadece adminler görebilir.", "tarafından sohbet genele açıldı, artık herkes konuşabilir."],
+        NoAuthorization: {
+            MapChange: "Bu odada harita değiştirmek için yetkiniz bulunmamaktadır!",
+            MapLoad: "Bu odada komutla harita açmak için yetkiniz bulunmamaktadır!",
+            Mute: "Bu odada oyuncu susturmak için yetkiniz bulunmamaktadır!",
+            MuteAll: ["Bu odada sohbeti kapatmak için yetkiniz bulunmamaktadır!", "Bu odada sohbeti açmak için yetkiniz bulunmamaktadır!"],
+            Password: ["Bu odada parola oluşturmak için yetkiniz bulunmamaktadır!", "Bu odada parolayı sıfırlamak için yetkiniz bulunmamaktadır!"],
+            Push: ["Bu odada itme kontrolünü açmak için yetkiniz bulunmamaktadır!", "Bu odada itme kontrolünü kapatmak için yetkiniz bulunmamaktadır!"],
+            Recaptcha: ["Bu odada re-captcha'yı açmak için yetkiniz bulunmamaktadır!", "Bu odada re-captcha'yı kapatmak için yetkiniz bulunmamaktadır!"]
+        },
+        Password: ["Parola başarıyla sıfırlandı! Sıfırlayan kişi:", "Parola başarıyla oluşturuldu! Oluşturan kişi:"],
+        Recaptcha: ["Re-captcha kapatıldı! Kapatan kişi:", "Re-captcha açıldı! Açan kişi:"],
+        SomethingWentWrong: {
+            InvalidID: "Geçersiz ID!",
+            InvalidLanguageCode: "Geçersiz dil kodu! Kullanılabilir dil kodları:",
+            InvalidTime: "Lütfen 1 ile 10 dakika arasında bir süre giriniz!",
+            Main: "Hay aksi! Bir şeyler yanlış gitti!",
+            MapLoad: "Harita açılamıyor.",
+            NoCorrespondingPlayers: "Bu ID'de bir oyuncu odada yok!",
+            NotACommand: "Böyle bir komut yok. Komutları görmek için !commands yazınız.",
+            Vote: {
+                Admin: "Adminleri oylayamazsınız!",
+                Already: "Bu kişiye zaten oy verdiniz!",
+                People: "Odada yeterli sayıda oyuncu olmadığı için oylama yapamazsınız!",
+                Self: "Kendinizi oylayamazsınız!",
+                Timeout: {
+                    Join: `${timeoutObject.Vote.Join / 60000} dakika geçmeden oy kullanamazsınız!`,
+                    Voted: `${timeoutObject.Vote.Voted / 60000} dakika geçmeden oy kullanamazsınız!`
+                }
+            },
+        },
+        Speed: ["Hız kapalı!", "Hız açık!"],
+        Welcome: "Hoş geldiniz!"
+    },
+    en: {
+        Ban: {
+            BadWords: "Using bad words is prohibited in our room.",
+            Vote: "You were banned by vote!"
+        },
+        Bye: "Bye!",
+        Commands: [commandList.player, commandList.admin],
+        Info: {
+            AFK: ["is now AFK!", "is now with us!"],
+            BadWords: "Using bad words is prohibited in our room, you will be banned if going on!",
+            Commands: "Available commands:\n",
+            Discord: "Our discord server:",
+            GameStarted: `Game started! Your time is ${Math.floor(timeoutObject.MapChange / 60) == 1 ? Math.floor(timeoutObject.MapChange / 60) + " minute" : Math.floor(timeoutObject.MapChange / 60) + " minutes"} ${Math.floor(timeoutObject.MapChange % 60) == 1 ? Math.floor(timeoutObject.MapChange % 60) + " second" : Math.floor(timeoutObject.MapChange % 60) + " seconds"}.`,
+            Goal: {
+                Scored: ["finish time", "finish time", "finish time", "finish time", "finish time"]
+            },
+            JoinHistory: "Your joining history below:\n",
+            Map: "Map info below:\n",
+            MapList: "Map list below:\n",
+            Mute: "was muted and cannot talk until his punishment removed. By:",
+            MuteAll: "Chat is muted. Only the administration can see your messages.",
+            Muted: "You are muted. Only the administration can see your messages.",
+            Push: ["Push is turned off! Players are transparent to each other.", "Push is on! Players can push each other."],
+            SlowMode: "Slowmode is active. Only the administration can see your messages.",
+            Top5: "The best times below:\n",
+            Unmute: "'s mute punishment has ended.",
+            Vote: "you have voted for."
+        },
+        Kick: {
+            Duplicated: {
+                Account: "Joining with multiple accounts is not allowed in this room. Original:",
+                Name: "A player name with the same name already exists!"
+            },
+        },
+        LanguageChanged: "Your language was successfully switched to",
+        MapLoad: "was loaded by",
+        MuteAll: ["has muted chat, only the administration can see the messages.", "has unmuted chat, everybody can talk"],
+        NoAuthorization: {
+            MapChange: "You don't have authorization to change maps in this room!",
+            MapLoad: "You don't have authorization to load maps by command in this room!",
+            Mute: "You don't have authorization to mute players by command in this room!",
+            MuteAll: ["You don't have authorization to mute chat in this room!", "You don't have authorization to unmute chat in this room!"],
+            Password: ["You don't have authorization to set a password in this room!", "You don't have authorization to remove the password in this room!"],
+            Push: ["You don't have authorization to turn on push control in this room!", "You don't have authorization to turn off push control in this room!"],
+            Recaptcha: ["You don't have authorization to turn on re-captcha in this room!", "You don't have authorization to turn off re-captcha in this room!"]
+        },
+        Password: ["Password removed by", "Password set by"],
+        Recaptcha: ["Re-captcha turned off by", "Re-captcha turned on by"],
+        SomethingWentWrong: {
+            InvalidID: "Invalid ID!",
+            InvalidLanguageCode: "Invalid language code! Available language codes:",
+            InvalidTime: "Please enter a value between 1 and 10 (in minutes)!",
+            Main: "Something went wrong!",
+            MapLoad: "Map couldn't be load",
+            NoCorrespondingPlayers: "There aren't any corresponding players with the given ID!",
+            NotACommand: "No such a command. Type !commands to see the commands available.",
+            Vote: {
+                Admin: "You cannot vote administrators!",
+                Already: "You have already voted this player!",
+                People: "There aren't enough players to start a vote!",
+                Self: "You cannot vote yourselves!",
+                Timeout: {
+                    Join: `${timeoutObject.Vote.Join / 60000 == 1 ? " minute is " : " minutes are "} needed to vote again!`,
+                    Voted: `${timeoutObject.Vote.Voted / 60000 == 1 ? " minute is " : " minutes are "} needed to start a vote after joining the room!}`
+                }
+            },
+        },
+        Speed: ["Speed is turned off!", "Speed is turned on!"],
+        Welcome: "Welcome!"
+    },
 };
 
 var badwords = {
-	tr: [/[a4@][./]m[./][gkq]+/, /[a4@]hm[a4@][gğk]+/, /[a4@]mc[ıi1][gğk]+/, /[a4@]m[ı1]n+/, /[a4@]m[kq]+/, /[a4@]ngu[t₺]+/, /[a4@]n[a4@][ns$5]+/, /[a4@]nn[e€][s$5][ıi1]+/, /[a4@][bp][t₺][a4@][l1]+/, /[a4@]q+/, /[a4@][t₺][a4@]pu[t₺]+/, /[bß][a4@][bß][a4@]n+/, /[bß][o0]k+/, /d[a4@][l1][l1][a4@]m[a4@]+/, /d[a4@]ng[a4@][l1][a4@][gğkq]+/, /[e€][bß][e€][ns$5]+/, /f[a4@]h[ıi1][sş$5][e€]+/, /g[e€]r[ıi1]z[e€]k[a4@]+/, /g[a4@]v[a4@][t₺]+/, /[cg][oö0][t₺][uü][mn]+/, /[cg][oö0][t₺]v[e€]r[e€]n+/, /h[a4@][s$5][s$5][ıi1]k[t₺][ıi1]r+/, /[ıi1][bp]n[e€]+/, /k[a4@]f[ıi1]r+/, /k[a4@]h[bpß][e€]+/, /k[a4@]n[c¢][ıi1]k/, /k[e€]r[ıi1]z+/, /k[e€]v[a4@][sş$5][e€]+/, /[l1][a4@]vu[gğk]+/, /m[./][gkq]+/, /m[o0]r[o0]n+/, /n[o0]n[o0][sş$5]+/, /[o0][./][cç¢]+/, /[o0][cç¢]+/, /[o0][rvw][o0][sş$5][bpß][ıiou]+/, /p[e€]z[e€]v[e€]n[gkq]+/, /p[ıi1][cçj¢]+/, /pu[sş$5][t₺]+/, /s.g+/, /[s$5][a4@][l1][a4@][gğk]+/, /[sşz$5][ıi1!]k[eıikmt₺1]+/, /[sşz$5]+2+[ikmşy]+/, /[sş$5][e€]r[e€]f[sş$5][ıi1]z+/, /[t₺][a4@][sş$5][a4@]k+/, /[t₺][a4@][sş$5][sş$5][a4@]k+/, /v[a4@][l1][ıi1]d[e€][ns]+/, /[y7][a4@]r[a4@][gğkmq]+/, /[y7][a4@]rr[a4@][gğkmq]+/, /[y7][a4@][uv][sş$5][a4@][gğk]+/, /[y7][o0][sş$5]m[a4@]+/],
-	en: [/[a4@][s$5][s$5]h[o0][l1][e€]+/, /[bß][a4@]rm[iy7]+/, /[bß][a4@][s$5][t₺][a4@]rd+/, /[bß][ıi1][t₺][cç¢]h+/, /[c¢]un[t₺]+/, /f[uü][cç¢]k+/, /[l1]m[a4@][o0]+/, /[l1]mf[a4@][o0]+/, /pu[s5$][s5$][y7]+/, /r[e€][t₺][a4@]rd+/, /[s$5][t₺]fu+/, /wh[o0]r[e€]+/, /w[t₺]f+/]
+    tr: [/[a4@][./]m[./][gkq]+/, /[a4@]hm[a4@][gğk]+/, /[a4@]mc[ıi1][gğk]+/, /[a4@]m[ı1]n+/, /[a4@]m[kq]+/, /[a4@]ngu[t₺]+/, /[a4@]n[a4@][ns$5]+/, /[a4@]nn[e€][s$5][ıi1]+/, /[a4@][bp][t₺][a4@][l1]+/, /[a4@]q+/, /[a4@][t₺][a4@]pu[t₺]+/, /[bß][a4@][bß][a4@]n+/, /[bß][o0]k+/, /d[a4@][l1][l1][a4@]m[a4@]+/, /d[a4@]ng[a4@][l1][a4@][gğkq]+/, /[e€][bß][e€][ns$5]+/, /f[a4@]h[ıi1][sş$5][e€]+/, /g[e€]r[ıi1]z[e€]k[a4@]+/, /g[a4@]v[a4@][t₺]+/, /[cg][oö0][t₺][uü][mn]+/, /[cg][oö0][t₺]v[e€]r[e€]n+/, /h[a4@][s$5][s$5][ıi1]k[t₺][ıi1]r+/, /[ıi1][bp]n[e€]+/, /k[a4@]f[ıi1]r+/, /k[a4@]h[bpß][e€]+/, /k[a4@]n[c¢][ıi1]k/, /k[e€]r[ıi1]z+/, /k[e€]v[a4@][sş$5][e€]+/, /[l1][a4@]vu[gğk]+/, /m[./][gkq]+/, /m[o0]r[o0]n+/, /n[o0]n[o0][sş$5]+/, /[o0][./][cç¢]+/, /[o0][cç¢]+/, /[o0][rvw][o0][sş$5][bpß][ıiou]+/, /p[e€]z[e€]v[e€]n[gkq]+/, /p[ıi1][cçj¢]+/, /pu[sş$5][t₺]+/, /s.g+/, /[s$5][a4@][l1][a4@][gğk]+/, /[sşz$5][ıi1!]k[eıikmt₺1]+/, /[sşz$5]+2+[ikmşy]+/, /[sş$5][e€]r[e€]f[sş$5][ıi1]z+/, /[t₺][a4@][sş$5][a4@]k+/, /[t₺][a4@][sş$5][sş$5][a4@]k+/, /v[a4@][l1][ıi1]d[e€][ns]+/, /[y7][a4@]r[a4@][gğkmq]+/, /[y7][a4@]rr[a4@][gğkmq]+/, /[y7][a4@][uv][sş$5][a4@][gğk]+/, /[y7][o0][sş$5]m[a4@]+/],
+    en: [/[a4@][s$5][s$5]h[o0][l1][e€]+/, /[bß][a4@]rm[iy7]+/, /[bß][a4@][s$5][t₺][a4@]rd+/, /[bß][ıi1][t₺][cç¢]h+/, /[c¢]un[t₺]+/, /f[uü][cç¢]k+/, /[l1]m[a4@][o0]+/, /[l1]mf[a4@][o0]+/, /pu[s5$][s5$][y7]+/, /r[e€][t₺][a4@]rd+/, /[s$5][t₺]fu+/, /wh[o0]r[e€]+/, /w[t₺]f+/]
 };
 
 var kickTypes = {
-	BadWords: true,
-	Duplicated: {
-		Account: false,
-		Name: false
-	},
-	Vote: true
+    BadWords: true,
+    Duplicated: {
+        Account: false,
+        Name: false
+    },
+    Vote: true
 };
 
 var teamObject = { Spectators: 0, Red: 1, Blue: 2 };
@@ -425,9 +553,9 @@ var playerList = {};
 var _playerList = [];
 
 var logMessages = {
-	adminChanges: ["'s admin rights were taken away", " was given admin rights"],
-	playerKicked: [" was kicked", " was banned"],
-	teams: ["spectators", "red", "blue"]
+    adminChanges: ["'s admin rights were taken away", " was given admin rights"],
+    playerKicked: [" was kicked", " was banned"],
+    teams: ["spectators", "red", "blue"]
 };
 
 var languages = ["tr", "en"];
@@ -441,11 +569,11 @@ var discordLink = "https://discord.gg/";
 var version = "4";
 
 var _room = {
-	roomName: `Yellow Bot Room v${version}`,
-	noPlayer: true,
-	public: true,
-	maxPlayers: 12,
-	password: "1234567890",
+    roomName: `Yellow Bot Room v${version}`,
+    noPlayer: true,
+    public: true,
+    maxPlayers: 12,
+    password: "1234567890",
 };
 
 roomObject.password = _room.password;
@@ -468,662 +596,618 @@ room.setTeamsLock(roomObject.teamsLock);
 room.setTimeLimit(roomObject.timeLimit);
 
 function checkInactivity() {
-	var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
+    var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
 
-	players.forEach(p => {
-		if (timeoutObject.AFK <= (Date.now() - playerList[p.name].LastActivity) && (Date.now() - playerList[p.name].LastActivity) <= (timeoutObject.AFK + toleranceObject.AFK)) {
-			playerList[p.name].AFKStatus = !playerList[p.name].AFKStatus;
-			room.sendAnnouncement(`${locales[playerList[p.name].Language].Info.AFK[Number(playerList[p.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[p.name].AFKStatus)], fonts.Info.AFK[Number(playerList[p.name].AFKStatus)], sounds.Info.AFK[Number(playerList[p.name].AFKStatus)]);
-			room.setPlayerTeam(p.id, 0);
-		}
-	});
+    players.forEach(p => {
+        if (timeoutObject.AFK <= (Date.now() - playerList[p.name].LastActivity) && (Date.now() - playerList[p.name].LastActivity) <= (timeoutObject.AFK + toleranceObject.AFK)) {
+            playerList[p.name].AFKStatus = !playerList[p.name].AFKStatus;
+            room.sendAnnouncement(`${locales[playerList[p.name].Language].Info.AFK[Number(playerList[p.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[p.name].AFKStatus)], fonts.Info.AFK[Number(playerList[p.name].AFKStatus)], sounds.Info.AFK[Number(playerList[p.name].AFKStatus)]);
+            room.setPlayerTeam(p.id, 0);
+        }
+    });
 }
 
 function checkTimer() {
-	var index = _Parkours.findIndex(p => p.ID == _Parkour.ID);
+    var index = _Parkours.findIndex(p => p.ID == _Parkour.ID);
 
-	if (room.getScores() != null) {
-		if (index !== -1) {
-			if (timeoutObject.MapChange <= _Parkour.Timer && _Parkour.Timer <= timeoutObject.MapChange + toleranceObject.MapChange) {
-				nextMap();
-			}
-		}
-	}
+    if (room.getScores() != null) {
+        if (index !== -1) {
+            if (timeoutObject.MapChange <= _Parkour.Timer && _Parkour.Timer <= timeoutObject.MapChange + toleranceObject.MapChange) {
+                nextMap();
+            }
+        }
+    }
 }
 
 function generateRandomPassword(length = randomStringLength) {
-	var randomChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-	var result = "";
-	for (var i = 0; i < length; i++) {
-		result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
-	}
-	room.setPassword(result);
-	roomObject.password = result;
+    var randomChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    var result = "";
+    for (var i = 0; i < length; i++) {
+        result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    }
+    room.setPassword(result);
+    roomObject.password = result;
 }
 
 function getLastToucher() {
-	var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
-	var ballPosition = room.getDiscProperties(0);
+    var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
+    var ballPosition = room.getDiscProperties(0);
 
-	for (var i = 0; i < players.length; i++) {
-		if (isColliding(room.getPlayerDiscProperties(players[i].id), ballPosition) == true && (roomObject.game.lastToucher == undefined || (roomObject.game.lastToucher != undefined && roomObject.game.lastToucher.id != players[i].id))) {
-			console.log("COLLISION");
-			roomObject.game.lastToucher = players[i];
-		}
-	}
+    for (var i = 0; i < players.length; i++) {
+        if (isColliding(room.getPlayerDiscProperties(players[i].id), ballPosition) == true && (roomObject.game.lastToucher == undefined || (roomObject.game.lastToucher != undefined && roomObject.game.lastToucher.id != players[i].id))) {
+            console.log("COLLISION");
+            roomObject.game.lastToucher = players[i];
+        }
+    }
 }
 
 function increaseTimer() {
-	var index = _Parkours.findIndex(p => p.ID == _Parkour.ID);
+    var index = _Parkours.findIndex(p => p.ID == _Parkour.ID);
 
-	if (room.getScores() != null) {
-		if (index !== -1) {
-			_Parkour.Timer += 1 / 60;
-		}
-	}
+    if (room.getScores() != null) {
+        if (index !== -1) {
+            _Parkour.Timer += 1 / 60;
+        }
+    }
 }
 
 function isBadword(lang, str) {
-	return badwords[lang].filter(b => str.match(b)).length > 0;
+    return badwords[lang].filter(b => str.match(b)).length > 0;
 }
 
 function isColliding(c1, c2) {
-	return pointDistance(c1, c2) < c1.radius + c2.radius + toleranceObject.Collision;
+    return pointDistance(c1, c2) < c1.radius + c2.radius + toleranceObject.Collision;
 }
 
 function isCommand(string) {
-	return commands[string.substr(messagePrefix.length)] != undefined;
+    return commands[string.substr(messagePrefix.length)] != undefined;
 }
 
 function isDuplicatedAccount(player, auth, conn) {
-	var players = room.getPlayerList();
-	var result = players.length > 0 && players.filter(p => playerList[p.name] != undefined && p.id != player.id && (playerList[p.name].Auth == auth || playerList[p.name].Conn == conn)).length > 0;
+    var players = room.getPlayerList();
+    var result = players.length > 0 && players.filter(p => playerList[p.name] != undefined && p.id != player.id && (playerList[p.name].Auth == auth || playerList[p.name].Conn == conn)).length > 0;
 
-	var p = players.filter(p => playerList[p.name] != undefined && (playerList[p.name].Auth == auth || playerList[p.name].Conn == conn))[0];
+    var p = players.filter(p => playerList[p.name] != undefined && (playerList[p.name].Auth == auth || playerList[p.name].Conn == conn))[0];
 
-	if (result == true) {
-		room.kickPlayer(player.id, `${locales[locale].Kick.Duplicated.Account} ${p.name}`, kickTypes.Duplicated.Account);
-	}
+    if (result == true) {
+        room.kickPlayer(player.id, `${locales[locale].Kick.Duplicated.Account} ${p.name}`, kickTypes.Duplicated.Account);
+    }
 }
 
 function isDuplicatedName(player, name) {
-	var players = room.getPlayerList();
-	var result = players.length > 0 && players.filter(p => playerList[p.name] != undefined && p.id != player.id && playerList[p.name].Name == name).length > 0;
+    var players = room.getPlayerList();
+    var result = players.length > 0 && players.filter(p => playerList[p.name] != undefined && p.id != player.id && playerList[p.name].Name == name).length > 0;
 
-	if (result == true) {
-		room.kickPlayer(player.id, `${locales[locale].Kick.Duplicated.Name}`, kickTypes.Duplicated.Name);
-	}
+    if (result == true) {
+        room.kickPlayer(player.id, `${locales[locale].Kick.Duplicated.Name}`, kickTypes.Duplicated.Name);
+    }
 }
 
 function loadMap(map, scoreLimit, timeLimit) {
-	if (room.getScores() == null) {
-		room.setCustomStadium(map);
-		room.setScoreLimit(scoreLimit);
-		room.setTimeLimit(timeLimit);
-		room.startGame();
-	}
-	else {
-		room.stopGame();
-		room.setCustomStadium(map);
-		room.setScoreLimit(scoreLimit);
-		room.setTimeLimit(timeLimit);
-		room.startGame();
-	}
+    if (room.getScores() == null) {
+        room.setCustomStadium(map);
+        room.setScoreLimit(scoreLimit);
+        room.setTimeLimit(timeLimit);
+        room.startGame();
+    } else {
+        room.stopGame();
+        room.setCustomStadium(map);
+        room.setScoreLimit(scoreLimit);
+        room.setTimeLimit(timeLimit);
+        room.startGame();
+    }
 }
 
 function logPlayerSpeed() {
-	var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && playerList[p.name].SpeedEnabled == true);
+    var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && playerList[p.name].SpeedEnabled == true);
 
-	players.forEach(p => {
-		room.setPlayerAvatar(p.id, (Math.floor(10 * Math.hypot(room.getPlayerDiscProperties(p.id).xspeed, room.getPlayerDiscProperties(p.id).yspeed))).toString());
-	});
+    players.forEach(p => {
+        room.setPlayerAvatar(p.id, (Math.floor(10 * Math.hypot(room.getPlayerDiscProperties(p.id).xspeed, room.getPlayerDiscProperties(p.id).yspeed))).toString());
+    });
 }
 
 function nextMap() {
-	if (_Parkour.ID != 0) {
-		var ID = _Parkour.ID;
-		ID != _Parkours[_Parkours.length - 1].ID ? loadMap(Parkours[ID], roomObject.scoreLimit, roomObject.timeLimit) : loadMap(Parkours[0], roomObject.scoreLimit, roomObject.timeLimit);
-	}
+    if (_Parkour.ID != 0) {
+        var ID = _Parkour.ID;
+        ID != _Parkours[_Parkours.length - 1].ID ? loadMap(Parkours[ID], roomObject.scoreLimit, roomObject.timeLimit) : loadMap(Parkours[0], roomObject.scoreLimit, roomObject.timeLimit);
+    }
 }
 
 function pointDistance(p1, p2) {
-	return Math.hypot(p1.x - p2.x, p1.y - p2.y);
+    return Math.hypot(p1.x - p2.x, p1.y - p2.y);
 }
 
 function push() {
-	var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && room.getPlayerDiscProperties(p.id).cGroup != push_cGroups[Number(roomObject.push)][p.team - 1]);
-	players.forEach(p => room.setPlayerDiscProperties(p.id, { cGroup: push_cGroups[Number(roomObject.push)][p.team - 1] }));
+    var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && room.getPlayerDiscProperties(p.id).cGroup != push_cGroups[Number(roomObject.push)][p.team - 1]);
+    players.forEach(p => room.setPlayerDiscProperties(p.id, { cGroup: push_cGroups[Number(roomObject.push)][p.team - 1] }));
 }
 
 function removePassword() {
-	room.setPassword();
-	roomObject.password = null;
+    room.setPassword();
+    roomObject.password = null;
 }
 
 function resetTimers() {
-	_Parkours.filter(p => p.Timer != 0).forEach(p => p.Timer = 0);
+    _Parkours.filter(p => p.Timer != 0).forEach(p => p.Timer = 0);
 }
 
 function serialize(number) {
-	return number.toFixed(3);
+    return number.toFixed(3);
 }
 
 function speedControl() {
-	var players_fast = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && Math.hypot(room.getPlayerDiscProperties(p.id).xspeed, room.getPlayerDiscProperties(p.id).yspeed) > _Parkour.UpperSpeedBound && room.getPlayerDiscProperties(p.id).cGroup != speedControl_cGroups[p.team - 1]);
-	players_fast.forEach(p => room.setPlayerDiscProperties(p.id, { cGroup: speedControl_cGroups[p.team - 1] }));
+    var players_fast = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && Math.hypot(room.getPlayerDiscProperties(p.id).xspeed, room.getPlayerDiscProperties(p.id).yspeed) > _Parkour.UpperSpeedBound && room.getPlayerDiscProperties(p.id).cGroup != speedControl_cGroups[p.team - 1]);
+    players_fast.forEach(p => room.setPlayerDiscProperties(p.id, { cGroup: speedControl_cGroups[p.team - 1] }));
 
-	var players_slow = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && Math.hypot(room.getPlayerDiscProperties(p.id).xspeed, room.getPlayerDiscProperties(p.id).yspeed) <= _Parkour.UpperSpeedBound && room.getPlayerDiscProperties(p.id).cGroup == speedControl_cGroups[p.team - 1]);
-	players_slow.forEach(p => room.setPlayerDiscProperties(p.id, { cGroup: cGroups[Number(roomObject.push)][p.team - 1] }));
+    var players_slow = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null && Math.hypot(room.getPlayerDiscProperties(p.id).xspeed, room.getPlayerDiscProperties(p.id).yspeed) <= _Parkour.UpperSpeedBound && room.getPlayerDiscProperties(p.id).cGroup == speedControl_cGroups[p.team - 1]);
+    players_slow.forEach(p => room.setPlayerDiscProperties(p.id, { cGroup: cGroups[Number(roomObject.push)][p.team - 1] }));
 }
 
-room.onGamePaused = function (byPlayer) {
-	byPlayer == null ? console.log(`Game paused`) : console.log(`Game paused by ${byPlayer.name}`);
+room.onGamePause = function(byPlayer) {
+    byPlayer == null ? console.log(`Game paused`) : console.log(`Game paused by ${byPlayer.name}`);
 }
 
-room.onGameStart = function (byPlayer) {
-	byPlayer == null ? console.log(`Game started`) : console.log(`Game started by ${byPlayer.name}`);
-	var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
-	players.forEach(p => playerList[p.name].Timer = Date.now());
-	if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
-	if (roomObject.game.lastToucher != undefined) roomObject.game.lastToucher = undefined;
-	room.sendAnnouncement(`${locales[locale].Info.GameStarted}`, null, colors.Info.GameStarted, fonts.Info.GameStarted, sounds.Info.GameStarted);
+room.onGameStart = function(byPlayer) {
+    byPlayer == null ? console.log(`Game started`) : console.log(`Game started by ${byPlayer.name}`);
+    var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
+    players.forEach(p => playerList[p.name].Timer = Date.now());
+    if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
+    if (roomObject.game.lastToucher != undefined) roomObject.game.lastToucher = undefined;
+    room.sendAnnouncement(`${locales[locale].Info.GameStarted}`, null, colors.Info.GameStarted, fonts.Info.GameStarted, sounds.Info.GameStarted);
 }
 
-room.onGameStop = function (byPlayer) {
-	byPlayer == null ? console.log(`Game stopped`) : console.log(`Game stopped by ${byPlayer.name}`);
-	if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
-	if (roomObject.game.lastToucher != undefined) roomObject.game.lastToucher = undefined;
-	resetTimers();
+room.onGameStop = function(byPlayer) {
+    byPlayer == null ? console.log(`Game stopped`) : console.log(`Game stopped by ${byPlayer.name}`);
+    if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
+    if (roomObject.game.lastToucher != undefined) roomObject.game.lastToucher = undefined;
+    resetTimers();
 }
 
-room.onGameTick = function () {
-	checkTimer();
-	getLastToucher();
-	increaseTimer();
-	logPlayerSpeed();
-	push();
-	speedControl();
+room.onGameTick = function() {
+    checkTimer();
+    getLastToucher();
+    increaseTimer();
+    logPlayerSpeed();
+    push();
+    speedControl();
 }
 
-room.onGameUnpaused = function (byPlayer) {
-	byPlayer == null ? console.log(`Game unpaused`) : console.log(`Game unpaused by ${byPlayer.name}`);
+room.onGameUnpause = function(byPlayer) {
+    byPlayer == null ? console.log(`Game unpaused`) : console.log(`Game unpaused by ${byPlayer.name}`);
 }
 
-room.onKickRateLimitSet = function (min, rate, burst, byPlayer) {
-	byPlayer == null ? console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} max: ${max} burst: ${burst} by ${byPlayer.name}`);
+room.onKickRateLimitSet = function(min, rate, burst, byPlayer) {
+    byPlayer == null ? console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst}`) : console.log(`Kick rate limit set as min: ${min} rate: ${rate} burst: ${burst} by ${byPlayer.name}`);
 }
 
-room.onPlayerActivity = function (player) {
-	if (playerList[player.name].LastActivity != Date.now()) playerList[player.name].LastActivity = Date.now();
+room.onPlayerActivity = function(player) {
+    if (playerList[player.name].LastActivity != Date.now()) playerList[player.name].LastActivity = Date.now();
 }
 
-room.onPlayerAdminChange = function (changedPlayer, byPlayer) {
-	byPlayer == null ? console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]}`) : console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]} by ${byPlayer.name}`);
+room.onPlayerAdminChange = function(changedPlayer, byPlayer) {
+    byPlayer == null ? console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]}`) : console.log(`${changedPlayer.name}${logMessages.adminChanges[Number(changedPlayer.admin)]} by ${byPlayer.name}`);
 }
 
-room.onPlayerBallKick = function (player) {
-	console.log(`${player.name} has kicked the ball`);
-	var ballPosition = room.getDiscProperties(0);
-	if (isColliding(room.getPlayerDiscProperties(player.id), ballPosition) == true && (roomObject.game.lastToucher == undefined || (roomObject.game.lastToucher != undefined && roomObject.game.lastToucher.id != player.id))) {
-		roomObject.game.lastToucher = player;
-	}
+room.onPlayerBallKick = function(player) {
+    console.log(`${player.name} has kicked the ball`);
+    var ballPosition = room.getDiscProperties(0);
+    if (isColliding(room.getPlayerDiscProperties(player.id), ballPosition) == true && (roomObject.game.lastToucher == undefined || (roomObject.game.lastToucher != undefined && roomObject.game.lastToucher.id != player.id))) {
+        roomObject.game.lastToucher = player;
+    }
 }
 
-room.onPlayerChat = function (player, message) {
-	console.log(`${player.name}: ${message}`);
-	var players = room.getPlayerList();
-	var administrators = players.filter(p => p.admin == true);
-	var name = player.name;
-	var id = player.id;
+room.onPlayerChat = function(player, message) {
+    console.log(`${player.name}: ${message}`);
+    var players = room.getPlayerList();
+    var administrators = players.filter(p => p.admin == true);
+    var name = player.name;
+    var id = player.id;
 
-	setTimeout(function () {
-		if (playerList[name].SlowMode == false) playerList[name].SlowMode = true;
-	}, timeoutObject.SlowMode.Start);
-	setTimeout(function () {
-		if (playerList[name].SlowMode == true) playerList[name].SlowMode = false;
-	}, timeoutObject.SlowMode.Stop);
+    setTimeout(function() {
+        if (playerList[name].SlowMode == false) playerList[name].SlowMode = true;
+    }, timeoutObject.SlowMode.Start);
+    setTimeout(function() {
+        if (playerList[name].SlowMode == true) playerList[name].SlowMode = false;
+    }, timeoutObject.SlowMode.Stop);
 
-	if (message.startsWith(messagePrefix) == true) {
-		if (isCommand(message) == true || isCommand(message.toLowerCase().split(" ")[0]) == true) {
-			if (message.toLowerCase() == commands.admin) {
-				room.setPlayerAdmin(player.id, !player.admin);
-				return false;
-			}
-			else if (message.toLowerCase() == commands.afk) {
-				playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
-				room.sendAnnouncement(`${player.name} ${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[player.name].AFKStatus)], fonts.Info.AFK[Number(playerList[player.name].AFKStatus)], sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
-				playerList[player.name].AFKStatus == true ? room.setPlayerTeam(player.id, teamObject.Spectators) : room.setPlayerTeam(player.id, 1 + Math.floor(Math.random() * 2));
-				return false;
-			}
-			else if (message.toLowerCase() == commands.commands) {
-				room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Commands}${locales[playerList[player.name].Language].Commands[Number(player.admin)]}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
-				return false;
-			}
-			else if (message.toLowerCase() == commands.discord) {
-				room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Discord} ${discordLink}`, player.id, colors.Info.Discord, fonts.Info.Discord, sounds.Info.Discord);
-				return false;
-			}
-			else if (message.toLowerCase() == commands.joinhistory) {
-				var set = _playerList.filter(p => p.Name == player.name || p.Auth == playerList[player.name].Auth || p.Conn == playerList[player.name].Conn);
-				room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.JoinHistory}`, player.id, colors.Info.JoinHistory, fonts.Info.JoinHistory, sounds.Info.JoinHistory);
-				set.forEach(s => {
-					room.sendAnnouncement(`${1 + set.indexOf(s)}-) ${s.Name} - ${s.Auth} - ${s.Conn} - ${new Date(s.JoinDate).toLocaleString()}`, player.id, colors.Info.JoinHistory, fonts.Info.JoinHistory, sounds.Info.JoinHistory);
-				});
-				return false;
-			}
-			else if (message.toLowerCase().split(" ")[0] == commands.lang) {
-				var lang = message.toLowerCase().split(" ")[1];
-				var l = languages.findIndex(x => x == lang);
+    if (message.startsWith(messagePrefix) == true) {
+        if (isCommand(message) == true || isCommand(message.toLowerCase().split(" ")[0]) == true) {
+            if (message.toLowerCase() == commands.admin) {
+                room.setPlayerAdmin(player.id, !player.admin);
+                return false;
+            } else if (message.toLowerCase() == commands.afk) {
+                playerList[player.name].AFKStatus = !playerList[player.name].AFKStatus;
+                room.sendAnnouncement(`${player.name} ${locales[playerList[player.name].Language].Info.AFK[Number(playerList[player.name].AFKStatus)]}`, player.id, colors.Info.AFK[Number(playerList[player.name].AFKStatus)], fonts.Info.AFK[Number(playerList[player.name].AFKStatus)], sounds.Info.AFK[Number(playerList[player.name].AFKStatus)]);
+                playerList[player.name].AFKStatus == true ? room.setPlayerTeam(player.id, teamObject.Spectators) : room.setPlayerTeam(player.id, 1 + Math.floor(Math.random() * 2));
+                return false;
+            } else if (message.toLowerCase() == commands.commands) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Commands}${locales[playerList[player.name].Language].Commands[Number(player.admin)]}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
+                return false;
+            } else if (message.toLowerCase() == commands.discord) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Discord} ${discordLink}`, player.id, colors.Info.Discord, fonts.Info.Discord, sounds.Info.Discord);
+                return false;
+            } else if (message.toLowerCase() == commands.joinhistory) {
+                var set = _playerList.filter(p => p.Name == player.name || p.Auth == playerList[player.name].Auth || p.Conn == playerList[player.name].Conn);
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.JoinHistory}`, player.id, colors.Info.JoinHistory, fonts.Info.JoinHistory, sounds.Info.JoinHistory);
+                set.forEach(s => {
+                    room.sendAnnouncement(`${1 + set.indexOf(s)}-) ${s.Name} - ${s.Auth} - ${s.Conn} - ${new Date(s.JoinDate).toLocaleString()}`, player.id, colors.Info.JoinHistory, fonts.Info.JoinHistory, sounds.Info.JoinHistory);
+                });
+                return false;
+            } else if (message.toLowerCase().split(" ")[0] == commands.lang) {
+                var lang = message.toLowerCase().split(" ")[1];
+                var l = languages.findIndex(x => x == lang);
 
-				if (l !== -1) {
-					playerList[player.name].Language = lang;
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].LanguageChanged} ${playerList[player.name].Language}`, player.id, colors.LanguageChanged, fonts.LanguageChanged, sounds.LanguageChanged);
-					return false;
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidLanguageCode} ${languages.toString()}`, player.id, colors.SomethingWentWrong.InvalidLanguageCode, fonts.SomethingWentWrong.InvalidLanguageCode, sounds.SomethingWentWrong.InvalidLanguageCode);
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.mapinfo) {
-				room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Map}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
-				room.sendAnnouncement(`[${_Parkour.ID}] ${_Parkour.Name} ${_Parkour.TopList[0][0]}s - ${_Parkour.TopList[0][1]} - ${new Date(_Parkour.TopList[0][2]).toLocaleString()}`, player.id, colors.Info.Map, fonts.Info.Map, sounds.Info.Map);
-				return false;
-			}
-			else if (message.toLowerCase().split(" ")[0] == commands.mapload) {
-				var ID = parseInt(message.toLowerCase().split(" ")[1]);
+                if (l !== -1) {
+                    playerList[player.name].Language = lang;
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].LanguageChanged} ${playerList[player.name].Language}`, player.id, colors.LanguageChanged, fonts.LanguageChanged, sounds.LanguageChanged);
+                    return false;
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidLanguageCode} ${languages.toString()}`, player.id, colors.SomethingWentWrong.InvalidLanguageCode, fonts.SomethingWentWrong.InvalidLanguageCode, sounds.SomethingWentWrong.InvalidLanguageCode);
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.mapinfo) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Map}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
+                room.sendAnnouncement(`[${_Parkour.ID}] ${_Parkour.Name} ${_Parkour.TopList[0][0]}s - ${_Parkour.TopList[0][1]} - ${new Date(_Parkour.TopList[0][2]).toLocaleString()}`, player.id, colors.Info.Map, fonts.Info.Map, sounds.Info.Map);
+                return false;
+            } else if (message.toLowerCase().split(" ")[0] == commands.mapload) {
+                var ID = parseInt(message.toLowerCase().split(" ")[1]);
 
-				if (player.admin == true) {
-					var p = _Parkours.findIndex(x => x.ID == ID);
+                if (player.admin == true) {
+                    var p = _Parkours.findIndex(x => x.ID == ID);
 
-					if (p !== -1) {
-						loadMap(Parkours[p], roomObject.scoreLimit, roomObject.timeLimit);
-						room.sendAnnouncement(`${_Parkours[p].Name} ${locales[playerList[player.name].Language].MapLoad} ${player.name}`, null, colors.MapLoad, fonts.MapLoad, sounds.MapLoad);
-						return false;
-					}
-					else {
-						room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
-						return false;
-					}
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MapLoad}`, player.id, colors.NoAuthorization.MapLoad, fonts.NoAuthorization.MapLoad, sounds.NoAuthorization.MapLoad);
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.maps) {
-				room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MapList}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
-				room.sendAnnouncement(`${_Parkours.map(p => p.Name + " [" + p.ID + "]").join('\n')}`, player.id, colors.Info.MapList, fonts.Info.MapList, sounds.Info.MapList);
-				return false;
-			}
-			else if (message.toLowerCase().split(" ")[0] == commands.mute) {
-				var ID = parseInt(message.toLowerCase().split(" ")[1]);
-				if (player.admin == true) {
-					var p = players.find(x => x.id == ID && x.id != player.id);
-					if (!isNaN(ID)) {
-						if (p) {
-							var Time = parseInt(message.toLowerCase().split(" ")[2]);
-							if (!isNaN(Time)) {
-								if (toleranceObject.Mute.LowerBound <= Time && Time <= toleranceObject.Mute.UpperBound) {
-									var name = p.name;
-									var pname = player.name;
-									playerList[name].IsMuted = true;
-									room.sendAnnouncement(`${p.name} ${locales[locale].Info.Mute} ${player.name}`, null, colors.Info.Mute, fonts.Info.Mute, sounds.Info.Mute);
-									setTimeout(function () {
-										playerList[name].IsMuted = false;
-										room.sendAnnouncement(`${name} ${locales[locale].Info.Unmute} ${pname}`, null, colors.Info.Unmute, fonts.Info.Unmute, sounds.Info.Unmute);
-									}, Time * 60000);
-									return false;
-								}
-								else {
-									room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
-									return false;
-								}
-							}
-							else {
-								room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
-								return false;
-							}
-						}
-						else {
-							room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
-							return false;
-						}
-					}
-					else {
-						room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
-						return false;
-					}
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Mute}`, player.id, colors.NoAuthorization.Mute, fonts.NoAuthorization.Mute, sounds.NoAuthorization.Mute);
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.muteall) {
-				if (player.admin == true) {
-					roomObject.muteAll = !roomObject.muteAll;
-					room.sendAnnouncement(`${player.name} ${locales[locale].MuteAll[Number(!roomObject.muteAll)]}`, null, colors.MuteAll[Number(!roomObject.muteAll)], fonts.MuteAll[Number(!roomObject.muteAll)], sounds.MuteAll[Number(!roomObject.muteAll)]);
-					return false;
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MuteAll[Number(roomObject.muteAll)]}`, player.id, colors.NoAuthorization.MuteAll[Number(roomObject.muteAll)], fonts.NoAuthorization.MuteAll[Number(roomObject.muteAll)], sounds.NoAuthorization.MuteAll[Number(roomObject.muteAll)]);
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.pass) {
-				if (player.admin == true) {
-					passwordFunctions[Number(roomObject.password == null)]();
-					room.sendAnnouncement(`${locales[locale].Password[Number(roomObject.password != null)]} ${player.name}`, null, colors.Password[Number(roomObject.password != null)], fonts.Password[Number(roomObject.password != null)], sounds.Password[Number(roomObject.password != null)]);
-					return false;
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Password[Number(roomObject.password != null)]}`, player.id, colors.NoAuthorization.Password[Number(roomObject.password != null)], fonts.NoAuthorization.Password[Number(roomObject.password != null)], sounds.NoAuthorization.Password[Number(roomObject.password != null)]);
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.push) {
-				if (player.admin == true) {
-					roomObject.push = !roomObject.push;
-					room.sendAnnouncement(`${locales[locale].Info.Push[Number(roomObject.push)]} ${player.name}`, null, colors.Info.Push[Number(roomObject.push)], fonts.Info.Push[Number(roomObject.push)], sounds.Info.Push[Number(roomObject.push)]);
-					return false;
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Push[Number(roomObject.push)]}`, player.id, colors.NoAuthorization.Push[Number(roomObject.push)], fonts.NoAuthorization.Push[Number(roomObject.push)], sounds.NoAuthorization.Push[Number(roomObject.push)]);
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.recaptcha) {
-				if (player.admin == true) {
-					room.setRequireRecaptcha(!roomObject.requireRecaptcha);
-					roomObject.requireRecaptcha = !roomObject.requireRecaptcha;
-					room.sendAnnouncement(`${locales[locale].Recaptcha[Number(roomObject.requireRecaptcha)]} ${player.name}`, null, colors.Recaptcha, fonts.Recaptcha, sounds.Recaptcha);
-					return false;
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]}`, player.id, colors.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], fonts.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], sounds.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]);
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.spawn) {
-				if (_Parkour.ID != 0 && room.getScores() != null && room.getPlayerDiscProperties(player.id) != null) {
-					player.team == 1 ? room.setPlayerDiscProperties(player.id, { x: _Parkour.MapObject.redSpawnPoints[0][0], y: _Parkour.MapObject.redSpawnPoints[0][1], xspeed: 0, yspeed: 0 }) : room.setPlayerDiscProperties(player.id, { x: _Parkour.MapObject.blueSpawnPoints[0][0], y: _Parkour.MapObject.blueSpawnPoints[0][1], xspeed: 0, yspeed: 0 });
-					playerList[player.name].Timer = Date.now();
-					return false;
-				}
-			}
-			else if (message.toLowerCase() == commands.speed) {
-				playerList[player.name].SpeedEnabled = !playerList[player.name].SpeedEnabled;
-				room.sendAnnouncement(`${locales[playerList[player.name].Language].Speed[Number(playerList[player.name].SpeedEnabled)]}`, player.id, colors.Speed, fonts.Speed, sounds.Speed);
-				return false;
-			}
-			else if (message.toLowerCase() == commands.top5) {
-				var p = _Parkours.find(x => x.ID == _Parkour.ID);
-				if (p !== -1) {
-					var list = _Parkour.TopList;
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Top5}`, player.id, colors.Top5, fonts.Top5, sounds.Top5);
-					list.forEach(l => {
-						room.sendAnnouncement(`${1 + list.indexOf(l)}-) ${l[0]}s - ${l[1]} - ${new Date(l[2]).toLocaleString()}`, player.id, colors.Info.Top5[list.indexOf(l)], fonts.Info.Top5[list.indexOf(l)], sounds.Info.Top5[list.indexOf(l)]);
-					});
-					return false;
-				}
-				return false;
-			}
-			else if (message.toLowerCase().split(" ")[0] == commands.vote) {
-				if (players.length >= toleranceObject.Vote.People) {
-					if (Date.now() - playerList[player.name].JoinDate >= timeoutObject.Vote.Join) {
-						var ID = parseInt(message.toLowerCase().split(" ")[1]);
-						if (!isNaN(ID)) {
-							var p = players.find(x => x.id == ID && x.id != player.id && x.admin == false);
-							console.log(p);
-							if (p) {
-								if (playerList[p.name].Voters.includes(playerList[player.name].Auth) == false) {
-									if (playerList[p.name].Voters.length < toleranceObject.Vote.Ban) {
-										playerList[p.name].Voters.push(playerList[player.name].Auth);
-										var pname = p.name;
-										var playername = player.name;
-										room.sendAnnouncement(`${p.name} ${locales[playerList[player.name].Language].Info.Vote} ${playerList[p.name].Voters.length}/${toleranceObject.Vote.Ban}`, player.id, colors.Info.Vote, fonts.Info.Vote, sounds.Info.Vote);
-										setTimeout(function () {
-											if (playerList[pname].Voters.includes(playerList[playername].Auth) == false) {
-												var index = playerList[pname].Voters.indexOf(playerList[playername].Auth);
-												playerList[pname].Voters.splice(index, 1);
-											}
-										}, timeoutObject.Vote);
-										return false;
-									}
-									else {
-										room.kickPlayer(p.id, `${locales[playerList[p.name].Language].Vote.Ban}`, kickTypes.Vote);
-										var index = playerList[p.name].Voters.indexOf(playerList[player.name].Auth);
-										if (playerList[p.name].Voters.length > 0 || index !== -1) {
-											playerList[p.name].Voters = [];
-											playerList[player.name].Voters.splice(index, 1);
-										}
-										return false;
-									}
-								}
-								else {
-									room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.Already}`, player.id, colors.SomethingWentWrong.Vote.Already, fonts.SomethingWentWrong.Vote.Already, sounds.SomethingWentWrong.Vote.Already);
-									return false;
-								}
-							}
-							else {
-								room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
-								return false;
-							}
-						}
-						else {
-							room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
-							return false;
-						}
-					}
-					else {
-						room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.Timeout.Join}`, player.id, colors.SomethingWentWrong.Vote.Timeout.Join, fonts.SomethingWentWrong.Vote.Timeout.Join, sounds.SomethingWentWrong.Vote.Timeout.Join);
-						return false;
-					}
-				}
-				else {
-					room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.People}`, player.id, colors.SomethingWentWrong.Vote.People, fonts.SomethingWentWrong.Vote.People, sounds.SomethingWentWrong.Vote.People);
-					return false;
-				}
-			}
-		}
-		else {
-			room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NotACommand}`, player.id, colors.SomethingWentWrong.NotACommand, fonts.SomethingWentWrong.NotACommand, sounds.SomethingWentWrong.NotACommand);
-			return false;
-		}
-	}
-	else {
-		if (isBadword(playerList[player.name].Language, message) == true && player.admin == false) {
-			playerList[player.name].BadWordUsage++;
-			playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`, player.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords) : room.kickPlayer(player.id, `${locales[playerList[player.name].Language].Ban.BadWords}`, kickTypes.BadWords);
+                    if (p !== -1) {
+                        loadMap(Parkours[p], roomObject.scoreLimit, roomObject.timeLimit);
+                        room.sendAnnouncement(`${_Parkours[p].Name} ${locales[playerList[player.name].Language].MapLoad} ${player.name}`, null, colors.MapLoad, fonts.MapLoad, sounds.MapLoad);
+                        return false;
+                    } else {
+                        room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
+                        return false;
+                    }
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MapLoad}`, player.id, colors.NoAuthorization.MapLoad, fonts.NoAuthorization.MapLoad, sounds.NoAuthorization.MapLoad);
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.maps) {
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MapList}`, player.id, colors.Info.Commands, fonts.Info.Commands, sounds.Info.Commands);
+                room.sendAnnouncement(`${_Parkours.map(p => p.Name + " [" + p.ID + "]").join('\n')}`, player.id, colors.Info.MapList, fonts.Info.MapList, sounds.Info.MapList);
+                return false;
+            } else if (message.toLowerCase().split(" ")[0] == commands.mute) {
+                var ID = parseInt(message.toLowerCase().split(" ")[1]);
+                if (player.admin == true) {
+                    var p = players.find(x => x.id == ID && x.id != player.id);
+                    if (!isNaN(ID)) {
+                        if (p) {
+                            var Time = parseInt(message.toLowerCase().split(" ")[2]);
+                            if (!isNaN(Time)) {
+                                if (toleranceObject.Mute.LowerBound <= Time && Time <= toleranceObject.Mute.UpperBound) {
+                                    var name = p.name;
+                                    var pname = player.name;
+                                    playerList[name].IsMuted = true;
+                                    room.sendAnnouncement(`${p.name} ${locales[locale].Info.Mute} ${player.name}`, null, colors.Info.Mute, fonts.Info.Mute, sounds.Info.Mute);
+                                    setTimeout(function() {
+                                        playerList[name].IsMuted = false;
+                                        room.sendAnnouncement(`${name} ${locales[locale].Info.Unmute} ${pname}`, null, colors.Info.Unmute, fonts.Info.Unmute, sounds.Info.Unmute);
+                                    }, Time * 60000);
+                                    return false;
+                                } else {
+                                    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
+                                    return false;
+                                }
+                            } else {
+                                room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidTime}`, player.id, colors.SomethingWentWrong.InvalidTime, fonts.SomethingWentWrong.InvalidTime, sounds.SomethingWentWrong.InvalidTime);
+                                return false;
+                            }
+                        } else {
+                            room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
+                            return false;
+                        }
+                    } else {
+                        room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
+                        return false;
+                    }
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Mute}`, player.id, colors.NoAuthorization.Mute, fonts.NoAuthorization.Mute, sounds.NoAuthorization.Mute);
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.muteall) {
+                if (player.admin == true) {
+                    roomObject.muteAll = !roomObject.muteAll;
+                    room.sendAnnouncement(`${player.name} ${locales[locale].MuteAll[Number(!roomObject.muteAll)]}`, null, colors.MuteAll[Number(!roomObject.muteAll)], fonts.MuteAll[Number(!roomObject.muteAll)], sounds.MuteAll[Number(!roomObject.muteAll)]);
+                    return false;
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.MuteAll[Number(roomObject.muteAll)]}`, player.id, colors.NoAuthorization.MuteAll[Number(roomObject.muteAll)], fonts.NoAuthorization.MuteAll[Number(roomObject.muteAll)], sounds.NoAuthorization.MuteAll[Number(roomObject.muteAll)]);
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.pass) {
+                if (player.admin == true) {
+                    passwordFunctions[Number(roomObject.password == null)]();
+                    room.sendAnnouncement(`${locales[locale].Password[Number(roomObject.password != null)]} ${player.name}`, null, colors.Password[Number(roomObject.password != null)], fonts.Password[Number(roomObject.password != null)], sounds.Password[Number(roomObject.password != null)]);
+                    return false;
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Password[Number(roomObject.password != null)]}`, player.id, colors.NoAuthorization.Password[Number(roomObject.password != null)], fonts.NoAuthorization.Password[Number(roomObject.password != null)], sounds.NoAuthorization.Password[Number(roomObject.password != null)]);
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.push) {
+                if (player.admin == true) {
+                    roomObject.push = !roomObject.push;
+                    room.sendAnnouncement(`${locales[locale].Info.Push[Number(roomObject.push)]} ${player.name}`, null, colors.Info.Push[Number(roomObject.push)], fonts.Info.Push[Number(roomObject.push)], sounds.Info.Push[Number(roomObject.push)]);
+                    return false;
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Push[Number(roomObject.push)]}`, player.id, colors.NoAuthorization.Push[Number(roomObject.push)], fonts.NoAuthorization.Push[Number(roomObject.push)], sounds.NoAuthorization.Push[Number(roomObject.push)]);
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.recaptcha) {
+                if (player.admin == true) {
+                    room.setRequireRecaptcha(!roomObject.requireRecaptcha);
+                    roomObject.requireRecaptcha = !roomObject.requireRecaptcha;
+                    room.sendAnnouncement(`${locales[locale].Recaptcha[Number(roomObject.requireRecaptcha)]} ${player.name}`, null, colors.Recaptcha, fonts.Recaptcha, sounds.Recaptcha);
+                    return false;
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]}`, player.id, colors.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], fonts.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)], sounds.NoAuthorization.Recaptcha[Number(roomObject.requireRecaptcha)]);
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.spawn) {
+                if (_Parkour.ID != 0 && room.getScores() != null && room.getPlayerDiscProperties(player.id) != null) {
+                    player.team == 1 ? room.setPlayerDiscProperties(player.id, { x: _Parkour.MapObject.redSpawnPoints[0][0], y: _Parkour.MapObject.redSpawnPoints[0][1], xspeed: 0, yspeed: 0 }) : room.setPlayerDiscProperties(player.id, { x: _Parkour.MapObject.blueSpawnPoints[0][0], y: _Parkour.MapObject.blueSpawnPoints[0][1], xspeed: 0, yspeed: 0 });
+                    playerList[player.name].Timer = Date.now();
+                    return false;
+                }
+            } else if (message.toLowerCase() == commands.speed) {
+                playerList[player.name].SpeedEnabled = !playerList[player.name].SpeedEnabled;
+                room.sendAnnouncement(`${locales[playerList[player.name].Language].Speed[Number(playerList[player.name].SpeedEnabled)]}`, player.id, colors.Speed, fonts.Speed, sounds.Speed);
+                return false;
+            } else if (message.toLowerCase() == commands.top5) {
+                var p = _Parkours.find(x => x.ID == _Parkour.ID);
+                if (p !== -1) {
+                    var list = _Parkour.TopList;
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Top5}`, player.id, colors.Top5, fonts.Top5, sounds.Top5);
+                    list.forEach(l => {
+                        room.sendAnnouncement(`${1 + list.indexOf(l)}-) ${l[0]}s - ${l[1]} - ${new Date(l[2]).toLocaleString()}`, player.id, colors.Info.Top5[list.indexOf(l)], fonts.Info.Top5[list.indexOf(l)], sounds.Info.Top5[list.indexOf(l)]);
+                    });
+                    return false;
+                }
+                return false;
+            } else if (message.toLowerCase().split(" ")[0] == commands.vote) {
+                if (players.length >= toleranceObject.Vote.People) {
+                    if (Date.now() - playerList[player.name].JoinDate >= timeoutObject.Vote.Join) {
+                        var ID = parseInt(message.toLowerCase().split(" ")[1]);
+                        if (!isNaN(ID)) {
+                            var p = players.find(x => x.id == ID && x.id != player.id && x.admin == false);
+                            console.log(p);
+                            if (p) {
+                                if (playerList[p.name].Voters.includes(playerList[player.name].Auth) == false) {
+                                    if (playerList[p.name].Voters.length < toleranceObject.Vote.Ban) {
+                                        playerList[p.name].Voters.push(playerList[player.name].Auth);
+                                        var pname = p.name;
+                                        var playername = player.name;
+                                        room.sendAnnouncement(`${p.name} ${locales[playerList[player.name].Language].Info.Vote} ${playerList[p.name].Voters.length}/${toleranceObject.Vote.Ban}`, player.id, colors.Info.Vote, fonts.Info.Vote, sounds.Info.Vote);
+                                        setTimeout(function() {
+                                            if (playerList[pname].Voters.includes(playerList[playername].Auth) == false) {
+                                                var index = playerList[pname].Voters.indexOf(playerList[playername].Auth);
+                                                playerList[pname].Voters.splice(index, 1);
+                                            }
+                                        }, timeoutObject.Vote);
+                                        return false;
+                                    } else {
+                                        room.kickPlayer(p.id, `${locales[playerList[p.name].Language].Vote.Ban}`, kickTypes.Vote);
+                                        var index = playerList[p.name].Voters.indexOf(playerList[player.name].Auth);
+                                        if (playerList[p.name].Voters.length > 0 || index !== -1) {
+                                            playerList[p.name].Voters = [];
+                                            playerList[player.name].Voters.splice(index, 1);
+                                        }
+                                        return false;
+                                    }
+                                } else {
+                                    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.Already}`, player.id, colors.SomethingWentWrong.Vote.Already, fonts.SomethingWentWrong.Vote.Already, sounds.SomethingWentWrong.Vote.Already);
+                                    return false;
+                                }
+                            } else {
+                                room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NoCorrespondingPlayers}`, player.id, colors.SomethingWentWrong.NoCorrespondingPlayers, fonts.SomethingWentWrong.NoCorrespondingPlayers, sounds.SomethingWentWrong.NoCorrespondingPlayers);
+                                return false;
+                            }
+                        } else {
+                            room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.InvalidID}`, player.id, colors.SomethingWentWrong.InvalidID, fonts.SomethingWentWrong.InvalidID, sounds.SomethingWentWrong.InvalidID);
+                            return false;
+                        }
+                    } else {
+                        room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.Timeout.Join}`, player.id, colors.SomethingWentWrong.Vote.Timeout.Join, fonts.SomethingWentWrong.Vote.Timeout.Join, sounds.SomethingWentWrong.Vote.Timeout.Join);
+                        return false;
+                    }
+                } else {
+                    room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.Vote.People}`, player.id, colors.SomethingWentWrong.Vote.People, fonts.SomethingWentWrong.Vote.People, sounds.SomethingWentWrong.Vote.People);
+                    return false;
+                }
+            }
+        } else {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].SomethingWentWrong.NotACommand}`, player.id, colors.SomethingWentWrong.NotACommand, fonts.SomethingWentWrong.NotACommand, sounds.SomethingWentWrong.NotACommand);
+            return false;
+        }
+    } else {
+        if (isBadword(playerList[player.name].Language, message) == true && player.admin == false) {
+            playerList[player.name].BadWordUsage++;
+            playerList[player.name].BadWordUsage < toleranceObject.BadWords ? room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.BadWords} (${playerList[player.name].BadWordUsage})`, player.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords) : room.kickPlayer(player.id, `${locales[playerList[player.name].Language].Ban.BadWords}`, kickTypes.BadWords);
 
-			administrators.forEach(a => {
-				room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords);
-			});
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.BadWords, fonts.Info.BadWords, sounds.Info.BadWords);
+            });
 
-			return false;
-		}
-		if (roomObject.muteAll == true && player.admin == false) {
-			room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MuteAll} (${message})`, player.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
-			administrators.forEach(a => {
-				room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
-			});
-			return false;
-		}
-		if (playerList[player.name].IsMuted == true && player.admin == false) {
-			room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Muted} (${message})`, player.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
-			administrators.forEach(a => {
-				room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
-			});
-			return false;
-		}
-		if (playerList[player.name].SlowMode == true && player.admin == false) {
-			room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.SlowMode} (${message})`, player.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
-			administrators.forEach(a => {
-				room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
-			});
-			return false;
-		}
+            return false;
+        }
+        if (roomObject.muteAll == true && player.admin == false) {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.MuteAll} (${message})`, player.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.MuteAll, fonts.Info.MuteAll, sounds.Info.MuteAll);
+            });
+            return false;
+        }
+        if (playerList[player.name].IsMuted == true && player.admin == false) {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.Muted} (${message})`, player.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.Muted, fonts.Info.Muted, sounds.Info.Muted);
+            });
+            return false;
+        }
+        if (playerList[player.name].SlowMode == true && player.admin == false) {
+            room.sendAnnouncement(`${locales[playerList[player.name].Language].Info.SlowMode} (${message})`, player.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
+            administrators.forEach(a => {
+                room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, a.id, colors.Info.SlowMode, fonts.Info.SlowMode, sounds.Info.SlowMode);
+            });
+            return false;
+        }
 
-		room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, null, colors.Player[Number(player.admin)], fonts.Player[Number(player.admin)], sounds.Player[Number(player.admin)]);
-		return false;
-	}
+        room.sendAnnouncement(`(${new Date().toLocaleTimeString()}) [${player.id}] ${player.name}: ${message}`, null, colors.Player[Number(player.admin)], fonts.Player[Number(player.admin)], sounds.Player[Number(player.admin)]);
+        return false;
+    }
 }
 
-room.onPlayerJoin = function (player) {
-	console.log(`${player.name} has joined`);
-	var randomInt = 1 + Math.floor(Math.random() * 2);
+room.onPlayerJoin = function(player) {
+    console.log(`${player.name} has joined`);
+    var randomInt = 1 + Math.floor(Math.random() * 2);
 
-	isDuplicatedAccount(player, player.auth, player.conn);
-	isDuplicatedName(player, player.name);
+    isDuplicatedAccount(player, player.auth, player.conn);
+    isDuplicatedName(player, player.name);
 
-	var players = room.getPlayerList();
+    var players = room.getPlayerList();
 
-	if (playerList[player.name] == undefined) playerList[player.name] = { AFKStatus: false, Auth: player.auth, BadWordUsage: 0, Conn: player.conn, JoinDate: Date.now(), ID: player.id, IsMuted: false, Language: locale, LastActivity: Date.now(), Name: player.name, SlowMode: false, SpeedEnabled: false, Timer: Date.now(), VotedFor: undefined, Voters: [] };
-	_playerList.push(playerList[player.name]);
+    if (playerList[player.name] == undefined) playerList[player.name] = { AFKStatus: false, Auth: player.auth, BadWordUsage: 0, Conn: player.conn, JoinDate: Date.now(), ID: player.id, IsMuted: false, Language: locale, LastActivity: Date.now(), Name: player.name, SlowMode: false, SpeedEnabled: false, Timer: Date.now(), VotedFor: undefined, Voters: [] };
+    _playerList.push(playerList[player.name]);
 
-	room.sendAnnouncement(`${locales[playerList[player.name].Language].Welcome}`, player.id, colors.Welcome, fonts.Welcome, sounds.Welcome);
+    room.sendAnnouncement(`${locales[playerList[player.name].Language].Welcome}`, player.id, colors.Welcome, fonts.Welcome, sounds.Welcome);
 
-	if (room.getScores() == null && players.length == 1) {
-		room.startGame();
-	}
-	room.setPlayerTeam(player.id, randomInt);
+    if (room.getScores() == null && players.length == 1) {
+        room.startGame();
+    }
+    room.setPlayerTeam(player.id, randomInt);
 }
 
-room.onPlayerKicked = function (kickedPlayer, reason, ban, byPlayer) {
-	byPlayer == null ? console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} (${reason})`) : console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} by ${byPlayer.name} (${reason})`);
+room.onPlayerKicked = function(kickedPlayer, reason, ban, byPlayer) {
+    byPlayer == null ? console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} (${reason})`) : console.log(`${kickedPlayer.name}${logMessages.playerKicked[Number(ban)]} by ${byPlayer.name} (${reason})`);
 }
 
-room.onPlayerLeave = function (player) {
-	console.log(`${player.name} has left`);
-	var players = room.getPlayerList();
+room.onPlayerLeave = function(player) {
+    console.log(`${player.name} has left`);
+    var players = room.getPlayerList();
 
-	if (room.getScores() != null && players.length == 0) room.stopGame();
+    if (room.getScores() != null && players.length == 0) room.stopGame();
 }
 
-room.onPlayerTeamChange = function (changedPlayer, byPlayer) {
-	byPlayer == null ? console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]}`) : console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]} by ${byPlayer.name}`);
-	if (playerList[changedPlayer.name].AFKStatus == true && changedPlayer.team != 0) room.setPlayerTeam(changedPlayer.id, 0);
-	playerList[changedPlayer.name].Timer = Date.now();
+room.onPlayerTeamChange = function(changedPlayer, byPlayer) {
+    byPlayer == null ? console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]}`) : console.log(`${changedPlayer.name} was moved to ${logMessages.teams[changedPlayer.team]} by ${byPlayer.name}`);
+    if (playerList[changedPlayer.name].AFKStatus == true && changedPlayer.team != 0) room.setPlayerTeam(changedPlayer.id, 0);
+    playerList[changedPlayer.name].Timer = Date.now();
 }
 
-room.onPositionsReset = function () {
-	console.log("Positions reset");
-	var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
-	players.forEach(p => playerList[p.name].Timer = Date.now());
-	if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
-	if (roomObject.game.lastToucher != undefined) roomObject.game.lastToucher = undefined;
+room.onPositionsReset = function() {
+    console.log("Positions reset");
+    var players = room.getPlayerList().filter(p => room.getPlayerDiscProperties(p.id) != null);
+    players.forEach(p => playerList[p.name].Timer = Date.now());
+    if (roomObject.game.finishTime != 0) roomObject.game.finishTime = 0;
+    if (roomObject.game.lastToucher != undefined) roomObject.game.lastToucher = undefined;
 }
 
-room.onRoomLink = function (url) {
-	if (isRoomSet == false) {
-		console.log(`Room set with url: ${url}`);
-		isRoomSet = true;
-	}
+room.onRoomLink = function(url) {
+    if (isRoomSet == false) {
+        console.log(`Room set with url: ${url}`);
+        isRoomSet = true;
+    }
 }
 
-room.onStadiumChange = function (newStadiumName, byPlayer) {
-	byPlayer == null ? console.log(`${newStadiumName} was loaded`) : console.log(`${newStadiumName} was loaded by ${byPlayer.name}`);
+room.onStadiumChange = function(newStadiumName, byPlayer) {
+    byPlayer == null ? console.log(`${newStadiumName} was loaded`) : console.log(`${newStadiumName} was loaded by ${byPlayer.name}`);
 
-	var m = _Parkours.find(x => x.Name == newStadiumName);
-	var players = room.getPlayerList();
+    var m = _Parkours.find(x => x.Name == newStadiumName);
+    var players = room.getPlayerList();
 
-	if (byPlayer == null) {
-		if (m) {
-			_Parkour = { Angles: [m.Angles[0], m.Angles[1]], AvatarColors: [m.AvatarColors[0], m.AvatarColors[1]], MainColors: [m.MainColors[0], m.MainColors[1]], ID: m.ID, MapObject: m.MapObject, Name: m.Name, Timer: m.Timer, TopList: [m.TopList[0], m.TopList[1], m.TopList[2], m.TopList[3], m.TopList[4]], UpperSpeedBound: m.UpperSpeedBound };
-			for (var i = 1; i <= 2; i++) {
-				room.setTeamColors(i, m.Angles[i - 1], [m.AvatarColors[i - 1]], [m.MainColors[i - 1]]);
-			}
-		}
-		else {
-			console.log(`${locales[locale].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`);
-			players.forEach(x => {
-				room.sendAnnouncement(`${locales[playerList[p.name].Language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`, p.id, colors.SomethingWentWrong.Main, fonts.SomethingWentWrong.Main, sounds.SomethingWentWrong.Main);
-			});
-		}
-	}
-	else {
-		room.sendAnnouncement(`${locales[playerList[byPlayer.name].Language].NoAuthorization.MapChange}`, byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
-		room.setCustomStadium(Parkours[0]);
-	}
+    if (byPlayer == null) {
+        if (m) {
+            _Parkour = { Angles: [m.Angles[0], m.Angles[1]], AvatarColors: [m.AvatarColors[0], m.AvatarColors[1]], MainColors: [m.MainColors[0], m.MainColors[1]], ID: m.ID, MapObject: m.MapObject, Name: m.Name, Timer: m.Timer, TopList: [m.TopList[0], m.TopList[1], m.TopList[2], m.TopList[3], m.TopList[4]], UpperSpeedBound: m.UpperSpeedBound };
+            for (var i = 1; i <= 2; i++) {
+                room.setTeamColors(i, m.Angles[i - 1], [m.AvatarColors[i - 1]], [m.MainColors[i - 1]]);
+            }
+        } else {
+            console.log(`${locales[locale].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`);
+            players.forEach(x => {
+                room.sendAnnouncement(`${locales[playerList[p.name].Language].SomethingWentWrong.Main}: ${locales[locale].SomethingWentWrong.MapLoad}`, p.id, colors.SomethingWentWrong.Main, fonts.SomethingWentWrong.Main, sounds.SomethingWentWrong.Main);
+            });
+        }
+    } else {
+        room.sendAnnouncement(`${locales[playerList[byPlayer.name].Language].NoAuthorization.MapChange}`, byPlayer.id, colors.MapChange, fonts.MapChange, sounds.MapChange);
+        room.setCustomStadium(Parkours[0]);
+    }
 }
 
-room.onTeamGoal = function (team) {
-	var finishDate = Date.now();
-	var lastToucher = roomObject.game.lastToucher;
-	console.log(lastToucher);
-	roomObject.game.finishTime = (finishDate - playerList[lastToucher.name].Timer) / 1000;
-	var finishTime = parseFloat(roomObject.game.finishTime.toPrecision(5));
+room.onTeamGoal = function(team) {
+    var finishDate = Date.now();
+    var lastToucher = roomObject.game.lastToucher;
+    console.log(lastToucher);
+    roomObject.game.finishTime = (finishDate - playerList[lastToucher.name].Timer) / 1000;
+    var finishTime = parseFloat(roomObject.game.finishTime.toPrecision(5));
 
-	if (finishTime < _Parkour.TopList[0][0]) {
-		_Parkour.TopList[4][0] = _Parkour.TopList[3][0];
-		_Parkour.TopList[3][0] = _Parkour.TopList[2][0];
-		_Parkour.TopList[2][0] = _Parkour.TopList[1][0];
-		_Parkour.TopList[1][0] = _Parkour.TopList[0][0];
-		_Parkour.TopList[0][0] = finishTime;
+    if (finishTime < _Parkour.TopList[0][0]) {
+        _Parkour.TopList[4][0] = _Parkour.TopList[3][0];
+        _Parkour.TopList[3][0] = _Parkour.TopList[2][0];
+        _Parkour.TopList[2][0] = _Parkour.TopList[1][0];
+        _Parkour.TopList[1][0] = _Parkour.TopList[0][0];
+        _Parkour.TopList[0][0] = finishTime;
 
-		_Parkour.TopList[4][1] = _Parkour.TopList[3][1];
-		_Parkour.TopList[3][1] = _Parkour.TopList[2][1];
-		_Parkour.TopList[2][1] = _Parkour.TopList[1][1];
-		_Parkour.TopList[1][1] = _Parkour.TopList[0][1];
-		_Parkour.TopList[0][1] = lastToucher.name;
+        _Parkour.TopList[4][1] = _Parkour.TopList[3][1];
+        _Parkour.TopList[3][1] = _Parkour.TopList[2][1];
+        _Parkour.TopList[2][1] = _Parkour.TopList[1][1];
+        _Parkour.TopList[1][1] = _Parkour.TopList[0][1];
+        _Parkour.TopList[0][1] = lastToucher.name;
 
-		_Parkour.TopList[4][2] = _Parkour.TopList[3][2];
-		_Parkour.TopList[3][2] = _Parkour.TopList[2][2];
-		_Parkour.TopList[2][2] = _Parkour.TopList[1][2];
-		_Parkour.TopList[1][2] = _Parkour.TopList[0][2];
-		_Parkour.TopList[0][2] = finishDate;
-	}
-	else if (_Parkour.TopList[0][0] <= finishTime && finishTime < _Parkour.TopList[1][0]) {
-		_Parkour.TopList[4][0] = _Parkour.TopList[3][0];
-		_Parkour.TopList[3][0] = _Parkour.TopList[2][0];
-		_Parkour.TopList[2][0] = _Parkour.TopList[1][0];
-		_Parkour.TopList[1][0] = finishTime;
+        _Parkour.TopList[4][2] = _Parkour.TopList[3][2];
+        _Parkour.TopList[3][2] = _Parkour.TopList[2][2];
+        _Parkour.TopList[2][2] = _Parkour.TopList[1][2];
+        _Parkour.TopList[1][2] = _Parkour.TopList[0][2];
+        _Parkour.TopList[0][2] = finishDate;
+    } else if (_Parkour.TopList[0][0] <= finishTime && finishTime < _Parkour.TopList[1][0]) {
+        _Parkour.TopList[4][0] = _Parkour.TopList[3][0];
+        _Parkour.TopList[3][0] = _Parkour.TopList[2][0];
+        _Parkour.TopList[2][0] = _Parkour.TopList[1][0];
+        _Parkour.TopList[1][0] = finishTime;
 
-		_Parkour.TopList[4][1] = _Parkour.TopList[3][1];
-		_Parkour.TopList[3][1] = _Parkour.TopList[2][1];
-		_Parkour.TopList[2][1] = _Parkour.TopList[1][1];
-		_Parkour.TopList[1][1] = lastToucher.name;
+        _Parkour.TopList[4][1] = _Parkour.TopList[3][1];
+        _Parkour.TopList[3][1] = _Parkour.TopList[2][1];
+        _Parkour.TopList[2][1] = _Parkour.TopList[1][1];
+        _Parkour.TopList[1][1] = lastToucher.name;
 
-		_Parkour.TopList[4][2] = _Parkour.TopList[3][2];
-		_Parkour.TopList[3][2] = _Parkour.TopList[2][2];
-		_Parkour.TopList[2][2] = _Parkour.TopList[1][2];
-		_Parkour.TopList[1][2] = finishDate;
-	}
-	else if (_Parkour.TopList[1][0] <= finishTime && finishTime < _Parkour.TopList[2][0]) {
-		_Parkour.TopList[4][0] = _Parkour.TopList[3][0];
-		_Parkour.TopList[3][0] = _Parkour.TopList[2][0];
-		_Parkour.TopList[2][0] = finishTime;
+        _Parkour.TopList[4][2] = _Parkour.TopList[3][2];
+        _Parkour.TopList[3][2] = _Parkour.TopList[2][2];
+        _Parkour.TopList[2][2] = _Parkour.TopList[1][2];
+        _Parkour.TopList[1][2] = finishDate;
+    } else if (_Parkour.TopList[1][0] <= finishTime && finishTime < _Parkour.TopList[2][0]) {
+        _Parkour.TopList[4][0] = _Parkour.TopList[3][0];
+        _Parkour.TopList[3][0] = _Parkour.TopList[2][0];
+        _Parkour.TopList[2][0] = finishTime;
 
-		_Parkour.TopList[4][1] = _Parkour.TopList[3][1];
-		_Parkour.TopList[3][1] = _Parkour.TopList[2][1];
-		_Parkour.TopList[2][1] = lastToucher.name;
+        _Parkour.TopList[4][1] = _Parkour.TopList[3][1];
+        _Parkour.TopList[3][1] = _Parkour.TopList[2][1];
+        _Parkour.TopList[2][1] = lastToucher.name;
 
-		_Parkour.TopList[4][2] = _Parkour.TopList[3][2];
-		_Parkour.TopList[3][2] = _Parkour.TopList[2][2];
-		_Parkour.TopList[2][2] = finishDate;
-	}
-	else if (_Parkour.TopList[2][0] <= finishTime && finishTime < _Parkour.TopList[3][0]) {
-		_Parkour.TopList[4][0] = _Parkour.TopList[3][0];
-		_Parkour.TopList[3][0] = finishTime;
+        _Parkour.TopList[4][2] = _Parkour.TopList[3][2];
+        _Parkour.TopList[3][2] = _Parkour.TopList[2][2];
+        _Parkour.TopList[2][2] = finishDate;
+    } else if (_Parkour.TopList[2][0] <= finishTime && finishTime < _Parkour.TopList[3][0]) {
+        _Parkour.TopList[4][0] = _Parkour.TopList[3][0];
+        _Parkour.TopList[3][0] = finishTime;
 
-		_Parkour.TopList[4][1] = _Parkour.TopList[3][1];
-		_Parkour.TopList[3][1] = lastToucher.name;
+        _Parkour.TopList[4][1] = _Parkour.TopList[3][1];
+        _Parkour.TopList[3][1] = lastToucher.name;
 
-		_Parkour.TopList[4][2] = _Parkour.TopList[3][2];
-		_Parkour.TopList[3][2] = finishDate;
-	}
-	else if (_Parkour.TopList[3][0] <= finishTime && finishTime < _Parkour.TopList[4][0]) {
-		_Parkour.TopList[4][0] = finishTime;
-		_Parkour.TopList[4][1] = lastToucher.name;
-		_Parkour.TopList[4][2] = finishDate;
-	}
+        _Parkour.TopList[4][2] = _Parkour.TopList[3][2];
+        _Parkour.TopList[3][2] = finishDate;
+    } else if (_Parkour.TopList[3][0] <= finishTime && finishTime < _Parkour.TopList[4][0]) {
+        _Parkour.TopList[4][0] = finishTime;
+        _Parkour.TopList[4][1] = lastToucher.name;
+        _Parkour.TopList[4][2] = finishDate;
+    }
 
-	var index = _Parkour.TopList.findIndex(p => p[0] == finishTime);
-	(index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s ${lastToucher.name} (${new Date(finishDate).toLocaleString()})`, null, colors.Info.Goal.Scored[index], fonts.Info.Goal.Scored[index], sounds.Info.Goal.Scored[index]) : room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`, null, colors.Info.Goal.Scored[5], fonts.Info.Goal.Scored[5], sounds.Info.Goal.Scored[5]);
-	nextMap();
+    var index = _Parkour.TopList.findIndex(p => p[0] == finishTime);
+    (index !== -1) ? room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[index]} ${finishTime}s ${lastToucher.name} (${new Date(finishDate).toLocaleString()})`, null, colors.Info.Goal.Scored[index], fonts.Info.Goal.Scored[index], sounds.Info.Goal.Scored[index]): room.sendAnnouncement(`${_Parkour.Name} ${locales[locale].Info.Goal.Scored[5]} ${finishTime}s`, null, colors.Info.Goal.Scored[5], fonts.Info.Goal.Scored[5], sounds.Info.Goal.Scored[5]);
+    nextMap();
 }
 
-room.onTeamVictory = function (scores) {
-	nextMap();
+room.onTeamVictory = function(scores) {
+    nextMap();
 }
